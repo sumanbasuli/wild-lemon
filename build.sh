@@ -7,6 +7,7 @@
 #
 #   build/wild-lemon/          clean theme folder (what WordPress installs)
 #   build/wild-lemon.zip       upload-ready archive for wordpress.org
+#   build/wild-lemon-VERSION.zip  versioned copy for GitHub releases
 #
 # Usage: ./build.sh
 
@@ -18,8 +19,8 @@ BUILD_DIR="$SRC_DIR/build"
 DEST_DIR="$BUILD_DIR/$THEME_SLUG"
 
 VERSION="$(tr -d '[:space:]' < "$SRC_DIR/VERSION")"
-if [[ -z "$VERSION" ]]; then
-	echo "error: VERSION file is empty" >&2
+if [[ ! "$VERSION" =~ ^[0-9]+\.[0-9]+(\.[0-9]+)?$ ]]; then
+	echo "error: VERSION must be a numeric version such as 1.3 or 1.3.1" >&2
 	exit 1
 fi
 
@@ -51,20 +52,25 @@ rsync -a "$SRC_DIR/" "$DEST_DIR/" \
 	--exclude "VERSION" \
 	--exclude "docs" \
 	--exclude ".git" \
+	--exclude ".github" \
 	--exclude ".gitignore" \
 	--exclude ".DS_Store" \
 	--exclude "*.zip"
 
 # ---- stamp version ----------------------------------------------------------
 
-sed -i '' -E "s/^(Version: ).*/\1$VERSION/" "$DEST_DIR/style.css"
-sed -i '' -E "s/^(Stable tag: ).*/\1$VERSION/" "$DEST_DIR/readme.txt"
+# A backup suffix works with both BSD sed (macOS) and GNU sed (Linux).
+sed -i.bak -E "s/^(Version: ).*/\1$VERSION/" "$DEST_DIR/style.css"
+sed -i.bak -E "s/^(Stable tag: ).*/\1$VERSION/" "$DEST_DIR/readme.txt"
+rm "$DEST_DIR/style.css.bak" "$DEST_DIR/readme.txt.bak"
 echo "  version stamped: $VERSION"
 
 # ---- package ----------------------------------------------------------------
 
 ( cd "$BUILD_DIR" && rm -f "$THEME_SLUG.zip" && zip -rq "$THEME_SLUG.zip" "$THEME_SLUG" -x "*.DS_Store" )
+cp "$BUILD_DIR/$THEME_SLUG.zip" "$BUILD_DIR/$THEME_SLUG-$VERSION.zip"
 
 echo "  build/$THEME_SLUG/"
 echo "  build/$THEME_SLUG.zip ($(du -h "$BUILD_DIR/$THEME_SLUG.zip" | cut -f1 | tr -d ' '))"
+echo "  build/$THEME_SLUG-$VERSION.zip"
 echo "Done."

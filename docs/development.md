@@ -14,6 +14,7 @@ wild-lemon/
 ├── assets/images/       Bundled editorial pattern imagery
 ├── screenshot.png       1200×900 front-end capture
 ├── readme.txt           wordpress.org readme (license, credits, changelog)
+├── .github/workflows/   GitHub release automation (excluded from builds)
 ├── docs/                These docs (excluded from builds)
 ├── build.sh + VERSION   Production build tooling (excluded from builds)
 └── build/               Build output (gitignored)
@@ -59,6 +60,44 @@ Hand-written block markup must match the editor's serializer or the Site Editor 
 3. Run [Theme Check](https://wordpress.org/plugins/theme-check/) — must PASS.
 4. Open the Site Editor; confirm no template/pattern shows block recovery warnings.
 5. Keep `accessibility.txt` current with the actual testing scope and support contacts. Use `docs/qa/check-accessibility-review.py` alongside axe to verify keyboard paths, control contrast, reflow, and text spacing; automated results do not replace an assistive-technology audit.
+
+## GitHub releases
+
+`.github/workflows/release.yml` publishes a GitHub release whenever a version tag
+is pushed. Stable tags use `v` followed by the exact `VERSION` value, such as
+`v1.3` or `v1.3.1`. Branch pushes do not create releases.
+
+Before tagging, update `VERSION`, the theme/readme version headers, and the
+matching changelog entry in `readme.txt`. Complete the theme review checks above
+and commit the release changes, including the workflow. Then push the commit and
+tag, for example:
+
+```sh
+git push origin main
+git tag -a v1.4 -m 'Wild Lemon 1.4'
+git push origin v1.4
+```
+
+The workflow checks out that exact tag, verifies its version, lints PHP, validates
+theme.json, builds and checks the installable ZIP, and publishes release notes
+from the matching readme changelog. The assets are `wild-lemon-1.4.zip` and
+`wild-lemon-1.4.zip.sha256`; the ZIP contains the `wild-lemon/` theme directory.
+The shared build script supports macOS and Linux and excludes development files.
+
+In GitHub's Actions tab, **Release theme → Run workflow** can also build an
+existing tag. This option is available after the workflow reaches the default
+branch. The tag must include the compatible build script. A release that is
+already published is not overwritten by rerunning the workflow. If an upload
+failure leaves a draft, remove that incomplete draft before retrying.
+
+The workflow uses the repository's automatic `GITHUB_TOKEN` with `contents: write`;
+no personal token or WordPress credentials are needed. Repository Actions must be
+enabled. WordPress.org uploads remain manual: download the attached theme ZIP and
+submit it through the WordPress theme upload page. GitHub's automatically generated
+source archives contain development files, so use the attached theme ZIP.
+
+The workflow validates packaging; browser, accessibility, and WordPress Theme Check
+release review is still performed using the checks documented above.
 
 ## Local WordPress preview
 

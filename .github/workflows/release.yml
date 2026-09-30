@@ -1,0 +1,106 @@
+name: Release theme
+
+on:
+  push:
+    tags:
+      - 'v[0-9]*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Existing release tag, for example v1.3'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ inputs.tag || github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
+    steps:
+      - name: Check out the release tag
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: refs/tags/${{ inputs.tag || github.ref_name }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Verify release version
+        id: version
+        shell: bash
+        run: |
+          version="$(tr -d '[:space:]' < VERSION)"
+          if [[ ! "$version" =~ ^[0-9]+\.[0-9]+(\.[0-9]+)?$ || "$RELEASE_TAG" != "v$version" ]]; then
+            echo "Release tag must be v followed by VERSION (found tag $RELEASE_TAG and version $version)." >&2
+            exit 1
+          fi
+          git show-ref --verify --quiet "refs/tags/$RELEASE_TAG"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Install build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends php-cli python3 rsync zip unzip
+
+      - name: Build the installable theme
+        run: ./build.sh
+
+      - name: Verify package and prepare release notes
+        env:
+          RELEASE_VERSION: ${{ steps.version.outputs.version }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          import re
+          import zipfile
+
+          version = os.environ['RELEASE_VERSION']
+          archive = Path(f'build/wild-lemon-{version}.zip')
+          with zipfile.ZipFile(archive) as package:
+              if package.testzip() is not None:
+                  raise SystemExit('ZIP integrity check failed')
+              for name in package.namelist():
+                  parts = Path(name).parts
+                  if parts[0] != 'wild-lemon' or any(part.startswith('.') or part in {'docs', 'build', 'build.sh', 'VERSION'} or part.endswith('.bak') for part in parts):
+                      raise SystemExit(f'Development file in package: {name}')
+              required = ['style.css', 'readme.txt', 'theme.json', 'functions.php', 'templates/index.html', 'accessibility.txt', 'screenshot.png']
+              for name in required:
+                  package.getinfo(f'wild-lemon/{name}')
+              for name, label in [('style.css', 'Version'), ('readme.txt', 'Stable tag')]:
+                  content = package.read(f'wild-lemon/{name}').decode()
+                  if not re.search(rf'^{label}: {re.escape(version)}$', content, re.M):
+                      raise SystemExit(f'Incorrect version in {name}')
+
+          readme = Path('readme.txt').read_text()
+          changelog = readme.split('== Changelog ==', 1)[1]
+          entry = re.search(rf'^= {re.escape(version)} =\s*\n(.*?)(?=^=|\Z)', changelog, re.M | re.S)
+          if not entry or not entry.group(1).strip():
+              raise SystemExit(f'Missing changelog for {version}')
+          notes = entry.group(1).strip() + '\n\nDownload the attached theme ZIP to install Wild Lemon. WordPress.org submission is handled manually.\n'
+          (Path(os.environ['RUNNER_TEMP']) / 'wild-lemon-release-notes.md').write_text(notes)
+          PY
+          cd build
+          sha256sum "wild-lemon-$RELEASE_VERSION.zip" > "wild-lemon-$RELEASE_VERSION.zip.sha256"
+
+      - name: Publish GitHub release with package
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_VERSION: ${{ steps.version.outputs.version }}
+        shell: bash
+        run: |
+          gh release create "$RELEASE_TAG" \
+            "build/wild-lemon-$RELEASE_VERSION.zip" \
+            "build/wild-lemon-$RELEASE_VERSION.zip.sha256" \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --title "Wild Lemon $RELEASE_VERSION" \
+            --notes-file "$RUNNER_TEMP/wild-lemon-release-notes.md"
