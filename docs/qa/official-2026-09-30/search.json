@@ -1,0 +1,133 @@
+[
+  {
+    "width": 320,
+    "headerHeight": 79,
+    "fieldWidth": 280,
+    "layoutShift": 0,
+    "focusedOnOpen": true,
+    "escapeRestoresFocus": true,
+    "outsideClickCloses": true,
+    "animated": true
+  },
+  {
+    "width": 390,
+    "headerHeight": 77,
+    "fieldWidth": 350,
+    "layoutShift": 0,
+    "focusedOnOpen": true,
+    "escapeRestoresFocus": true,
+    "outsideClickCloses": true,
+    "animated": true
+  },
+  {
+    "width": 600,
+    "headerHeight": 77,
+    "fieldWidth": 560,
+    "layoutShift": 0,
+    "focusedOnOpen": true,
+    "escapeRestoresFocus": true,
+    "outsideClickCloses": true,
+    "animated": true
+  },
+  {
+    "width": 768,
+    "headerHeight": 77,
+    "fieldWidth": 720,
+    "layoutShift": 0,
+    "focusedOnOpen": true,
+    "escapeRestoresFocus": true,
+    "outsideClickCloses": true,
+    "animated": true
+  },
+  {
+    "width": 900,
+    "headerHeight": 77,
+    "fieldWidth": 852,
+    "layoutShift": 0,
+    "focusedOnOpen": true,
+    "escapeRestoresFocus": true,
+    "outsideClickCloses": true,
+    "animated": true
+  },
+  {
+    "width": 901,
+    "headerHeight": 146.78125,
+    "fieldWidth": 288.3125,
+    "layoutShift": 0,
+    "focusedOnOpen": true,
+    "escapeRestoresFocus": true,
+    "outsideClickCloses": true,
+    "animated": true
+  },
+  {
+    "width": 1024,
+    "headerHeight": 149.078125,
+    "fieldWidth": 327.671875,
+    "layoutShift": 0,
+    "focusedOnOpen": true,
+    "escapeRestoresFocus": true,
+    "outsideClickCloses": true,
+    "animated": true
+  },
+  {
+    "width": 1440,
+    "headerHeight": 85,
+    "fieldWidth": 360,
+    "layoutShift": 0,
+    "focusedOnOpen": true,
+    "escapeRestoresFocus": true,
+    "outsideClickCloses": true,
+    "animated": true
+  },
+  {
+    "width": 320,
+    "direction": "ltr",
+    "longTitle": true,
+    "layoutShift": 0,
+    "overflow": 0
+  },
+  {
+    "width": 901,
+    "direction": "ltr",
+    "longTitle": true,
+    "layoutShift": 0,
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "direction": "rtl",
+    "longTitle": false,
+    "layoutShift": 0,
+    "overflow": 0
+  },
+  {
+    "width": 1440,
+    "direction": "rtl",
+    "longTitle": false,
+    "layoutShift": 0,
+    "overflow": 0
+  },
+  {
+    "width": 390,
+    "submit": "enter",
+    "posts": 5,
+    "url": "http://localhost:8089/?s=markup"
+  },
+  {
+    "width": 1440,
+    "submit": "button",
+    "posts": 5,
+    "url": "http://localhost:8089/?s=markup"
+  },
+  {
+    "reducedMotion": {
+      "durations": [
+        "0s",
+        "0s",
+        "0s",
+        "0s"
+      ],
+      "enabled": true
+    }
+  }
+]

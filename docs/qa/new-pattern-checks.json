@@ -1,0 +1,377 @@
+[
+  {
+    "details": 3,
+    "h1": 1,
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": 0,
+    "patterns": 6,
+    "summaryHeights": [
+      93.1875,
+      72,
+      72
+    ],
+    "width": 320
+  },
+  {
+    "details": 3,
+    "h1": 1,
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": 0,
+    "patterns": 6,
+    "summaryHeights": [
+      72,
+      72,
+      72
+    ],
+    "width": 390
+  },
+  {
+    "details": 3,
+    "h1": 1,
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": 0,
+    "patterns": 6,
+    "summaryHeights": [
+      72,
+      72,
+      72
+    ],
+    "width": 768
+  },
+  {
+    "details": 3,
+    "h1": 1,
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": 0,
+    "patterns": 6,
+    "summaryHeights": [
+      72,
+      72,
+      72
+    ],
+    "width": 1024
+  },
+  {
+    "details": 3,
+    "h1": 1,
+    "images": [
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      },
+      {
+        "alt": true,
+        "loaded": true,
+        "local": true
+      }
+    ],
+    "overflow": 0,
+    "patterns": 6,
+    "summaryHeights": [
+      72,
+      72,
+      72
+    ],
+    "width": 1440
+  },
+  {
+    "containerWidth": 320,
+    "patterns": [
+      {
+        "class": "wp-block-group alignwide wl-pattern-table is-layout-flow wp-block-group-is-layout-flow",
+        "columns": [
+          {
+            "bottom": 991.640625,
+            "height": 165.328125,
+            "left": 596,
+            "right": 844,
+            "top": 826.3125,
+            "width": 248,
+            "x": 596,
+            "y": 826.3125
+          },
+          {
+            "bottom": 1562.453125,
+            "height": 514.8125,
+            "left": 596,
+            "right": 844,
+            "top": 1047.640625,
+            "width": 248,
+            "x": 596,
+            "y": 1047.640625
+          }
+        ],
+        "overflow": 0,
+        "width": 320
+      },
+      {
+        "class": "wp-block-group alignwide wl-pattern-photo-essay is-layout-flow wp-block-group-is-layout-flow",
+        "columns": [
+          {
+            "bottom": 2217.828125,
+            "height": 248.125,
+            "left": 560,
+            "right": 880,
+            "top": 1969.703125,
+            "width": 320,
+            "x": 560,
+            "y": 1969.703125
+          },
+          {
+            "bottom": 2489.953125,
+            "height": 248.125,
+            "left": 560,
+            "right": 880,
+            "top": 2241.828125,
+            "width": 320,
+            "x": 560,
+            "y": 2241.828125
+          }
+        ],
+        "overflow": 0,
+        "width": 320
+      },
+      {
+        "class": "wp-block-group alignwide wl-pattern-weekend is-layout-flow wp-block-group-is-layout-flow",
+        "columns": [
+          {
+            "bottom": 3269.75,
+            "height": 208.25,
+            "left": 560,
+            "right": 880,
+            "top": 3061.5,
+            "width": 320,
+            "x": 560,
+            "y": 3061.5
+          },
+          {
+            "bottom": 3631.140625,
+            "height": 305.390625,
+            "left": 560,
+            "right": 880,
+            "top": 3325.75,
+            "width": 320,
+            "x": 560,
+            "y": 3325.75
+          }
+        ],
+        "overflow": 0,
+        "width": 320
+      }
+    ]
+  },
+  {
+    "containerWidth": 600,
+    "patterns": [
+      {
+        "class": "wp-block-group alignwide wl-pattern-table is-layout-flow wp-block-group-is-layout-flow",
+        "columns": [
+          {
+            "bottom": 1178.3125,
+            "height": 352,
+            "left": 456,
+            "right": 984,
+            "top": 826.3125,
+            "width": 528,
+            "x": 456,
+            "y": 826.3125
+          },
+          {
+            "bottom": 1537.8125,
+            "height": 303.5,
+            "left": 456,
+            "right": 984,
+            "top": 1234.3125,
+            "width": 528,
+            "x": 456,
+            "y": 1234.3125
+          }
+        ],
+        "overflow": 0,
+        "width": 600
+      },
+      {
+        "class": "wp-block-group alignwide wl-pattern-photo-essay is-layout-flow wp-block-group-is-layout-flow",
+        "columns": [
+          {
+            "bottom": 2348.859375,
+            "height": 434.796875,
+            "left": 420,
+            "right": 1020,
+            "top": 1914.0625,
+            "width": 600,
+            "x": 420,
+            "y": 1914.0625
+          },
+          {
+            "bottom": 2807.65625,
+            "height": 434.796875,
+            "left": 420,
+            "right": 1020,
+            "top": 2372.859375,
+            "width": 600,
+            "x": 420,
+            "y": 2372.859375
+          }
+        ],
+        "overflow": 0,
+        "width": 600
+      },
+      {
+        "class": "wp-block-group alignwide wl-pattern-weekend is-layout-flow wp-block-group-is-layout-flow",
+        "columns": [
+          {
+            "bottom": 3543.921875,
+            "height": 164.71875,
+            "left": 420,
+            "right": 1020,
+            "top": 3379.203125,
+            "width": 600,
+            "x": 420,
+            "y": 3379.203125
+          },
+          {
+            "bottom": 3876.515625,
+            "height": 276.59375,
+            "left": 420,
+            "right": 1020,
+            "top": 3599.921875,
+            "width": 600,
+            "x": 420,
+            "y": 3599.921875
+          }
+        ],
+        "overflow": 0,
+        "width": 600
+      }
+    ]
+  },
+  {
+    "nativeDetails": {
+      "keyboard": {
+        "firstClosed": true,
+        "focusVisible": true,
+        "outline": "2px"
+      },
+      "spaceOpens": true,
+      "pointerOpens": true
+    }
+  },
+  {
+    "accessibility": {
+      "counts": {
+        "inapplicable": 49,
+        "incomplete": 0,
+        "passes": 40,
+        "violations": 0
+      },
+      "violations": []
+    }
+  },
+  {
+    "editorPatterns": [
+      "wild-lemon/editorial-introduction",
+      "wild-lemon/seasonal-table",
+      "wild-lemon/photo-essay",
+      "wild-lemon/two-column-notes",
+      "wild-lemon/slow-weekend",
+      "wild-lemon/featured-quotation"
+    ],
+    "invalid": []
+  }
+]

@@ -1,5 +1,13 @@
 # Wild Lemon 1.3 — local QA, 30 September 2026
 
+## Final 1.3 release checks
+
+The [release report](release-1.3/README.md) records checks against the clean installable build, the final field-contrast correction, the new accessibility statement, and the ZIP checksum. Theme Check has zero errors/warnings; the report distinguishes automated and browser results from the manual review still required for directory approval.
+
+## Follow-up: full official fixtures and reported archive regression
+
+The [expanded audit](official-2026-09-30/README.md) supersedes this initial run's browser, media, and minimum-version coverage. It includes the full official import with 37 attachments, 435 current-version layout checks, 261 minimum-version checks on WordPress 6.7.2/PHP 7.4.33, 84 archive regressions, Firefox/WebKit, and native UI flows. It fixes the reported category/title collision plus additional media, comments, untitled-post, navigation, and pagination defects. The default demo remains on 8088; test content is isolated on 8089/8090.
+
 ## Scope
 
 Polish and repair the published theme while preserving its design. The homepage retains the published composition: featured story, latest-post grid, topics strip, and archive rows. The original heading sizes, fonts, palette, rounded imagery, search pill, and theme screenshot are retained. The replacement journal layout was removed following the user's correction. Core No Results blocks were added inside the existing loops.
@@ -21,7 +29,8 @@ WordPress 7.1.2, PHP 8.3.35, Docker, agent-browser 0.38.1 with Chromium. `WP_DEB
 | Long unbroken site title, RTL direction, increased text spacing | No document overflow | [Interaction checks](interaction-checks.json) |
 | Archive page counts and empty loops | 32 boundary cases: 0, 1, 4, 5, 8, 9, 12, 13 posts × pages 1, 2, 3, 99. Correct row IDs, empty messages, previous/next controls, and no phantom pages. Unrelated queries unchanged. | [Pagination checks](pagination-checks.json) |
 | Browser pagination | Clicked Next through pages 2 and 3, then Previous; removed temporary posts and verified no pagination with eight posts and an inline empty message on the obsolete page-two URL | [Browser results](pagination-browser.json) |
-| WordPress block parser | 18 patterns, 8 templates, 3 parts: no invalid blocks | [Patterns](pattern-validation.json), [templates/parts](template-validation.json) |
+| WordPress block parser | 21 patterns, 8 templates, 3 parts: no invalid blocks | [Patterns](pattern-validation.json), [templates/parts](template-validation.json) |
+| New public patterns | Six-pattern gallery fits 320, 390, 768, 1024, and 1440px; new layouts also stack inside 320px and 600px containers. All bundled images load with alt text. Native Details supports Enter, Space, and pointer activation with visible focus. Mobile axe check has zero violations. | [Pattern checks](new-pattern-checks.json) |
 | Theme Check on clean package | No errors or warnings; two informational messages | [Theme Check](theme-check.json) |
 | PHP lint / theme.json / Git whitespace | Pass | `./build.sh`, `git diff --check` |
 | Axe: mobile pattern page / open mobile menu with configured links | Zero violations | [Patterns](accessibility-demo.json), [menu](accessibility-menu.json) |
@@ -34,7 +43,7 @@ Header search uses the core Search block's button-only mode. CSS reserves the bu
 
 The published screenshot displays reading time although the original source templates omit it. The featured homepage post and single-post bylines now use the core Time to Read block, available in WordPress 6.9+. Its estimate follows actual article content. The frontend byline formats that estimate as `author · 14 min read`, using the theme's accessible muted color. The editor retains core's native minutes label. The hidden pattern omits this optional metadata when the native block is unavailable. Screenshots: [mobile home](reading-time-home-390.png), [desktop home](reading-time-home-1440.png), [mobile post](reading-time-single-390.png), [desktop post](reading-time-single-1440.png).
 
-## Remaining release checks
+## Initial audit limitations (see follow-up above for updated coverage)
 
 - **WordPress 7.1.2 fallback page-list menu:** core renders a `ul` directly inside another `ul`, causing axe's serious `list` finding. This also reproduces with Twenty Twenty-Five 1.5 ([comparison](accessibility-core-theme.json)). Core files were not changed. The clean demo uses configured menu links; the automatic fallback needs rechecking on the release's WordPress version.
 - **Imported content:** HTML-formatting and comments fixtures contain empty table headers. Theme code does not rewrite authored content. Some complex fixture contrast checks require manual assessment.
@@ -59,6 +68,10 @@ python3 docs/qa/check-accessibility.py
 `check-templates.py` requires an authenticated local block editor in the `wildlemon-editor` browser session. Build/Theme Check commands are in [development.md](../development.md).
 
 Demo photos and prompts are in [demo/README.md](demo/README.md); these development fixtures are excluded from the ZIP. The original published screenshot remains in the theme. Docker keeps the local database/uploads in volumes.
+
+### Expanded Pattern Gallery
+
+The local [Pattern Gallery](http://localhost:8088/pattern-gallery/) now contains all six public patterns; its page content is saved in [gallery-page.html](gallery-page.html). The three additions are **A table for the season** (food feature), **A day in pictures** (two-image photo essay), and **A slower weekend** (native Details blocks). The original three patterns remain in the gallery. Corresponding production images are bundled in `assets/images/` and credited in `readme.txt`; the test copies in `docs/` are excluded from the package.
 
 ### Pagination regression test
 

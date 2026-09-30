@@ -170,3 +170,64 @@ function wild_lemon_query_loop_found_posts( $found_posts, $query ) {
 	return $found_posts;
 }
 add_filter( 'found_posts', 'wild_lemon_query_loop_found_posts', 10, 2 );
+
+/**
+ * Hide the theme's pagination when there is no valid page to navigate from.
+ *
+ * Older core versions render a Previous link on empty, out-of-range queries.
+ * Keep core's links and query arguments; only suppress an unusable wrapper.
+ *
+ * @param string   $content Rendered pagination.
+ * @param array    $parsed  Parsed block.
+ * @param WP_Block $block   Block with the parent Query Loop context.
+ * @return string
+ */
+function wild_lemon_query_pagination_visibility( $content, $parsed, $block ) {
+	if (
+		'' === trim( $content ) ||
+		! in_array( 'wl-pagination', explode( ' ', $parsed['attrs']['className'] ?? '' ), true ) ||
+		! isset( $block->context['query'] )
+	) {
+		return $content;
+	}
+
+	if ( ! empty( $block->context['query']['inherit'] ) ) {
+		global $wp_query;
+		$wild_lemon_query = $wp_query;
+		$wild_lemon_page  = max( 1, (int) get_query_var( 'paged', 1 ) );
+		$wild_lemon_limit = 0;
+	} else {
+		$wild_lemon_key   = isset( $block->context['queryId'] ) ? 'query-' . $block->context['queryId'] . '-page' : 'query-page';
+		$wild_lemon_page  = max( 1, (int) ( $_GET[ $wild_lemon_key ] ?? 1 ) );
+		$wild_lemon_query = new WP_Query( build_query_vars_from_query_block( $block, $wild_lemon_page ) );
+		$wild_lemon_limit = (int) ( $block->context['query']['pages'] ?? 0 );
+	}
+	$wild_lemon_pages = (int) $wild_lemon_query->max_num_pages;
+	if ( $wild_lemon_limit > 0 ) {
+		$wild_lemon_pages = min( $wild_lemon_pages, $wild_lemon_limit );
+	}
+	return $wild_lemon_query->post_count && $wild_lemon_pages > 1 && $wild_lemon_page <= $wild_lemon_pages ? $content : '';
+}
+add_filter( 'render_block_core/query-pagination', 'wild_lemon_query_pagination_visibility', 10, 3 );
+
+/**
+ * Preserve page links in classic posts using <!--nextpage--> separators.
+ *
+ * The core Post Content block adds these links only for core/nextpage blocks.
+ * WordPress still splits legacy content, so it also needs native page links.
+ *
+ * @param string $content Filtered post content.
+ * @return string
+ */
+function wild_lemon_legacy_page_links( $content ) {
+	if (
+		is_singular() &&
+		get_the_ID() === get_queried_object_id() &&
+		! has_block( 'core/nextpage' ) &&
+		! post_password_required()
+	) {
+		$content .= wp_link_pages( array( 'echo' => false ) );
+	}
+	return $content;
+}
+add_filter( 'the_content', 'wild_lemon_legacy_page_links' );

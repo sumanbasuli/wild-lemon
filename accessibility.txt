@@ -1,0 +1,59 @@
+=== Accessibility Statement ===
+
+Wild Lemon is designed to support accessible reading, navigation, and publishing
+using WordPress core blocks. Accessibility also depends on the content, plugins,
+and customizations used on a site. This statement describes the theme's features
+and the scope of its developer testing; it is not a conformance certification.
+
+== Quick Information ==
+
+Accessibility audit completed: No
+
+== Testing Tools and Methodology ==
+
+Developer checks for version 1.3 were performed on September 30, 2026, using the
+WordPress Theme Unit Test data and Theme Check, the WordPress accessibility-ready
+requirements, and selected WCAG 2.2 Level AA criteria.
+
+Checks included axe-core automated scans, keyboard navigation and visible focus,
+menu and search interactions, form labels and control contrast, narrow layouts,
+text spacing, reduced motion, and responsive content in Chromium, Firefox, and
+WebKit. Compatibility was checked with WordPress 6.7 and 7.1 and PHP 7.4 and 8.3.
+Test evidence and known limitations are recorded in docs/qa in the source
+repository: https://github.com/sumanbasuli/wild-lemon
+
+Automated checks cannot establish full accessibility conformance. A comprehensive
+audit with assistive technology users, screen readers, physical mobile devices,
+and all supported languages has not been completed. Site owners should test their
+own published content and customizations. Empty table headings and missing article
+titles in the official test content require content-author decisions.
+
+== Screen Reader Text Class ==
+
+The theme uses WordPress core's .screen-reader-text class to visually hide text
+while keeping it available to assistive technology. WordPress supplies the skip
+link and its focus-visible styling. No alternate screen-reader text class is
+required by the theme.
+
+== Accessibility Features ==
+
+* Native WordPress navigation, search, forms, pagination, and expandable details.
+* A skip link to the main content and semantic page landmarks.
+* Visible keyboard focus, including on the dark footer.
+* Responsive layouts and wrapping for long titles and category lists.
+* Locally bundled fonts and images, with editable image alternatives.
+* Reduced-motion support for theme transitions.
+* No required plugins or custom JavaScript controls.
+
+== Accessibility Help Contact ==
+
+For help configuring the theme, contact the maintainer through the support forum:
+https://wordpress.org/support/theme/wild-lemon/
+
+== Where to Report Issues ==
+
+Report accessibility issues in the support forum above or the source repository:
+https://github.com/sumanbasuli/wild-lemon/issues
+
+Please include the theme and WordPress versions, affected page or block, browser
+and assistive technology (if applicable), and steps to reproduce the issue.

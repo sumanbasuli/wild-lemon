@@ -1,0 +1,40 @@
+{
+  "current": {
+    "wordpress": "7.1.2",
+    "php": "8.3.35",
+    "layout_cases": 435
+  },
+  "minimum": {
+    "wordpress": "6.7.2",
+    "php": "7.4.33",
+    "layout_cases": 261
+  },
+  "official_import": {
+    "items": 186,
+    "published_posts_and_pages": 77,
+    "attachments": 37,
+    "import_failures": 0
+  },
+  "archive_regressions": 84,
+  "browser_layout_cases": 90,
+  "pagination_cases": 64,
+  "axe_runs": 29,
+  "axe_fixture_findings": [
+    "empty-table-header",
+    "page-has-heading-one"
+  ],
+  "patterns_valid": 21,
+  "templates_valid": 8,
+  "parts_valid": 3,
+  "theme_runtime_php_errors": 0,
+  "harness_invocation_error": "A direct PHP invocation of the WP-CLI-only test failed. The test passes when run with WP-CLI under PHP 7.4.",
+  "theme_check": {
+    "errors": 0,
+    "warnings": 0,
+    "info": 2
+  },
+  "git_state_at_audit": {
+    "committed": false,
+    "pushed": false
+  }
+}

@@ -23,8 +23,8 @@
 	<!-- wp:comment-template -->
 		<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|50"}}}} -->
 		<div class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--50)">
-			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-			<div class="wp-block-group">
+			<!-- wp:group {"className":"wl-comment","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+			<div class="wp-block-group wl-comment">
 				<!-- wp:avatar {"size":48} /-->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"6px"}},"layout":{"type":"default"}} -->

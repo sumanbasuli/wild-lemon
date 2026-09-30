@@ -12,11 +12,11 @@ services:
       - db_data:/var/lib/mysql
 
   wordpress:
-    image: wordpress:latest
+    image: ${WILD_LEMON_WORDPRESS_IMAGE:-wordpress:latest}
     depends_on:
       - db
     ports:
-      - '127.0.0.1:8088:80'
+      - '127.0.0.1:${WILD_LEMON_PORT:-8088}:80'
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress

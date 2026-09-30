@@ -1,0 +1,32 @@
+[
+  {
+    "path": "/template-paginated/",
+    "content": "Post Page 1\nPages: 1 2 3",
+    "current": "1",
+    "links": 1
+  },
+  {
+    "path": "/template-paginated/2/",
+    "content": "Post Page 2\nPages: 1 2 3",
+    "current": "2",
+    "links": 1
+  },
+  {
+    "path": "/template-paginated/3/",
+    "content": "Post Page 3\nPages: 1 2 3",
+    "current": "3",
+    "links": 1
+  },
+  {
+    "path": "/block-page-break-regression/",
+    "content": "Block page one.Pages: 1 2",
+    "current": "1",
+    "links": 1
+  },
+  {
+    "path": "/block-page-break-regression/2/",
+    "content": "Block page two.Pages: 1 2",
+    "current": "2",
+    "links": 1
+  }
+]

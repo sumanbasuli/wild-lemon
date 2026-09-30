@@ -5,6 +5,9 @@ from pathlib import Path
 import subprocess
 
 B = os.environ.get('AGENT_BROWSER', 'agent-browser')
+BASE = os.environ.get('QA_URL', 'http://localhost:8088')
+TERM = os.environ.get('QA_SEARCH_TERM', 'garden')
+OUTPUT = os.environ.get('QA_OUTPUT', 'docs/qa/search-checks.json')
 
 def browser(*args):
     result = subprocess.run([B, '--session', 'wildlemon-search', '--json', *args], capture_output=True, text=True, check=True)
@@ -27,7 +30,7 @@ def check_open(before, after):
 results = []
 for width in [320, 390, 600, 768, 900, 901, 1024, 1440]:
     browser('set', 'viewport', str(width), '900')
-    browser('open', 'http://localhost:8088/')
+    browser('open', BASE+'/')
     evaluate('document.fonts.ready.then(()=>true)')
     before = evaluate(GEOMETRY)
     assert before['label'] == 'Search' and before['formOverflow'] == 'visible' and before['fieldOverflow'] == 'visible'
@@ -54,7 +57,7 @@ for width in [320, 390, 600, 768, 900, 901, 1024, 1440]:
 
 # Long brand names and RTL direction must not push the expanded field off-screen.
 for width, direction in [(320, 'ltr'), (901, 'ltr'), (390, 'rtl'), (1440, 'rtl')]:
-    browser('set','viewport',str(width),'900');browser('open','http://localhost:8088/')
+    browser('set','viewport',str(width),'900');browser('open',BASE+'/')
     evaluate("document.documentElement.dir="+json.dumps(direction))
     if direction=='ltr':
         evaluate("document.querySelector('.wl-header .wp-block-site-title a').textContent='Wild Lemon — a very long journal name for responsive testing'")
@@ -63,18 +66,18 @@ for width, direction in [(320, 'ltr'), (901, 'ltr'), (390, 'rtl'), (1440, 'rtl')
 
 # Both Enter and the labeled submit button still use WordPress's normal search.
 for width, method in [(390, 'enter'), (1440, 'button')]:
-    browser('set','viewport',str(width),'900');browser('open','http://localhost:8088/')
-    browser('click','.wl-search-pill button');browser('fill','.wl-search-pill input','garden')
+    browser('set','viewport',str(width),'900');browser('open',BASE+'/')
+    browser('click','.wl-search-pill button');browser('fill','.wl-search-pill input',TERM)
     browser('press','Enter') if method=='enter' else browser('click','.wl-search-pill button')
     browser('wait','200')
     result=evaluate("({url:location.href,posts:document.querySelectorAll('main .wp-block-post').length})")
-    assert '?s=garden' in result['url'] and result['posts']>0, result
+    assert ('?s='+TERM) in result['url'] and result['posts']>0, result
     results.append({'width':width,'submit':method,**result})
 
-browser('set','media','light','reduced-motion');browser('open','http://localhost:8088/')
+browser('set','media','light','reduced-motion');browser('open',BASE+'/')
 reduced=evaluate("({enabled:matchMedia('(prefers-reduced-motion: reduce)').matches,durations:[...document.querySelectorAll('.wl-search-pill .wp-block-search__inside-wrapper,.wl-search-pill input,.wl-header .wp-block-navigation')].map(e=>getComputedStyle(e).transitionDuration)})")
 assert reduced['enabled'] and all(value=='0s' for value in reduced['durations']), reduced
 results.append({'reducedMotion':reduced})
 browser('set','media','light')
-Path('docs/qa/search-checks.json').write_text(json.dumps(results,indent=2))
+Path(OUTPUT).write_text(json.dumps(results,indent=2))
 print(json.dumps(results,indent=2))

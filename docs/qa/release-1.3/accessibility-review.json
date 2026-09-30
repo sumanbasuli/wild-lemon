@@ -1,0 +1,422 @@
+{
+  "skipLink": [
+    {
+      "width": 320,
+      "visibleOnTab": true,
+      "keyboardContinuesInMain": true
+    },
+    {
+      "width": 1440,
+      "visibleOnTab": true,
+      "keyboardContinuesInMain": true
+    }
+  ],
+  "details": [
+    {
+      "width": 320,
+      "spaceAndEnter": true
+    },
+    {
+      "width": 1440,
+      "spaceAndEnter": true
+    }
+  ],
+  "contrast": [
+    {
+      "type": "footer keyboard focus",
+      "width": "2px",
+      "background": "rgb(34, 30, 24)",
+      "color": "rgb(251, 249, 243)",
+      "style": "solid",
+      "ratio": 15.74
+    },
+    {
+      "type": "footer keyboard focus",
+      "width": "2px",
+      "background": "rgb(34, 30, 24)",
+      "color": "rgb(251, 249, 243)",
+      "style": "solid",
+      "ratio": 15.74
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(34, 30, 24)",
+      "selector": "wp-block-query-pagination-next-arrow is-arrow-arrow",
+      "type": "arrow",
+      "path": "/",
+      "ratio": 15.74
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "type": "header field boundary",
+      "path": "/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "wp-block-post-navigation-link__arrow-previous is-arrow-arrow",
+      "type": "arrow",
+      "path": "/template-comments/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "wp-block-post-navigation-link__arrow-next is-arrow-arrow",
+      "type": "arrow",
+      "path": "/template-comments/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(105, 95, 1)",
+      "selector": "wp-block-comments-pagination-previous-arrow is-arrow-arrow",
+      "type": "arrow",
+      "path": "/template-comments/",
+      "ratio": 6.16
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "comment",
+      "type": "field boundary",
+      "path": "/template-comments/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "author",
+      "type": "field boundary",
+      "path": "/template-comments/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "email",
+      "type": "field boundary",
+      "path": "/template-comments/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "url",
+      "type": "field boundary",
+      "path": "/template-comments/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "type": "header field boundary",
+      "path": "/template-comments/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "wp-block-post-navigation-link__arrow-previous is-arrow-arrow",
+      "type": "arrow",
+      "path": "/template-comments/comment-page-1/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "wp-block-post-navigation-link__arrow-next is-arrow-arrow",
+      "type": "arrow",
+      "path": "/template-comments/comment-page-1/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(105, 95, 1)",
+      "selector": "wp-block-comments-pagination-next-arrow is-arrow-arrow",
+      "type": "arrow",
+      "path": "/template-comments/comment-page-1/",
+      "ratio": 6.16
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "comment",
+      "type": "field boundary",
+      "path": "/template-comments/comment-page-1/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "author",
+      "type": "field boundary",
+      "path": "/template-comments/comment-page-1/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "email",
+      "type": "field boundary",
+      "path": "/template-comments/comment-page-1/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "url",
+      "type": "field boundary",
+      "path": "/template-comments/comment-page-1/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "type": "header field boundary",
+      "path": "/template-comments/comment-page-1/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(34, 30, 24)",
+      "selector": "wp-block-query-pagination-next-arrow is-arrow-arrow",
+      "type": "arrow",
+      "path": "/?s=markup",
+      "ratio": 15.74
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "wp-block-search__inside-wrapper",
+      "type": "field boundary",
+      "path": "/?s=markup",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "type": "header field boundary",
+      "path": "/?s=markup",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "wp-block-search__inside-wrapper",
+      "type": "field boundary",
+      "path": "/missing-local-page/",
+      "ratio": 5.29
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "type": "header field boundary",
+      "path": "/missing-local-page/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "wp-block-post-navigation-link__arrow-previous is-arrow-arrow",
+      "type": "arrow",
+      "path": "/template-password-protected/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "selector": "wp-block-post-navigation-link__arrow-next is-arrow-arrow",
+      "type": "arrow",
+      "path": "/template-password-protected/",
+      "ratio": 5.02
+    },
+    {
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(118, 118, 118)",
+      "selector": "pwbox-1168",
+      "type": "field boundary",
+      "path": "/template-password-protected/",
+      "ratio": 4.54
+    },
+    {
+      "background": "rgb(251, 249, 243)",
+      "color": "rgb(114, 107, 92)",
+      "type": "header field boundary",
+      "path": "/template-password-protected/",
+      "ratio": 5.02
+    }
+  ],
+  "reflow": [
+    {
+      "width": 320,
+      "path": "/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/archive-regression/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/archive-regression/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/pattern-gallery/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/pattern-gallery/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/template-comments/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/template-comments/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/?s=markup",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/?s=markup",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/missing-local-page/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 320,
+      "path": "/missing-local-page/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/archive-regression/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/archive-regression/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/pattern-gallery/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/pattern-gallery/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/template-comments/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/template-comments/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/?s=markup",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/?s=markup",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/missing-local-page/",
+      "textSpacing": false,
+      "clipped": [],
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "path": "/missing-local-page/",
+      "textSpacing": true,
+      "clipped": [],
+      "overflow": 0
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "320": {
+    "controls": [
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 44
+      },
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 84
+      }
+    ],
+    "menu": {
+      "inside": true,
+      "links": 18,
+      "minLinkHeight": 44,
+      "overflow": 0,
+      "scrollable": true
+    },
+    "focusTrap": true,
+    "escapeRestoresFocus": true
+  },
+  "390": {
+    "controls": [
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 44
+      },
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 84
+      }
+    ],
+    "menu": {
+      "inside": true,
+      "links": 18,
+      "minLinkHeight": 44,
+      "overflow": 0,
+      "scrollable": true
+    },
+    "focusTrap": true,
+    "escapeRestoresFocus": true
+  },
+  "768": {
+    "controls": [
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 44
+      },
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 84
+      }
+    ],
+    "menu": {
+      "inside": true,
+      "links": 18,
+      "minLinkHeight": 43.99993896484375,
+      "overflow": 0,
+      "scrollable": true
+    },
+    "focusTrap": true,
+    "escapeRestoresFocus": true
+  },
+  "queryPagination": {
+    "first": [
+      "post-24",
+      "post-21",
+      "post-8",
+      "post-1787"
+    ],
+    "second": [
+      "post-1784",
+      "post-1783",
+      "post-1786",
+      "post-1782"
+    ],
+    "previousWorks": true
+  },
+  "outOfRange": {
+    "pagination": false,
+    "emptyMessage": true
+  },
+  "untitledPost": {
+    "dateLinkWorks": true
+  },
+  "pageComments": {
+    "existingVisible": true,
+    "closedFormAbsent": true
+  },
+  "comments": {
+    "minimumTextWidth": 180,
+    "replyCancel": true,
+    "olderNewer": true
+  },
+  "password": {
+    "unlocked": true
+  },
+  "multipagePost": {
+    "links": [
+      "http://localhost:8089/template-paginated/2/",
+      "http://localhost:8089/template-paginated/3/"
+    ],
+    "navigated": "http://localhost:8089/template-paginated/2/"
+  }
+}

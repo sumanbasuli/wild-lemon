@@ -1,0 +1,131 @@
+{
+    "wordpress": "7.1.2",
+    "php": "8.3.35",
+    "counts": {
+        "post": {
+            "publish": "56",
+            "future": "1",
+            "draft": "1",
+            "pending": 0,
+            "private": 0,
+            "trash": 0,
+            "auto-draft": 0,
+            "inherit": 0,
+            "request-pending": 0,
+            "request-confirmed": 0,
+            "request-failed": 0,
+            "request-completed": 0
+        },
+        "page": {
+            "publish": "23",
+            "future": 0,
+            "draft": "1",
+            "pending": 0,
+            "private": 0,
+            "trash": 0,
+            "auto-draft": 0,
+            "inherit": 0,
+            "request-pending": 0,
+            "request-confirmed": 0,
+            "request-failed": 0,
+            "request-completed": 0
+        },
+        "attachment": {
+            "publish": 0,
+            "future": 0,
+            "draft": 0,
+            "pending": 0,
+            "private": 0,
+            "trash": 0,
+            "auto-draft": 0,
+            "inherit": "37",
+            "request-pending": 0,
+            "request-confirmed": 0,
+            "request-failed": 0,
+            "request-completed": 0
+        }
+    },
+    "comments": {
+        "approved": 30,
+        "spam": 0,
+        "trash": 0,
+        "post-trashed": 0,
+        "all": 33,
+        "total_comments": 33,
+        "moderated": 3
+    },
+    "menus": [
+        {
+            "term_id": 179,
+            "name": "All Pages",
+            "slug": "all-pages",
+            "term_group": 0,
+            "term_taxonomy_id": 179,
+            "taxonomy": "nav_menu",
+            "description": "",
+            "parent": 0,
+            "count": 18,
+            "filter": "raw"
+        },
+        {
+            "term_id": 180,
+            "name": "All Pages Flat",
+            "slug": "all-pages-flat",
+            "term_group": 0,
+            "term_taxonomy_id": 180,
+            "taxonomy": "nav_menu",
+            "description": "",
+            "parent": 0,
+            "count": 18,
+            "filter": "raw"
+        },
+        {
+            "term_id": 181,
+            "name": "Empty Menu",
+            "slug": "empty-menu",
+            "term_group": 0,
+            "term_taxonomy_id": 181,
+            "taxonomy": "nav_menu",
+            "description": "",
+            "parent": 0,
+            "count": 0,
+            "filter": "raw"
+        },
+        {
+            "term_id": 182,
+            "name": "Short",
+            "slug": "short",
+            "term_group": 0,
+            "term_taxonomy_id": 182,
+            "taxonomy": "nav_menu",
+            "description": "",
+            "parent": 0,
+            "count": 6,
+            "filter": "raw"
+        },
+        {
+            "term_id": 184,
+            "name": "Social menu",
+            "slug": "social-menu",
+            "term_group": 0,
+            "term_taxonomy_id": 184,
+            "taxonomy": "nav_menu",
+            "description": "",
+            "parent": 0,
+            "count": 5,
+            "filter": "raw"
+        },
+        {
+            "term_id": 183,
+            "name": "Testing Menu",
+            "slug": "testing-menu",
+            "term_group": 0,
+            "term_taxonomy_id": 183,
+            "taxonomy": "nav_menu",
+            "description": "",
+            "parent": 0,
+            "count": 23,
+            "filter": "raw"
+        }
+    ]
+}

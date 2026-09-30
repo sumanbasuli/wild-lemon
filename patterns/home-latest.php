@@ -41,7 +41,7 @@
 
 					<!-- wp:post-excerpt {"excerptLength":20,"style":{"typography":{"fontSize":"15px","lineHeight":"1.55"}},"textColor":"muted"} /-->
 
-					<!-- wp:post-date {"style":{"typography":{"fontSize":"13px"}},"textColor":"muted-2"} /-->
+					<!-- wp:post-date {"isLink":true,"style":{"typography":{"fontSize":"13px"}},"textColor":"muted-2"} /-->
 				</div>
 				<!-- /wp:group -->
 			</div>

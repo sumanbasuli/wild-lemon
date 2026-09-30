@@ -1,6 +1,6 @@
 # Local demo imagery
 
-These images support the local preview and genuine theme screenshot. `docs/` is excluded from the theme ZIP. The introduction pattern's image is separately bundled at `assets/images/citrus-still-life.webp`.
+These images support the local preview. `docs/` is excluded from the theme ZIP. The introduction pattern bundles `assets/images/citrus-still-life.webp`. The seasonal-table and photo-essay patterns bundle licensed copies of the table, garden, and notebook images as `assets/images/seasonal-table.webp`, `assets/images/garden-walk.webp`, and `assets/images/quiet-notebook.webp`.
 
 All four images were created for Wild Lemon with the built-in OpenAI image generation tool on 2026-09-30, then converted to WebP. Original generated PNGs were retained. No stock assets or third-party marks were used. Distributed under GPLv2 or later with this project.
 

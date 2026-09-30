@@ -1,0 +1,1052 @@
+[
+  {
+    "path": "/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 48,
+      "incomplete": 1,
+      "passes": 41,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-query-pagination-next-arrow is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-query-pagination-next-arrow"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/archive-regression/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 50,
+      "incomplete": 0,
+      "passes": 39,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/pattern-gallery/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 49,
+      "incomplete": 0,
+      "passes": 40,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/markup-html-tags-and-formatting/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 42,
+      "incomplete": 1,
+      "passes": 47,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "Table header text should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/empty-table-header?application=axeAPI",
+        "id": "empty-table-header",
+        "impact": "minor",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+            "html": "<th></th>",
+            "target": [
+              "th:nth-child(3)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "best-practice"
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/markup-image-alignment/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 49,
+      "incomplete": 1,
+      "passes": 40,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/template-comments/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 43,
+      "incomplete": 1,
+      "passes": 46,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 3,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-comments-pagination-previous-arrow is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-comments-pagination-previous-arrow"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/template-comments/comment-page-1/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 37,
+      "incomplete": 1,
+      "passes": 52,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "Table header text should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/empty-table-header?application=axeAPI",
+        "id": "empty-table-header",
+        "impact": "minor",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+            "html": "<th></th>",
+            "target": [
+              "th:nth-child(3)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "best-practice"
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 3,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-comments-pagination-next-arrow is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-comments-pagination-next-arrow"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/about/page-with-comments/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 43,
+      "incomplete": 0,
+      "passes": 46,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/template-password-protected/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 46,
+      "incomplete": 1,
+      "passes": 43,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/edge-case-no-title/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 52,
+      "incomplete": 1,
+      "passes": 36,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/page-has-heading-one?application=axeAPI",
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  Page must have a level-one heading",
+            "html": "<html lang=\"en-US\">",
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/?s=markup",
+    "width": 320,
+    "counts": {
+      "inapplicable": 45,
+      "incomplete": 1,
+      "passes": 44,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-query-pagination-next-arrow is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-query-pagination-next-arrow"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/?s=zzzznothing",
+    "width": 320,
+    "counts": {
+      "inapplicable": 49,
+      "incomplete": 0,
+      "passes": 40,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/missing-local-page/",
+    "width": 320,
+    "counts": {
+      "inapplicable": 45,
+      "incomplete": 0,
+      "passes": 44,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "menu open",
+    "width": 320,
+    "counts": {
+      "inapplicable": 44,
+      "incomplete": 0,
+      "passes": 45,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "search open",
+    "width": 320,
+    "counts": {
+      "inapplicable": 45,
+      "incomplete": 0,
+      "passes": 44,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 47,
+      "incomplete": 1,
+      "passes": 42,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-query-pagination-next-arrow is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-query-pagination-next-arrow"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/archive-regression/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 49,
+      "incomplete": 0,
+      "passes": 40,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/pattern-gallery/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 46,
+      "incomplete": 0,
+      "passes": 43,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/markup-html-tags-and-formatting/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 41,
+      "incomplete": 1,
+      "passes": 48,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "Table header text should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/empty-table-header?application=axeAPI",
+        "id": "empty-table-header",
+        "impact": "minor",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+            "html": "<th></th>",
+            "target": [
+              "th:nth-child(3)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "best-practice"
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/markup-image-alignment/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 46,
+      "incomplete": 1,
+      "passes": 43,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/template-comments/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 42,
+      "incomplete": 1,
+      "passes": 47,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 3,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-comments-pagination-previous-arrow is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-comments-pagination-previous-arrow"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/template-comments/comment-page-1/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 36,
+      "incomplete": 1,
+      "passes": 53,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "Table header text should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/empty-table-header?application=axeAPI",
+        "id": "empty-table-header",
+        "impact": "minor",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+            "html": "<th></th>",
+            "target": [
+              "th:nth-child(3)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "best-practice"
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 3,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-comments-pagination-next-arrow is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-comments-pagination-next-arrow"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/about/page-with-comments/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 42,
+      "incomplete": 0,
+      "passes": 47,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/template-password-protected/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 43,
+      "incomplete": 1,
+      "passes": 46,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/edge-case-no-title/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 49,
+      "incomplete": 1,
+      "passes": 39,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "Page should contain a level-one heading",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/page-has-heading-one?application=axeAPI",
+        "id": "page-has-heading-one",
+        "impact": "moderate",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  Page must have a level-one heading",
+            "html": "<html lang=\"en-US\">",
+            "target": [
+              "html"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    ],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-previous is-arrow-arrow\" aria-hidden=\"true\">\u2190</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-previous"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-post-navigation-link__arrow-next is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-post-navigation-link__arrow-next"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/?s=markup",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 44,
+      "incomplete": 1,
+      "passes": 45,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element content contains only non-text characters",
+            "html": "<span class=\"wp-block-query-pagination-next-arrow is-arrow-arrow\" aria-hidden=\"true\">\u2192</span>",
+            "target": [
+              ".wp-block-query-pagination-next-arrow"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/?s=zzzznothing",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 46,
+      "incomplete": 0,
+      "passes": 43,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "/missing-local-page/",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 44,
+      "incomplete": 0,
+      "passes": 45,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  },
+  {
+    "path": "search open",
+    "width": 1440,
+    "counts": {
+      "inapplicable": 45,
+      "incomplete": 0,
+      "passes": 44,
+      "violations": 0
+    },
+    "violations": [],
+    "incomplete": []
+  }
+]
