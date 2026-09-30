@@ -1,0 +1,38 @@
+[
+    {
+        "words": 10,
+        "estimate": "1 min read"
+    },
+    {
+        "words": 378,
+        "estimate": "2 min read"
+    },
+    {
+        "words": 2646,
+        "estimate": "14 min read"
+    },
+    {
+        "attributes": {
+            "displayAsRange": false
+        },
+        "core_output_preserved": true
+    },
+    {
+        "attributes": {
+            "displayAsRange": true,
+            "className": "wl-reading-time"
+        },
+        "core_output_preserved": true
+    },
+    {
+        "attributes": {
+            "displayAsRange": false,
+            "displayMode": "words",
+            "className": "wl-reading-time"
+        },
+        "core_output_preserved": true
+    },
+    {
+        "core_block_unavailable": "empty pattern"
+    }
+]

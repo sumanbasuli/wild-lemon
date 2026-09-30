@@ -1,0 +1,589 @@
+[
+  {
+    "columns": [
+      {
+        "bottom": 3083.984375,
+        "height": 206,
+        "left": 24,
+        "right": 148,
+        "top": 2877.984375,
+        "width": 124,
+        "x": 24,
+        "y": 2877.984375
+      },
+      {
+        "bottom": 3083.984375,
+        "height": 206,
+        "left": 172,
+        "right": 296,
+        "top": 2877.984375,
+        "width": 124,
+        "x": 172,
+        "y": 2877.984375
+      }
+    ],
+    "firstLinks": [
+      2907.984375,
+      2907.984375
+    ],
+    "headings": [
+      2877.984375,
+      2877.984375
+    ],
+    "overflow": 0,
+    "rss": "http://localhost:8088/feed/",
+    "targets": [
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Essays",
+        "width": 124
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Field Notes",
+        "width": 124
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Recipes",
+        "width": 124
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "About",
+        "width": 124
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Pattern Gallery",
+        "width": 124
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Sample Page",
+        "width": 124
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "RSS",
+        "width": 124
+      }
+    ],
+    "width": 320
+  },
+  {
+    "columns": [
+      {
+        "bottom": 3180.4375,
+        "height": 206,
+        "left": 24,
+        "right": 183,
+        "top": 2974.4375,
+        "width": 159,
+        "x": 24,
+        "y": 2974.4375
+      },
+      {
+        "bottom": 3180.4375,
+        "height": 206,
+        "left": 207,
+        "right": 366,
+        "top": 2974.4375,
+        "width": 159,
+        "x": 207,
+        "y": 2974.4375
+      }
+    ],
+    "firstLinks": [
+      3004.4375,
+      3004.4375
+    ],
+    "headings": [
+      2974.4375,
+      2974.4375
+    ],
+    "overflow": 0,
+    "rss": "http://localhost:8088/feed/",
+    "targets": [
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Essays",
+        "width": 159
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Field Notes",
+        "width": 159
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Recipes",
+        "width": 159
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "About",
+        "width": 159
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Pattern Gallery",
+        "width": 159
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Sample Page",
+        "width": 159
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "RSS",
+        "width": 159
+      }
+    ],
+    "width": 390
+  },
+  {
+    "columns": [
+      {
+        "bottom": 2410.890625,
+        "height": 206,
+        "left": 35,
+        "right": 336,
+        "top": 2204.890625,
+        "width": 301,
+        "x": 35,
+        "y": 2204.890625
+      },
+      {
+        "bottom": 2410.890625,
+        "height": 206,
+        "left": 364,
+        "right": 665,
+        "top": 2204.890625,
+        "width": 301,
+        "x": 364,
+        "y": 2204.890625
+      }
+    ],
+    "firstLinks": [
+      2234.890625,
+      2234.890625
+    ],
+    "headings": [
+      2204.890625,
+      2204.890625
+    ],
+    "overflow": 0,
+    "rss": "http://localhost:8088/feed/",
+    "targets": [
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Essays",
+        "width": 301
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Field Notes",
+        "width": 301
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Recipes",
+        "width": 301
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "About",
+        "width": 301
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Pattern Gallery",
+        "width": 301
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Sample Page",
+        "width": 301
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "RSS",
+        "width": 301
+      }
+    ],
+    "width": 700
+  },
+  {
+    "columns": [
+      {
+        "bottom": 2311.09375,
+        "height": 206,
+        "left": 265.953125,
+        "right": 451.9375,
+        "top": 2105.09375,
+        "width": 185.984375,
+        "x": 265.953125,
+        "y": 2105.09375
+      },
+      {
+        "bottom": 2311.09375,
+        "height": 206,
+        "left": 479.96875,
+        "right": 665.953125,
+        "top": 2105.09375,
+        "width": 185.984375,
+        "x": 479.96875,
+        "y": 2105.09375
+      }
+    ],
+    "firstLinks": [
+      2135.09375,
+      2135.09375
+    ],
+    "headings": [
+      2105.09375,
+      2105.09375
+    ],
+    "overflow": 0,
+    "rss": "http://localhost:8088/feed/",
+    "targets": [
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Essays",
+        "width": 185.984375
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Field Notes",
+        "width": 185.984375
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Recipes",
+        "width": 185.984375
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "About",
+        "width": 185.984375
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Pattern Gallery",
+        "width": 185.984375
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Sample Page",
+        "width": 185.984375
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "RSS",
+        "width": 185.984375
+      }
+    ],
+    "width": 701
+  },
+  {
+    "columns": [
+      {
+        "bottom": 2416.6875,
+        "height": 206,
+        "left": 329.609375,
+        "right": 514.25,
+        "top": 2210.6875,
+        "width": 184.640625,
+        "x": 329.609375,
+        "y": 2210.6875
+      },
+      {
+        "bottom": 2416.6875,
+        "height": 206,
+        "left": 544.96875,
+        "right": 729.609375,
+        "top": 2210.6875,
+        "width": 184.640625,
+        "x": 544.96875,
+        "y": 2210.6875
+      }
+    ],
+    "firstLinks": [
+      2240.6875,
+      2240.6875
+    ],
+    "headings": [
+      2210.6875,
+      2210.6875
+    ],
+    "overflow": 0,
+    "rss": "http://localhost:8088/feed/",
+    "targets": [
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Essays",
+        "width": 184.640625
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Field Notes",
+        "width": 184.640625
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Recipes",
+        "width": 184.640625
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "About",
+        "width": 184.640625
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Pattern Gallery",
+        "width": 184.640625
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Sample Page",
+        "width": 184.640625
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "RSS",
+        "width": 184.640625
+      }
+    ],
+    "width": 768
+  },
+  {
+    "columns": [
+      {
+        "bottom": 2157.59375,
+        "height": 206,
+        "left": 572.8125,
+        "right": 752.328125,
+        "top": 1951.59375,
+        "width": 179.515625,
+        "x": 572.8125,
+        "y": 1951.59375
+      },
+      {
+        "bottom": 2157.59375,
+        "height": 206,
+        "left": 793.28125,
+        "right": 972.8125,
+        "top": 1951.59375,
+        "width": 179.53125,
+        "x": 793.28125,
+        "y": 1951.59375
+      }
+    ],
+    "firstLinks": [
+      1981.59375,
+      1981.59375
+    ],
+    "headings": [
+      1951.59375,
+      1951.59375
+    ],
+    "overflow": 0,
+    "rss": "http://localhost:8088/feed/",
+    "targets": [
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Essays",
+        "width": 179.515625
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Field Notes",
+        "width": 179.515625
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Recipes",
+        "width": 179.515625
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "About",
+        "width": 179.53125
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Pattern Gallery",
+        "width": 179.53125
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Sample Page",
+        "width": 179.53125
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "RSS",
+        "width": 179.53125
+      }
+    ],
+    "width": 1024
+  },
+  {
+    "columns": [
+      {
+        "bottom": 2215.46875,
+        "height": 206,
+        "left": 880,
+        "right": 1051.203125,
+        "top": 2009.46875,
+        "width": 171.203125,
+        "x": 880,
+        "y": 2009.46875
+      },
+      {
+        "bottom": 2215.46875,
+        "height": 206,
+        "left": 1108.796875,
+        "right": 1280,
+        "top": 2009.46875,
+        "width": 171.203125,
+        "x": 1108.796875,
+        "y": 2009.46875
+      }
+    ],
+    "firstLinks": [
+      2039.46875,
+      2039.46875
+    ],
+    "headings": [
+      2009.46875,
+      2009.46875
+    ],
+    "overflow": 0,
+    "rss": "http://localhost:8088/feed/",
+    "targets": [
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Essays",
+        "width": 171.203125
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Field Notes",
+        "width": 171.203125
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Recipes",
+        "width": 171.203125
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "About",
+        "width": 171.203125
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Pattern Gallery",
+        "width": 171.203125
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "Sample Page",
+        "width": 171.203125
+      },
+      {
+        "decoration": "none",
+        "height": 44,
+        "text": "RSS",
+        "width": 171.203125
+      }
+    ],
+    "width": 1440
+  },
+  {
+    "keyboardFocus": {
+      "color": "rgb(251, 249, 243)",
+      "decoration": "underline",
+      "outline": "2px",
+      "text": "Field Notes",
+      "visible": true
+    }
+  },
+  {
+    "longNestedLink": {
+      "nestedHeight": 142,
+      "overflow": 0,
+      "width": 320
+    }
+  },
+  {
+    "longNestedLink": {
+      "nestedHeight": 100,
+      "overflow": 0,
+      "width": 768
+    }
+  },
+  {
+    "accessibility": {
+      "counts": {
+        "inapplicable": 48,
+        "incomplete": 0,
+        "passes": 41,
+        "violations": 0
+      },
+      "violations": []
+    }
+  }
+]

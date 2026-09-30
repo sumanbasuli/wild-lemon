@@ -44,6 +44,7 @@ Hand-written block markup must match the editor's serializer or the Site Editor 
 - Preserve the published homepage composition: featured story, latest grid, topics strip, and archive rows. The existing archive query supplies pagination for older posts.
 - Core Query Loop offsets skip posts without subtracting them from `found_posts`. The two `wild_lemon_query_loop_*` filters carry the initial offset into `WP_Query` and correct its total. They do not change row offsets or unrelated queries. The frontend remains core Query Loop, Pagination, and No Results blocks.
 - Each homepage loop includes the compact `hidden-no-posts` pattern inside a core No Results block. Do not hide blank loops with CSS or remove their empty-state message.
+- The featured homepage post and single-post bylines include `hidden-reading-time`, using the core Time to Read block. WordPress calculates the estimate; a render filter formats only the marked byline block as a translatable `%s min read` label. Other instances, ranges, and word counts retain core output. The byline uses 14px muted text and a decorative dot, matching the published screenshot. This optional metadata requires WordPress 6.9+; the pattern outputs nothing when the block is unavailable, preserving WordPress 6.7/6.8 compatibility without an unsupported editor block.
 - The hero/latest/archive queries exclude sticky posts consistently to preserve their offsets.
 - Empty tag cloud/categories render nothing; `query-no-results` shows the `hidden-no-results` pattern.
 

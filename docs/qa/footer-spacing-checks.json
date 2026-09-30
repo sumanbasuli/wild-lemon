@@ -1,0 +1,28 @@
+[
+  {
+    "width": 390,
+    "before": {
+      "headingToText": 24.5,
+      "overflow": 0,
+      "rowStep": 44
+    },
+    "after": {
+      "headingToText": 24.5,
+      "overflow": 0,
+      "rowStep": 36
+    }
+  },
+  {
+    "width": 1440,
+    "before": {
+      "headingToText": 24.5,
+      "overflow": 0,
+      "rowStep": 44
+    },
+    "after": {
+      "headingToText": 24.5,
+      "overflow": 0,
+      "rowStep": 36
+    }
+  }
+]

@@ -14,8 +14,8 @@
 ?>
 <!-- wp:group {"align":"full","className":"wl-footer","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|50"},"elements":{"link":{"color":{"text":"#DDD7C9"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull wl-footer has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-	<div class="wp-block-group alignwide">
+	<!-- wp:group {"align":"wide","className":"wl-footer-main","style":{"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"grid","columnCount":2}} -->
+	<div class="wp-block-group alignwide wl-footer-main">
 		<!-- wp:group {"className":"wl-footer-brand","style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"default"}} -->
 		<div class="wp-block-group wl-footer-brand">
 			<!-- wp:site-title {"level":0,"className":"wl-logo","style":{"typography":{"fontSize":"26px"}}} /-->
@@ -24,29 +24,33 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"top"}} -->
-		<div class="wp-block-group">
-			<!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
-			<div class="wp-block-group">
-				<!-- wp:paragraph {"style":{"color":{"text":"#B5AE9E"},"typography":{"fontWeight":"600","letterSpacing":"0.12em","textTransform":"uppercase"}},"fontSize":"x-small"} -->
-				<p class="has-text-color has-x-small-font-size" style="color:#B5AE9E;font-weight:600;letter-spacing:0.12em;text-transform:uppercase"><?php esc_html_e( 'Read', 'wild-lemon' ); ?></p>
-				<!-- /wp:paragraph -->
+		<!-- wp:group {"className":"wl-footer-links","layout":{"type":"grid","columnCount":2}} -->
+		<div class="wp-block-group wl-footer-links">
+			<!-- wp:group {"className":"wl-footer-column","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+			<div class="wp-block-group wl-footer-column">
+				<!-- wp:heading {"style":{"color":{"text":"#B5AE9E"},"typography":{"fontWeight":"600","letterSpacing":"0.12em","lineHeight":"1.5","textTransform":"uppercase"}},"fontSize":"x-small","fontFamily":"schibsted-grotesk"} -->
+				<h2 class="wp-block-heading has-text-color has-schibsted-grotesk-font-family has-x-small-font-size" style="color:#B5AE9E;font-weight:600;letter-spacing:0.12em;line-height:1.5;text-transform:uppercase"><?php esc_html_e( 'Read', 'wild-lemon' ); ?></h2>
+				<!-- /wp:heading -->
 
 				<!-- wp:categories {"showHierarchy":false,"showPostCounts":false,"className":"wl-footer-list"} /-->
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
-			<div class="wp-block-group">
-				<!-- wp:paragraph {"style":{"color":{"text":"#B5AE9E"},"typography":{"fontWeight":"600","letterSpacing":"0.12em","textTransform":"uppercase"}},"fontSize":"x-small"} -->
-				<p class="has-text-color has-x-small-font-size" style="color:#B5AE9E;font-weight:600;letter-spacing:0.12em;text-transform:uppercase"><?php esc_html_e( 'Elsewhere', 'wild-lemon' ); ?></p>
-				<!-- /wp:paragraph -->
+			<!-- wp:group {"className":"wl-footer-column","style":{"spacing":{"blockGap":"12px"}},"layout":{"type":"default"}} -->
+			<div class="wp-block-group wl-footer-column">
+				<!-- wp:heading {"style":{"color":{"text":"#B5AE9E"},"typography":{"fontWeight":"600","letterSpacing":"0.12em","lineHeight":"1.5","textTransform":"uppercase"}},"fontSize":"x-small","fontFamily":"schibsted-grotesk"} -->
+				<h2 class="wp-block-heading has-text-color has-schibsted-grotesk-font-family has-x-small-font-size" style="color:#B5AE9E;font-weight:600;letter-spacing:0.12em;line-height:1.5;text-transform:uppercase"><?php esc_html_e( 'Elsewhere', 'wild-lemon' ); ?></h2>
+				<!-- /wp:heading -->
 
-				<!-- wp:page-list {"className":"wl-footer-list"} /-->
+				<!-- wp:group {"className":"wl-footer-pages","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+				<div class="wp-block-group wl-footer-pages">
+					<!-- wp:page-list {"className":"wl-footer-list"} /-->
 
-				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size"><a href="<?php echo esc_url( get_feed_link() ); ?>"><?php esc_html_e( 'RSS', 'wild-lemon' ); ?></a></p>
-				<!-- /wp:paragraph -->
+					<!-- wp:paragraph {"className":"wl-footer-feed","fontSize":"small"} -->
+					<p class="wl-footer-feed has-small-font-size"><a href="<?php echo esc_url( get_feed_link() ); ?>"><?php esc_html_e( 'RSS', 'wild-lemon' ); ?></a></p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:group -->
 			</div>
 			<!-- /wp:group -->
 		</div>

@@ -93,6 +93,47 @@ endif;
 add_action( 'init', 'wild_lemon_pattern_categories' );
 
 /**
+ * Format the native reading-time estimate like the published theme byline.
+ *
+ * Core still calculates the time. Only the marked byline block's label changes;
+ * user-inserted blocks, word counts, and reading-time ranges retain core output.
+ *
+ * @param string $block_content Rendered core block.
+ * @param array  $block         Parsed block.
+ * @return string
+ */
+function wild_lemon_reading_time_label( $block_content, $block ) {
+	$wild_lemon_attributes = $block['attrs'] ?? array();
+	if (
+		! in_array( 'wl-reading-time', explode( ' ', $wild_lemon_attributes['className'] ?? '' ), true ) ||
+		false !== ( $wild_lemon_attributes['displayAsRange'] ?? true ) ||
+		'time' !== ( $wild_lemon_attributes['displayMode'] ?? 'time' )
+	) {
+		return $block_content;
+	}
+
+	$wild_lemon_html = new WP_HTML_Tag_Processor( $block_content );
+	while ( $wild_lemon_html->next_token() ) {
+		if (
+			'#text' === $wild_lemon_html->get_token_type() &&
+			preg_match( '/^[^0-9]*([0-9]+)[^0-9]*$/u', trim( $wild_lemon_html->get_modifiable_text() ), $wild_lemon_match )
+		) {
+			$wild_lemon_minutes = (int) $wild_lemon_match[1];
+			$wild_lemon_html->set_modifiable_text(
+				sprintf(
+					/* translators: %s: estimated number of minutes required to read the post. */
+					_n( '%s min read', '%s min read', $wild_lemon_minutes, 'wild-lemon' ),
+					number_format_i18n( $wild_lemon_minutes )
+				)
+			);
+			return $wild_lemon_html->get_updated_html();
+		}
+	}
+	return $block_content;
+}
+add_filter( 'render_block_core/post-time-to-read', 'wild_lemon_reading_time_label', 10, 2 );
+
+/**
  * Remember a Query Loop's initial offset separately from its paged offset.
  *
  * Core adds the current page's offset when building the query, but WP_Query

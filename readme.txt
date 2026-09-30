@@ -16,7 +16,9 @@ Wild Lemon is a warm editorial blogging theme built entirely on core blocks — 
 
 = 1.3 =
 * Improve mobile navigation, search forms, author cards, post navigation, and archive row spacing.
+* Refine footer link columns with balanced responsive spacing, clear headings, consistent RSS styling, and accessible pointer and keyboard targets.
 * Keep the labeled Search button and expand its field within the header row without moving page content. Respect reduced motion and retain native WordPress search interactions.
+* Show native reading-time estimates beside the author on the featured homepage post and single posts in WordPress 6.9 and later, styled with the published screenshot's compact label and dot separator.
 * Refine three editable editorial patterns using the existing theme typography, responsive spacing, and bundled imagery. Keep template-only pattern fragments out of the public inserter.
 * Make older archive posts reachable with pagination while retaining the original homepage sections.
 * Correct Query Loop offset totals, remove links to empty archive pages, and show an inline no-posts message in empty homepage sections.

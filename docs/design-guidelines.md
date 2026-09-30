@@ -18,6 +18,8 @@ Wild Lemon is a warm, editorial blogging theme: bookish serif reading, quiet gro
 
 Fixed non-token colors: footer secondary text `#B5AE9E`, footer link text `#DDD7C9`, footer divider `#3A352C`, pill borders `#DCD5C4`, highlight wash `#F2DE8A`, row hover `#F7F4EA`.
 
+The full footer retains its dark background and two link columns. Keep the columns equal in width, preserve the breathing room below the small uppercase headings, and use compact 36px link rows (including RSS). Hover and keyboard focus use the lemon accent and an underline; keyboard focus also has a visible outline. On small screens the brand sits above the two columns. Long and nested page names must wrap within their column.
+
 ### Contrast rules (accessibility-ready)
 
 Every text/background pair must hit **WCAG AA 4.5:1**. Current audit:

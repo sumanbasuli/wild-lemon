@@ -14,12 +14,14 @@ WordPress 7.1.2, PHP 8.3.35, Docker, agent-browser 0.38.1 with Chromium. `WP_DEB
 | --- | --- | --- |
 | Official Theme Unit Test content: 12 routes × 5 widths (320, 390, 768, 1024, 1440px), rerun after restoring the published layout | 60/60 without document overflow; 10 failures before fixes, up to 948px overflow | [Before](layout-before.json), [after](layout-after.json) |
 | Controls at 320, 390, 768px | Menu target 44 × 44px; SVG vertical offset 0px; search pill 44px high | [Interaction checks](interaction-checks.json) |
+| Full footer | Initial layout passed seven widths from 320–1440px, nested-label wrapping, keyboard focus, and mobile axe checks. Final spacing refinement uses 36px link rows and preserves the heading-to-first-link text gap, verified at 390 and 1440px without overflow. | [Initial checks](footer-checks.json), [spacing refinement](footer-spacing-checks.json), [mobile](footer-390.png), [desktop](footer-1440.png) |
 | Long, three-level mobile menu | Scrolls within overlay; focus stays inside; Escape returns focus | [Interaction checks](interaction-checks.json) |
 | Header search | Text label retained; smooth expansion with no header or content movement at eight widths from 320–1440px. Native autofocus, Escape, outside-click closing, Enter/button submission, reduced motion, long titles, and RTL checks pass. | [Search checks](search-checks.json) |
+| Reading time | Native estimate visible in homepage featured-post and single-post bylines at 320, 390, and 1440px, with no overflow. Compact `min read` label, 14px text, 12px spacing, and a 3px decorative dot match the screenshot's treatment. In-memory content checks produced 1, 2, and 14 minutes for 10, 378, and 2,646 words; unmarked blocks, ranges, and word counts retain core output. Unavailable core block produces no unsupported markup. | [Layout checks](reading-time-checks.json), [format checks](reading-time-format-checks.json) |
 | Long unbroken site title, RTL direction, increased text spacing | No document overflow | [Interaction checks](interaction-checks.json) |
 | Archive page counts and empty loops | 32 boundary cases: 0, 1, 4, 5, 8, 9, 12, 13 posts × pages 1, 2, 3, 99. Correct row IDs, empty messages, previous/next controls, and no phantom pages. Unrelated queries unchanged. | [Pagination checks](pagination-checks.json) |
 | Browser pagination | Clicked Next through pages 2 and 3, then Previous; removed temporary posts and verified no pagination with eight posts and an inline empty message on the obsolete page-two URL | [Browser results](pagination-browser.json) |
-| WordPress block parser | 17 patterns, 8 templates, 3 parts: no invalid blocks | [Patterns](pattern-validation.json), [templates/parts](template-validation.json) |
+| WordPress block parser | 18 patterns, 8 templates, 3 parts: no invalid blocks | [Patterns](pattern-validation.json), [templates/parts](template-validation.json) |
 | Theme Check on clean package | No errors or warnings; two informational messages | [Theme Check](theme-check.json) |
 | PHP lint / theme.json / Git whitespace | Pass | `./build.sh`, `git diff --check` |
 | Axe: mobile pattern page / open mobile menu with configured links | Zero violations | [Patterns](accessibility-demo.json), [menu](accessibility-menu.json) |
@@ -29,6 +31,8 @@ WordPress 7.1.2, PHP 8.3.35, Docker, agent-browser 0.38.1 with Chromium. `WP_DEB
 Screenshots: [restored desktop homepage](home-desktop.png), [mobile home](home-mobile.png), [mobile menu](menu-mobile.png), [desktop patterns](patterns-desktop.png), [mobile patterns](patterns-mobile.png), [desktop search](search-open-desktop.png), [mobile search](search-open-mobile.png).
 
 Header search uses the core Search block's button-only mode. CSS reserves the button's position and animates the field within the existing row. Navigation gives way while search is active; on mobile the title also gives way, keeping a usable field width. Core handles input focus, Escape, focus-out closing, and submission. No custom search JavaScript is added.
+
+The published screenshot displays reading time although the original source templates omit it. The featured homepage post and single-post bylines now use the core Time to Read block, available in WordPress 6.9+. Its estimate follows actual article content. The frontend byline formats that estimate as `author · 14 min read`, using the theme's accessible muted color. The editor retains core's native minutes label. The hidden pattern omits this optional metadata when the native block is unavailable. Screenshots: [mobile home](reading-time-home-390.png), [desktop home](reading-time-home-1440.png), [mobile post](reading-time-single-390.png), [desktop post](reading-time-single-1440.png).
 
 ## Remaining release checks
 
