@@ -10,10 +10,6 @@
  * @since Wild Lemon 1.0
  */
 
-$wild_lemon_recipes     = get_category_by_slug( 'recipes' );
-$wild_lemon_field_notes = get_category_by_slug( 'field-notes' );
-$wild_lemon_recipes_url = $wild_lemon_recipes ? get_category_link( $wild_lemon_recipes ) : home_url( '/' );
-$wild_lemon_notes_url   = $wild_lemon_field_notes ? get_category_link( $wild_lemon_field_notes ) : home_url( '/' );
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|60","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60"}},"border":{"bottom":{"color":"var:preset|color|line","width":"1px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="border-bottom-color:var(--wp--preset--color--line);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)">
@@ -52,21 +48,13 @@ $wild_lemon_notes_url   = $wild_lemon_field_notes ? get_category_link( $wild_lem
 				<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"center"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"500"}},"textColor":"muted-2"} -->
-					<p class="has-muted-2-color has-text-color" style="font-size:13px;font-weight:500"><?php esc_html_e( 'Or wander into:', 'wild-lemon' ); ?></p>
+					<p class="has-muted-2-color has-text-color" style="font-size:13px;font-weight:500"><?php esc_html_e( 'Or start again:', 'wild-lemon' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons {"className":"wl-chips","style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 					<div class="wp-block-buttons wl-chips">
 						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Latest posts', 'wild-lemon' ); ?></a></div>
-						<!-- /wp:button -->
-
-						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( $wild_lemon_recipes_url ); ?>"><?php esc_html_e( 'Recipes', 'wild-lemon' ); ?></a></div>
-						<!-- /wp:button -->
-
-						<!-- wp:button -->
-						<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( $wild_lemon_notes_url ); ?>"><?php esc_html_e( 'Field Notes', 'wild-lemon' ); ?></a></div>
+						<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Go to home', 'wild-lemon' ); ?></a></div>
 						<!-- /wp:button -->
 					</div>
 					<!-- /wp:buttons -->
@@ -90,7 +78,7 @@ $wild_lemon_notes_url   = $wild_lemon_field_notes ? get_category_link( $wild_lem
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600"}},"fontSize":"small"} -->
-		<p class="has-small-font-size" style="font-weight:600"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Browse all posts', 'wild-lemon' ); ?></a></p>
+		<p class="has-small-font-size" style="font-weight:600"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'Visit home', 'wild-lemon' ); ?></a></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

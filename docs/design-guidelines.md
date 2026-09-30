@@ -1,6 +1,6 @@
 # Design Guidelines
 
-Wild Lemon is a warm, editorial blogging theme: bookish serif reading, quiet grotesk UI, one lemon accent. The design source is the Claude Design handoff (`Wildlemon Theme.dc.html`); every token below maps 1:1 to `theme.json`.
+Wild Lemon is a warm, editorial blogging theme: bookish serif reading, quiet grotesk UI, one lemon accent. The published theme and original design handoff establish the visual identity. Refinements must preserve the homepage composition, heading scale, palette, typefaces, rounded imagery, and pill controls. Every color token below maps to `theme.json`.
 
 ## Color tokens (`settings.color.palette`)
 
@@ -38,7 +38,7 @@ Re-verify with the ratio script in [development.md](development.md#contrast-chec
 
 Both are bundled locally in `assets/fonts/` (latin subset, woff2, SIL OFL). Never load fonts from a CDN.
 
-Scale: `x-small` 12 · `small` 14 · `medium` 17 (root) · `large` 30 · `x-large` 44 · `xx-large` 64, with `large`+ fluid. Body prose (`core/post-content`) runs Newsreader 19px/1.7. Hero/post titles use per-template `clamp()` sizes (58px home, 54px single at desktop).
+Scale: `x-small` 12 · `small` 14 · `medium` 17 (root) · `large` 30 · `x-large` 44 · `xx-large` 64, with `large`+ fluid. Body prose (`core/post-content`) runs Newsreader 19px/1.7. Hero/post titles retain the published per-template fluid sizes (58px home, 54px single at desktop).
 
 Meta labels: grotesk, uppercase, `0.1–0.14em` tracking, 600–700 weight, `x-small`.
 
@@ -63,3 +63,11 @@ Layout: `contentSize` 680px (prose), `wideSize` 1120px (heroes, grids). Root pad
 - Content links stay underlined (`elements.link` in theme.json); color alone never signals a link.
 - One `h1` per page; no heading level skips.
 - Decorative art gets `aria-hidden="true"`.
+
+## Editorial layouts
+
+- Give each section a clear reading order. Use whitespace and typography before adding a box or decoration.
+- Keep prose at the 680px content width; let editorial compositions use the 1120px wide width.
+- Intro and notes patterns respond to their container width, including when placed inside a narrow column.
+- Preserve the existing 12–14px image corners. Demo imagery may vary without changing the theme composition.
+- Center the 24px menu icon inside a 44px touch area. Retain the labeled search pill and core navigation keyboard/focus handling.

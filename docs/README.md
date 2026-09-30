@@ -6,6 +6,8 @@ Wild Lemon is a warm editorial FSE (block) theme for WordPress, built entirely o
 | --- | --- |
 | [design-guidelines.md](design-guidelines.md) | Color tokens, typography, spacing, motifs, accessibility rules |
 | [development.md](development.md) | Repo layout, templates/parts/patterns architecture, conventions, testing |
+| [compose.yml](compose.yml) | Local WordPress and WP-CLI preview stack |
+| [qa/README.md](qa/README.md) | Recorded visual, responsive, editor, and accessibility checks |
 | [release.md](release.md) | Versioning, building, wordpress.org submission checklist |
 
 ## Quick start

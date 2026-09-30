@@ -5,6 +5,7 @@
  * Categories: wild-lemon, text
  * Block Types: core/comments
  * Description: Comments area with comments list, pagination, and comment form.
+ * Inserter: no
  *
  * @package Wild_Lemon
  * @since Wild Lemon 1.0

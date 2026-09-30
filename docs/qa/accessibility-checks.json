@@ -1,0 +1,258 @@
+[
+  {
+    "path": "/",
+    "counts": {
+      "inapplicable": 47,
+      "incomplete": 1,
+      "passes": 42,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=axeAPI",
+        "id": "list",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
+            "html": "<ul class=\"wp-block-navigation__container is-responsive wp-block-navigation\">",
+            "target": [
+              ".wp-block-navigation__container"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1",
+          "RGAAv4",
+          "RGAA-9.3.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/pattern-gallery/",
+    "counts": {
+      "inapplicable": 47,
+      "incomplete": 0,
+      "passes": 42,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=axeAPI",
+        "id": "list",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
+            "html": "<ul class=\"wp-block-navigation__container is-responsive wp-block-navigation\">",
+            "target": [
+              ".wp-block-navigation__container"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1",
+          "RGAAv4",
+          "RGAA-9.3.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/markup-html-tags-and-formatting/",
+    "counts": {
+      "inapplicable": 41,
+      "incomplete": 1,
+      "passes": 48,
+      "violations": 2
+    },
+    "violations": [
+      {
+        "help": "Table header text should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/empty-table-header?application=axeAPI",
+        "id": "empty-table-header",
+        "impact": "minor",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+            "html": "<th></th>",
+            "target": [
+              "th:nth-child(3)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "best-practice"
+        ]
+      },
+      {
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=axeAPI",
+        "id": "list",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
+            "html": "<ul class=\"wp-block-navigation__container is-responsive wp-block-navigation\">",
+            "target": [
+              ".wp-block-navigation__container"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1",
+          "RGAAv4",
+          "RGAA-9.3.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/template-comments/",
+    "counts": {
+      "inapplicable": 36,
+      "incomplete": 1,
+      "passes": 53,
+      "violations": 2
+    },
+    "violations": [
+      {
+        "help": "Table header text should not be empty",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/empty-table-header?application=axeAPI",
+        "id": "empty-table-header",
+        "impact": "minor",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+            "html": "<th></th>",
+            "target": [
+              "th:nth-child(3)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.name-role-value",
+          "best-practice"
+        ]
+      },
+      {
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=axeAPI",
+        "id": "list",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
+            "html": "<ul class=\"wp-block-navigation__container is-responsive wp-block-navigation\">",
+            "target": [
+              ".wp-block-navigation__container"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1",
+          "RGAAv4",
+          "RGAA-9.3.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/?s=zzzznothing",
+    "counts": {
+      "inapplicable": 46,
+      "incomplete": 0,
+      "passes": 43,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=axeAPI",
+        "id": "list",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
+            "html": "<ul class=\"wp-block-navigation__container is-responsive wp-block-navigation\">",
+            "target": [
+              ".wp-block-navigation__container"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1",
+          "RGAAv4",
+          "RGAA-9.3.1"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/missing-local-page/",
+    "counts": {
+      "inapplicable": 44,
+      "incomplete": 0,
+      "passes": 45,
+      "violations": 1
+    },
+    "violations": [
+      {
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/list?application=axeAPI",
+        "id": "list",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  List element has direct children that are not allowed: ul",
+            "html": "<ul class=\"wp-block-navigation__container is-responsive wp-block-navigation\">",
+            "target": [
+              ".wp-block-navigation__container"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131",
+          "EN-301-549",
+          "EN-9.1.3.1",
+          "RGAAv4",
+          "RGAA-9.3.1"
+        ]
+      }
+    ]
+  }
+]

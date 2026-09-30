@@ -1,0 +1,46 @@
+[
+  {
+    "errors": [],
+    "name": "templates/single.html"
+  },
+  {
+    "errors": [],
+    "name": "templates/page.html"
+  },
+  {
+    "errors": [],
+    "name": "templates/index.html"
+  },
+  {
+    "errors": [],
+    "name": "templates/home.html"
+  },
+  {
+    "errors": [],
+    "name": "templates/404.html"
+  },
+  {
+    "errors": [],
+    "name": "templates/author.html"
+  },
+  {
+    "errors": [],
+    "name": "templates/search.html"
+  },
+  {
+    "errors": [],
+    "name": "templates/archive.html"
+  },
+  {
+    "errors": [],
+    "name": "parts/footer-compact.html"
+  },
+  {
+    "errors": [],
+    "name": "parts/footer.html"
+  },
+  {
+    "errors": [],
+    "name": "parts/header.html"
+  }
+]

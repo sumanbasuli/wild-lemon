@@ -1,0 +1,70 @@
+[
+  {
+    "errors": [],
+    "name": "wild-lemon/archive-header"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/author-bio"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/author-header"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/comments"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/editorial-introduction"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/featured-quotation"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/footer-compact"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/footer"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/header"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/hidden-404"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/hidden-no-posts"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/hidden-no-results"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/home-archive-list"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/home-latest"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/home-topics"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/query-list"
+  },
+  {
+    "errors": [],
+    "name": "wild-lemon/two-column-notes"
+  }
+]

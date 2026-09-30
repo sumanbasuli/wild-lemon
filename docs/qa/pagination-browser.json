@@ -1,0 +1,78 @@
+{
+  "page1": {
+    "empty": "",
+    "ids": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "next": true,
+    "overflow": 0,
+    "pagination": true,
+    "previous": false,
+    "url": "http://localhost:8088/"
+  },
+  "page2": {
+    "empty": "",
+    "ids": [
+      39,
+      40,
+      41,
+      42
+    ],
+    "next": true,
+    "overflow": 0,
+    "pagination": true,
+    "previous": true,
+    "url": "http://localhost:8088/?query-11-page=2"
+  },
+  "page3": {
+    "empty": "",
+    "ids": [
+      43
+    ],
+    "next": false,
+    "overflow": 0,
+    "pagination": true,
+    "previous": true,
+    "url": "http://localhost:8088/?query-11-page=3"
+  },
+  "backToPage2": {
+    "empty": "",
+    "ids": [
+      39,
+      40,
+      41,
+      42
+    ],
+    "next": true,
+    "overflow": 0,
+    "pagination": true,
+    "previous": true,
+    "url": "http://localhost:8088/?query-11-page=2"
+  },
+  "eightPostsPage1": {
+    "empty": "",
+    "ids": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "next": false,
+    "overflow": 0,
+    "pagination": false,
+    "previous": false,
+    "url": "http://localhost:8088/"
+  },
+  "eightPostsPage2": {
+    "empty": "No posts found.",
+    "ids": [],
+    "next": false,
+    "overflow": 0,
+    "pagination": false,
+    "previous": false,
+    "url": "http://localhost:8088/?query-11-page=2"
+  }
+}

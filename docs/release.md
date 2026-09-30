@@ -2,7 +2,7 @@
 
 ## Versioning
 
-The single source of truth is the `VERSION` file. `build.sh` stamps it into the build copy's `style.css` (`Version:`) and `readme.txt` (`Stable tag:`) — the source files keep whatever version they had, so bump `VERSION` and add a `readme.txt` changelog entry together.
+The single source of truth is the `VERSION` file. Keep the source `style.css` (`Version:`) and `readme.txt` (`Stable tag:`) in sync with it. `build.sh` stamps the version into the build copy as a safeguard. Add a `readme.txt` changelog entry for each release.
 
 Format: wordpress.org accepts `1.2` or `1.2.1`. Every resubmission after a review must increase the version.
 
@@ -22,7 +22,7 @@ Before uploading `build/wild-lemon.zip` at <https://wordpress.org/themes/upload/
 - [ ] Theme Check plugin: PASS, no required issues
 - [ ] `screenshot.png` is a genuine front-end capture, 1200×900, no browser chrome or admin bar
 - [ ] style.css tags are truthful (theme actually supports each tag)
-- [ ] `Tested up to` uses a major version only (e.g. `7.0`, never `7.0.2`)
+- [ ] `Tested up to` uses a major version only (e.g. `7.1`, never `7.1.2`)
 - [ ] No plugin-territory code: no analytics, SEO, custom post types, shortcodes, syntax highlighters, custom lazy loading, or content parsing — core handles images/lazy-loading natively
 - [ ] All bundled assets licensed and credited in `readme.txt` (fonts: OFL with source links; images: GPL note)
 - [ ] No remote assets: fonts, scripts, and images all ship in the theme

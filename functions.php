@@ -31,11 +31,15 @@ if ( ! function_exists( 'wild_lemon_enqueue_styles' ) ) :
 	 * @return void
 	 */
 	function wild_lemon_enqueue_styles() {
+		$wild_lemon_version = wp_get_theme()->get( 'Version' );
+		if ( wp_is_development_mode( 'theme' ) ) {
+			$wild_lemon_version = (string) filemtime( get_stylesheet_directory() . '/style.css' );
+		}
 		wp_enqueue_style(
 			'wild-lemon-style',
 			get_stylesheet_uri(),
 			array(),
-			wp_get_theme()->get( 'Version' )
+			$wild_lemon_version
 		);
 	}
 endif;
@@ -87,3 +91,41 @@ if ( ! function_exists( 'wild_lemon_pattern_categories' ) ) :
 	}
 endif;
 add_action( 'init', 'wild_lemon_pattern_categories' );
+
+/**
+ * Remember a Query Loop's initial offset separately from its paged offset.
+ *
+ * Core adds the current page's offset when building the query, but WP_Query
+ * includes the initially skipped posts in its pagination total. Tag only
+ * queries built by core Query Loop blocks; leave other WP_Query instances alone.
+ *
+ * @param array    $query Query arguments supplied by the core block.
+ * @param WP_Block $block Block using the query context.
+ * @return array
+ */
+function wild_lemon_query_loop_offset( $query, $block ) {
+	$wild_lemon_offset = absint( $block->context['query']['offset'] ?? 0 );
+	if ( $wild_lemon_offset && empty( $block->context['query']['inherit'] ) ) {
+		$query['wild_lemon_initial_offset'] = $wild_lemon_offset;
+	}
+	return $query;
+}
+add_filter( 'query_loop_block_query_vars', 'wild_lemon_query_loop_offset', 10, 2 );
+
+/**
+ * Count only posts available after a core Query Loop's initial offset.
+ *
+ * @link https://developer.wordpress.org/reference/hooks/found_posts/
+ *
+ * @param int      $found_posts Total matching posts, before the offset.
+ * @param WP_Query $query       Query being counted.
+ * @return int
+ */
+function wild_lemon_query_loop_found_posts( $found_posts, $query ) {
+	$wild_lemon_offset = (int) $query->get( 'wild_lemon_initial_offset' );
+	if ( $wild_lemon_offset > 0 ) {
+		return max( 0, $found_posts - $wild_lemon_offset );
+	}
+	return $found_posts;
+}
+add_filter( 'found_posts', 'wild_lemon_query_loop_found_posts', 10, 2 );

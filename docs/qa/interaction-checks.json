@@ -1,0 +1,101 @@
+{
+  "320": {
+    "controls": [
+      {
+        "center": 38.984375,
+        "height": 44,
+        "verticalOffset": 0,
+        "width": 44
+      },
+      {
+        "center": 38.59375,
+        "height": 44,
+        "verticalOffset": 0,
+        "width": 84.265625
+      }
+    ],
+    "menu": {
+      "focusInside": true,
+      "open": true,
+      "overflow": 0,
+      "scrollable": true
+    },
+    "escapeReturnsFocus": true,
+    "focusContained": true
+  },
+  "390": {
+    "controls": [
+      {
+        "center": 38.984375,
+        "height": 44,
+        "verticalOffset": 0,
+        "width": 44
+      },
+      {
+        "center": 38.59375,
+        "height": 44,
+        "verticalOffset": 0,
+        "width": 84.265625
+      }
+    ],
+    "menu": {
+      "focusInside": true,
+      "open": true,
+      "overflow": 0,
+      "scrollable": true
+    },
+    "escapeReturnsFocus": true,
+    "focusContained": true
+  },
+  "768": {
+    "controls": [
+      {
+        "center": 38.390625,
+        "height": 44,
+        "verticalOffset": 0,
+        "width": 44
+      },
+      {
+        "center": 38,
+        "height": 44,
+        "verticalOffset": 0,
+        "width": 84.265625
+      }
+    ],
+    "menu": {
+      "focusInside": true,
+      "open": true,
+      "overflow": 0,
+      "scrollable": true
+    },
+    "escapeReturnsFocus": true,
+    "focusContained": true
+  },
+  "rtl": {
+    "overflow": 0
+  },
+  "textSpacing": {
+    "overflow": 0
+  },
+  "longTitle": {
+    "overflow": 0
+  },
+  "archivePage1": {
+    "next": "http://localhost:8088/?query-11-page=2",
+    "posts": [
+      "post-12",
+      "post-13",
+      "post-14",
+      "post-15"
+    ]
+  },
+  "archivePage2": {
+    "posts": [
+      "post-163",
+      "post-150",
+      "post-51",
+      "post-34"
+    ],
+    "previous": "http://localhost:8088/?query-11-page=1"
+  }
+}

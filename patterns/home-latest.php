@@ -4,7 +4,8 @@
  * Slug: wild-lemon/home-latest
  * Categories: wild-lemon, query
  * Block Types: core/query
- * Description: Three-column grid of recent posts with a section heading and an all-posts link.
+ * Description: Three-column grid of recent posts with a link to the topics section.
+ * Inserter: no
  *
  * @package Wild_Lemon
  * @since Wild Lemon 1.0
@@ -20,7 +21,7 @@
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600"}},"fontSize":"small"} -->
-		<p class="has-small-font-size" style="font-weight:600"><a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php esc_html_e( 'All posts', 'wild-lemon' ); ?></a></p>
+		<p class="has-small-font-size" style="font-weight:600"><a href="#topics"><?php esc_html_e( 'Browse topics', 'wild-lemon' ); ?></a></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
@@ -46,6 +47,9 @@
 			</div>
 			<!-- /wp:group -->
 		<!-- /wp:post-template -->
+		<!-- wp:query-no-results -->
+			<!-- wp:pattern {"slug":"wild-lemon/hidden-no-posts"} /-->
+		<!-- /wp:query-no-results -->
 	</div>
 	<!-- /wp:query -->
 </div>

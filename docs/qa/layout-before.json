@@ -1,0 +1,602 @@
+[
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/pattern-gallery/"
+  },
+  {
+    "h1": 2,
+    "offenders": [],
+    "overflow": 876,
+    "width": 320,
+    "path": "/markup-html-tags-and-formatting/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/edge-case-nested-and-mixed-lists/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/edge-case-many-categories/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/edge-case-many-tags/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/column-blocks/"
+  },
+  {
+    "h1": 2,
+    "offenders": [
+      {
+        "cls": "wp-block-group is-layout-flow wp-container-core-group-is-layout-7a3036bf wp-block-group-is",
+        "tag": "DIV",
+        "width": 1172
+      },
+      {
+        "cls": "wp-block-comment-author-name has-small-font-size",
+        "tag": "DIV",
+        "width": 1172
+      },
+      {
+        "cls": "wp-block-comment-date has-text-color has-muted-2-color",
+        "tag": "DIV",
+        "width": 1172
+      },
+      {
+        "cls": "wp-block-comment-content has-newsreader-font-family",
+        "tag": "DIV",
+        "width": 1172
+      },
+      {
+        "cls": "",
+        "tag": "P",
+        "width": 1172
+      },
+      {
+        "cls": "",
+        "tag": "H1",
+        "width": 1172
+      },
+      {
+        "cls": "",
+        "tag": "H2",
+        "width": 1172
+      }
+    ],
+    "overflow": 948,
+    "width": 320,
+    "path": "/template-comments/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/template-password-protected/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/?s=markup"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/?s=zzzznothing"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 320,
+    "path": "/missing-local-page/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/pattern-gallery/"
+  },
+  {
+    "h1": 2,
+    "offenders": [],
+    "overflow": 842,
+    "width": 390,
+    "path": "/markup-html-tags-and-formatting/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/edge-case-nested-and-mixed-lists/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/edge-case-many-categories/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/edge-case-many-tags/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/column-blocks/"
+  },
+  {
+    "h1": 2,
+    "offenders": [
+      {
+        "cls": "wp-block-group is-layout-flow wp-container-core-group-is-layout-7a3036bf wp-block-group-is",
+        "tag": "DIV",
+        "width": 1186
+      },
+      {
+        "cls": "wp-block-comment-author-name has-small-font-size",
+        "tag": "DIV",
+        "width": 1186
+      },
+      {
+        "cls": "wp-block-comment-date has-text-color has-muted-2-color",
+        "tag": "DIV",
+        "width": 1186
+      },
+      {
+        "cls": "wp-block-comment-content has-newsreader-font-family",
+        "tag": "DIV",
+        "width": 1186
+      },
+      {
+        "cls": "",
+        "tag": "P",
+        "width": 1186
+      },
+      {
+        "cls": "",
+        "tag": "H1",
+        "width": 1186
+      },
+      {
+        "cls": "",
+        "tag": "H2",
+        "width": 1186
+      }
+    ],
+    "overflow": 892,
+    "width": 390,
+    "path": "/template-comments/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/template-password-protected/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/?s=markup"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/?s=zzzznothing"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 390,
+    "path": "/missing-local-page/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/pattern-gallery/"
+  },
+  {
+    "h1": 2,
+    "offenders": [],
+    "overflow": 681,
+    "width": 768,
+    "path": "/markup-html-tags-and-formatting/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/edge-case-nested-and-mixed-lists/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/edge-case-many-categories/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/edge-case-many-tags/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/column-blocks/"
+  },
+  {
+    "h1": 2,
+    "offenders": [
+      {
+        "cls": "wp-block-group is-layout-flow wp-container-core-group-is-layout-7a3036bf wp-block-group-is",
+        "tag": "DIV",
+        "width": 1265
+      },
+      {
+        "cls": "wp-block-comment-author-name has-small-font-size",
+        "tag": "DIV",
+        "width": 1265
+      },
+      {
+        "cls": "wp-block-comment-date has-text-color has-muted-2-color",
+        "tag": "DIV",
+        "width": 1265
+      },
+      {
+        "cls": "wp-block-comment-content has-newsreader-font-family",
+        "tag": "DIV",
+        "width": 1265
+      },
+      {
+        "cls": "",
+        "tag": "P",
+        "width": 1265
+      },
+      {
+        "cls": "",
+        "tag": "H1",
+        "width": 1265
+      },
+      {
+        "cls": "",
+        "tag": "H2",
+        "width": 1265
+      }
+    ],
+    "overflow": 613,
+    "width": 768,
+    "path": "/template-comments/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/template-password-protected/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/?s=markup"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/?s=zzzznothing"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 768,
+    "path": "/missing-local-page/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/pattern-gallery/"
+  },
+  {
+    "h1": 2,
+    "offenders": [],
+    "overflow": 688,
+    "width": 1024,
+    "path": "/markup-html-tags-and-formatting/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/edge-case-nested-and-mixed-lists/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/edge-case-many-categories/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/edge-case-many-tags/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/column-blocks/"
+  },
+  {
+    "h1": 2,
+    "offenders": [
+      {
+        "cls": "wp-block-group is-layout-flow wp-container-core-group-is-layout-7a3036bf wp-block-group-is",
+        "tag": "DIV",
+        "width": 1319
+      },
+      {
+        "cls": "wp-block-comment-author-name has-small-font-size",
+        "tag": "DIV",
+        "width": 1319
+      },
+      {
+        "cls": "wp-block-comment-date has-text-color has-muted-2-color",
+        "tag": "DIV",
+        "width": 1319
+      },
+      {
+        "cls": "wp-block-comment-content has-newsreader-font-family",
+        "tag": "DIV",
+        "width": 1319
+      },
+      {
+        "cls": "",
+        "tag": "P",
+        "width": 1319
+      },
+      {
+        "cls": "",
+        "tag": "H1",
+        "width": 1319
+      },
+      {
+        "cls": "",
+        "tag": "H2",
+        "width": 1319
+      }
+    ],
+    "overflow": 539,
+    "width": 1024,
+    "path": "/template-comments/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/template-password-protected/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/?s=markup"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/?s=zzzznothing"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1024,
+    "path": "/missing-local-page/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/pattern-gallery/"
+  },
+  {
+    "h1": 2,
+    "offenders": [],
+    "overflow": 530,
+    "width": 1440,
+    "path": "/markup-html-tags-and-formatting/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/edge-case-nested-and-mixed-lists/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/edge-case-many-categories/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/edge-case-many-tags/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/column-blocks/"
+  },
+  {
+    "h1": 2,
+    "offenders": [
+      {
+        "cls": "wp-block-group is-layout-flow wp-container-core-group-is-layout-7a3036bf wp-block-group-is",
+        "tag": "DIV",
+        "width": 1339
+      },
+      {
+        "cls": "wp-block-comment-author-name has-small-font-size",
+        "tag": "DIV",
+        "width": 1339
+      },
+      {
+        "cls": "wp-block-comment-date has-text-color has-muted-2-color",
+        "tag": "DIV",
+        "width": 1339
+      },
+      {
+        "cls": "wp-block-comment-content has-newsreader-font-family",
+        "tag": "DIV",
+        "width": 1339
+      },
+      {
+        "cls": "",
+        "tag": "P",
+        "width": 1339
+      },
+      {
+        "cls": "",
+        "tag": "H1",
+        "width": 1339
+      },
+      {
+        "cls": "",
+        "tag": "H2",
+        "width": 1339
+      }
+    ],
+    "overflow": 351,
+    "width": 1440,
+    "path": "/template-comments/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/template-password-protected/"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/?s=markup"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/?s=zzzznothing"
+  },
+  {
+    "h1": 1,
+    "offenders": [],
+    "overflow": 0,
+    "width": 1440,
+    "path": "/missing-local-page/"
+  }
+]

@@ -4,14 +4,15 @@
  * Slug: wild-lemon/author-bio
  * Categories: wild-lemon
  * Description: Lemon-tinted author card with avatar, name, and biography.
+ * Inserter: no
  *
  * @package Wild_Lemon
  * @since Wild Lemon 1.0
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"28px","right":"32px","bottom":"28px","left":"32px"},"blockGap":"20px"},"border":{"radius":"14px"}},"backgroundColor":"accent-2","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
-<div class="wp-block-group has-accent-2-background-color has-background" style="border-radius:14px;padding-top:28px;padding-right:32px;padding-bottom:28px;padding-left:32px">
+<!-- wp:group {"className":"wl-author-bio","style":{"spacing":{"padding":{"top":"28px","right":"32px","bottom":"28px","left":"32px"},"blockGap":"20px"},"border":{"radius":"14px"}},"backgroundColor":"accent-2","layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<div class="wp-block-group wl-author-bio has-accent-2-background-color has-background" style="border-radius:14px;padding-top:28px;padding-right:32px;padding-bottom:28px;padding-left:32px">
 	<!-- wp:avatar {"size":56,"isLink":true} /-->
 
 	<!-- wp:group {"style":{"spacing":{"blockGap":"8px"}},"layout":{"type":"default"}} -->

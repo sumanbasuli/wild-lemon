@@ -5,6 +5,7 @@
  * Categories: wild-lemon
  * Block Types: core/template-part/header
  * Description: Site header with the site title, navigation, and a search button.
+ * Inserter: no
  *
  * @package Wild_Lemon
  * @since Wild Lemon 1.0
@@ -17,9 +18,9 @@
 
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"center"}} -->
 	<div class="wp-block-group">
-		<!-- wp:navigation {"overlayMenu":"mobile","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} /-->
+		<!-- wp:navigation {"overlayMenu":"mobile","overlayBackgroundColor":"base","overlayTextColor":"contrast","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} /-->
 
-		<!-- wp:search {"label":"<?php esc_attr_e( 'Search', 'wild-lemon' ); ?>","showLabel":false,"placeholder":"<?php esc_attr_e( 'Search', 'wild-lemon' ); ?>","buttonText":"<?php esc_attr_e( 'Search', 'wild-lemon' ); ?>","buttonPosition":"button-only","buttonUseIcon":false,"className":"wl-search-pill"} /-->
+		<!-- wp:search {"label":"<?php esc_attr_e( 'Search', 'wild-lemon' ); ?>","showLabel":false,"placeholder":"<?php esc_attr_e( 'Search the site…', 'wild-lemon' ); ?>","buttonText":"<?php esc_attr_e( 'Search', 'wild-lemon' ); ?>","buttonPosition":"button-only","buttonUseIcon":false,"className":"wl-search-pill"} /-->
 	</div>
 	<!-- /wp:group -->
 </div>

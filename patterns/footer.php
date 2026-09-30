@@ -5,6 +5,7 @@
  * Categories: wild-lemon
  * Block Types: core/template-part/footer
  * Description: Full site footer with the site title, tagline, link columns, and credit line.
+ * Inserter: no
  *
  * @package Wild_Lemon
  * @since Wild Lemon 1.0

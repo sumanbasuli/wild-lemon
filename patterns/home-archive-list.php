@@ -5,6 +5,7 @@
  * Categories: wild-lemon, query
  * Block Types: core/query
  * Description: Text-forward list of older posts with date, title, and category.
+ * Inserter: no
  *
  * @package Wild_Lemon
  * @since Wild Lemon 1.0
@@ -17,7 +18,7 @@
 	<h2 class="wp-block-heading alignwide" style="font-size:32px"><?php esc_html_e( 'From the archive', 'wild-lemon' ); ?></h2>
 	<!-- /wp:heading -->
 
-	<!-- wp:query {"queryId":11,"query":{"perPage":4,"pages":1,"offset":4,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"align":"wide","className":"wl-archive-list"} -->
+	<!-- wp:query {"queryId":11,"query":{"perPage":4,"pages":0,"offset":4,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"align":"wide","className":"wl-archive-list"} -->
 	<div class="wp-block-query alignwide wl-archive-list">
 		<!-- wp:post-template {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
 			<!-- wp:group {"className":"wl-row-link","style":{"spacing":{"padding":{"top":"22px","bottom":"22px"}},"border":{"top":{"color":"var:preset|color|line","width":"1px"}}},"layout":{"type":"default"}} -->
@@ -30,6 +31,16 @@
 			</div>
 			<!-- /wp:group -->
 		<!-- /wp:post-template -->
+
+		<!-- wp:query-pagination {"paginationArrow":"arrow","className":"wl-pagination","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
+			<!-- wp:query-pagination-previous /-->
+			<!-- wp:query-pagination-numbers /-->
+			<!-- wp:query-pagination-next /-->
+		<!-- /wp:query-pagination -->
+
+		<!-- wp:query-no-results -->
+			<!-- wp:pattern {"slug":"wild-lemon/hidden-no-posts"} /-->
+		<!-- /wp:query-no-results -->
 	</div>
 	<!-- /wp:query -->
 </div>

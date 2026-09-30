@@ -1,0 +1,24 @@
+[
+  {
+    "width": 1440,
+    "state": "open search",
+    "counts": {
+      "inapplicable": 44,
+      "incomplete": 0,
+      "passes": 45,
+      "violations": 0
+    },
+    "violations": []
+  },
+  {
+    "width": 390,
+    "state": "open search",
+    "counts": {
+      "inapplicable": 44,
+      "incomplete": 0,
+      "passes": 45,
+      "violations": 0
+    },
+    "violations": []
+  }
+]
