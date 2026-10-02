@@ -1,0 +1,133 @@
+{
+  "qa_date": "2026-10-02",
+  "wordpress": "6.7.2",
+  "php": "7.4.33",
+  "theme": "1.3",
+  "home": "http://localhost:8090",
+  "php_lint": [
+    {
+      "file": "functions.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/archive-header.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/author-bio.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/author-header.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/comments.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/editorial-introduction.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/featured-quotation.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/footer-compact.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/footer.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/header.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/hidden-404.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/hidden-no-posts.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/hidden-no-results.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/hidden-reading-time.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/home-archive-list.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/home-latest.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/home-topics.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/photo-essay.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/query-list.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/seasonal-table.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/slow-weekend.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/two-column-notes.php",
+      "pass": true
+    }
+  ],
+  "theme_json_valid": true,
+  "single": {
+    "category_wrapper": true,
+    "categories_expected": 63,
+    "category_links": 63,
+    "reading_time_absent_on_unsupported_core": true,
+    "pass": true
+  },
+  "404_cases": [
+    {
+      "case": "empty",
+      "rows": 0,
+      "empty_message": true,
+      "date_links": 0,
+      "pagination": 0,
+      "pass": true
+    },
+    {
+      "case": "untitled",
+      "rows": 1,
+      "empty_message": false,
+      "date_links": 1,
+      "pagination": 0,
+      "pass": true
+    }
+  ],
+  "production_sha256": {
+    "functions.php": "552adb1a8e4b04d7c639ab790b3278609bbf00e8f801d2c2e3c7c07305b98688",
+    "style.css": "557566d83e27114400e783209197feabff8b05fef9556beb770ebd3803084354",
+    "theme.json": "ef266d073512222dae31159dd8bafe4a39ca3ce515a151f91b0e412bf328e8d6",
+    "templates/single.html": "0af573779742caa77053fce8d9371534855b59de30dfe58c45fa36feb4ea8d5e",
+    "patterns/hidden-404.php": "362ee1afce7427179df001309b5a7a89eb09b8bb610f0c11f2a985ad88db3bb8"
+  },
+  "content_mutated": false,
+  "source_hashes_match": true,
+  "harness_note": "An initial assertion required date links as direct children; WordPress6.7 nests the link inside time. The descendant-link assertion passes with the expected permalink. Those failed assertions left harness-only entries in the retained debug log; theme source was unchanged."
+}

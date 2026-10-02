@@ -1,0 +1,280 @@
+{
+  "layouts": [
+    {
+      "path": "/",
+      "width": 320,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 320
+    },
+    {
+      "path": "/edge-case-many-categories/",
+      "width": 320,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": 0.0078125,
+      "categoryCount": 63,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 320
+    },
+    {
+      "path": "/blocks-widgets/",
+      "width": 320,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": 0,
+      "categoryCount": 1,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 320
+    },
+    {
+      "path": "/pattern-gallery/",
+      "width": 320,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 320
+    },
+    {
+      "path": "/archive-regression/",
+      "width": 320,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 320
+    },
+    {
+      "path": "/missing-local-page/",
+      "width": 320,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 320
+    },
+    {
+      "path": "/",
+      "width": 901,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 901
+    },
+    {
+      "path": "/edge-case-many-categories/",
+      "width": 901,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": 0.0078125,
+      "categoryCount": 63,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 901
+    },
+    {
+      "path": "/blocks-widgets/",
+      "width": 901,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": 0,
+      "categoryCount": 1,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 901
+    },
+    {
+      "path": "/pattern-gallery/",
+      "width": 901,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 901
+    },
+    {
+      "path": "/archive-regression/",
+      "width": 901,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 901
+    },
+    {
+      "path": "/missing-local-page/",
+      "width": 901,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 901
+    },
+    {
+      "path": "/",
+      "width": 1440,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 1440
+    },
+    {
+      "path": "/edge-case-many-categories/",
+      "width": 1440,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": 0.0078125,
+      "categoryCount": 63,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 1440
+    },
+    {
+      "path": "/blocks-widgets/",
+      "width": 1440,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": 0,
+      "categoryCount": 1,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 1440
+    },
+    {
+      "path": "/pattern-gallery/",
+      "width": 1440,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 1440
+    },
+    {
+      "path": "/archive-regression/",
+      "width": 1440,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 1440
+    },
+    {
+      "path": "/missing-local-page/",
+      "width": 1440,
+      "brokenLoadedLocalImages": [],
+      "categoryCenterError": null,
+      "categoryCount": null,
+      "main": 1,
+      "missingAlt": [],
+      "overflow": 0,
+      "pillOverflow": 0,
+      "titleIssues": [],
+      "actualViewport": 1440
+    }
+  ],
+  "desktopMenu": [
+    {
+      "inBounds": true,
+      "text": "Level 2",
+      "topmost": true
+    },
+    {
+      "inBounds": true,
+      "text": "Level 3",
+      "topmost": true
+    },
+    {
+      "inBounds": true,
+      "text": "Level 3a",
+      "topmost": true
+    },
+    {
+      "inBounds": true,
+      "text": "Level 3b",
+      "topmost": true
+    },
+    {
+      "inBounds": true,
+      "text": "Level 2a",
+      "topmost": true
+    },
+    {
+      "inBounds": true,
+      "text": "Level 2b",
+      "topmost": true
+    }
+  ],
+  "mobileMenu": {
+    "closeAboveSearch": true,
+    "open": true,
+    "focusAfterEscape": "Open menu"
+  },
+  "search": {
+    "inputFocused": true,
+    "navHidden": true,
+    "overflow": 0
+  }
+}

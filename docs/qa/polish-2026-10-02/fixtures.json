@@ -1,0 +1,87 @@
+{
+  "owner": "polish-2026-10-02",
+  "author": 1,
+  "categories": [
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207
+  ],
+  "fixtures": {
+    "one-category": {
+      "id": 1879,
+      "url": "http://localhost:8089/wl-polish-one-category/",
+      "categories": 1,
+      "comments": "closed"
+    },
+    "four-categories": {
+      "id": 1880,
+      "url": "http://localhost:8089/wl-polish-four-categories/",
+      "categories": 4,
+      "comments": "open"
+    },
+    "seven-categories": {
+      "id": 1881,
+      "url": "http://localhost:8089/wl-polish-seven-categories/",
+      "categories": 7,
+      "comments": "closed"
+    },
+    "brief-title": {
+      "id": 1882,
+      "url": "http://localhost:8089/wl-polish-brief-title/",
+      "categories": 1,
+      "comments": "closed"
+    },
+    "long-title": {
+      "id": 1883,
+      "url": "http://localhost:8089/wl-polish-long-title/",
+      "categories": 1,
+      "comments": "closed"
+    },
+    "unbroken-title": {
+      "id": 1884,
+      "url": "http://localhost:8089/wl-polish-unbroken-title/",
+      "categories": 1,
+      "comments": "closed"
+    },
+    "no-featured-image": {
+      "id": 1885,
+      "url": "http://localhost:8089/wl-polish-no-featured-image/",
+      "categories": 4,
+      "comments": "closed"
+    },
+    "patterns-normal": {
+      "id": 1886,
+      "url": "http://localhost:8089/wl-polish-patterns-normal/",
+      "categories": 0,
+      "comments": "closed"
+    },
+    "patterns-column-320": {
+      "id": 1887,
+      "url": "http://localhost:8089/wl-polish-patterns-column-320/",
+      "categories": 0,
+      "comments": "closed"
+    },
+    "patterns-column-600": {
+      "id": 1888,
+      "url": "http://localhost:8089/wl-polish-patterns-column-600/",
+      "categories": 0,
+      "comments": "closed"
+    },
+    "page-comments": {
+      "id": 1889,
+      "url": "http://localhost:8089/wl-polish-page-comments/",
+      "categories": 0,
+      "comments": "open"
+    },
+    "short-page": {
+      "id": 1890,
+      "url": "http://localhost:8089/wl-polish-short-page/",
+      "categories": 0,
+      "comments": "closed"
+    }
+  }
+}

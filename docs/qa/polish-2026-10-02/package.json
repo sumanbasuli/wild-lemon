@@ -1,0 +1,386 @@
+{
+  "qa_date": "2026-10-02",
+  "theme_version": "1.3",
+  "host_php": "8.5.3",
+  "php_lint": [
+    {
+      "file": "functions.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/archive-header.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/author-bio.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/author-header.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/comments.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/editorial-introduction.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/featured-quotation.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/footer-compact.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/footer.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/header.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/hidden-404.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/hidden-no-posts.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/hidden-no-results.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/hidden-reading-time.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/home-archive-list.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/home-latest.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/home-topics.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/photo-essay.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/query-list.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/seasonal-table.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/slow-weekend.php",
+      "pass": true
+    },
+    {
+      "file": "patterns/two-column-notes.php",
+      "pass": true
+    }
+  ],
+  "theme_json_valid": true,
+  "archive": "build/wild-lemon-1.3.zip",
+  "sha256": "02e7d7f6cbff6b4f76c5d0898f383970eed64705b4b916c5391ab967cf4cc23e",
+  "zip_integrity": true,
+  "package_files": 46,
+  "required_files_present": true,
+  "development_files_excluded": true,
+  "all_files_match_source": true,
+  "theme_check": {
+    "errors": 0,
+    "warnings": 0,
+    "informational": 2
+  },
+  "files": [
+    {
+      "file": "functions.php",
+      "sha256": "552adb1a8e4b04d7c639ab790b3278609bbf00e8f801d2c2e3c7c07305b98688",
+      "bytes": 7518,
+      "matches_source": true
+    },
+    {
+      "file": "theme.json",
+      "sha256": "ef266d073512222dae31159dd8bafe4a39ca3ce515a151f91b0e412bf328e8d6",
+      "bytes": 9051,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/featured-quotation.php",
+      "sha256": "c77c15c114c16d09156b9abe558219677a911648db22414b3d7fa57813a48b62",
+      "bytes": 988,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/hidden-no-posts.php",
+      "sha256": "fc60a591b5f1b5860a1ab6b13bd8994eb4d07d809205900a6ab06e3d74bf8c38",
+      "bytes": 436,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/archive-header.php",
+      "sha256": "390bdcd55cb662898f83b39c83a770ead89a45401c34727094c19b26a98217b0",
+      "bytes": 1756,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/comments.php",
+      "sha256": "5caaee84afe600e62f7e9550315171ea6511b73d6cea1277475dc4e2729fbb13",
+      "bytes": 2420,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/seasonal-table.php",
+      "sha256": "71d81a1136269b807e79e809a89578d148bcfe1c767fc3bad647c8167ccb8e63",
+      "bytes": 3096,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/editorial-introduction.php",
+      "sha256": "3091ea6c194ff020b2a081f64da56ae3e8d135b9b6d359bc4c9fb9e54993fb93",
+      "bytes": 2246,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/home-latest.php",
+      "sha256": "a5f130804d5c8363a1d64ef838570f26987924d7736f0677d7a4720df720c528",
+      "bytes": 3263,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/hidden-404.php",
+      "sha256": "362ee1afce7427179df001309b5a7a89eb09b8bb610f0c11f2a985ad88db3bb8",
+      "bytes": 7028,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/home-archive-list.php",
+      "sha256": "93f1f2858738ac3c4f5fc7b10a9d5bb4245e8aeb31305352b5a864df77d758db",
+      "bytes": 2858,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/header.php",
+      "sha256": "990b8b7b90975574e82c8941071cc56f535b6a6b2af181be422c261417d8d633",
+      "bytes": 1678,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/hidden-reading-time.php",
+      "sha256": "2cb98af2a0b522df319f0f586b371498e998703ffa8192cfb56c25ec454eb375",
+      "bytes": 530,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/query-list.php",
+      "sha256": "8cd980a8665a140adef9a5abbcec2a76c14e328f5e79ff959ab4422d5a2e76d6",
+      "bytes": 3355,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/photo-essay.php",
+      "sha256": "42211c17e941cc61f16cc08076ec5b1123c0c245d5e2b8def8e660b136b0b0e3",
+      "bytes": 2628,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/footer.php",
+      "sha256": "6a9597925c548c6543625ae3b44456f2d4632199a03cb5e32bb3c30224f6c509",
+      "bytes": 5102,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/home-topics.php",
+      "sha256": "2e952760100497b4fd5e3e8661b94c965b5cba79640d1f686bb9892f714e2084",
+      "bytes": 1502,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/author-bio.php",
+      "sha256": "88e9a6667ad69e7b4a0606284b0b1d354e31043435826ffed101a23ed2a51c39",
+      "bytes": 1752,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/footer-compact.php",
+      "sha256": "b19e38eac588b4490e35633716662f8ea9e460edc6adbc49b84d3b38b879a074",
+      "bytes": 1744,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/two-column-notes.php",
+      "sha256": "4cc675472f93a043cc4a77e85b407fbe2234f21ba319d8ee6ac8bb8e13f72bc9",
+      "bytes": 2287,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/hidden-no-results.php",
+      "sha256": "52790583a4a8a45998c6d2e067553aac6117326a4a6a01ff8d067736e103715c",
+      "bytes": 1533,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/author-header.php",
+      "sha256": "c9580532779f660df0e5e0496418342515cb02e37e35634a206472d42b9bf51b",
+      "bytes": 1977,
+      "matches_source": true
+    },
+    {
+      "file": "patterns/slow-weekend.php",
+      "sha256": "ba9454d2858c5e3c1f7c794de36d424a100561a181fa00223620c275261f7284",
+      "bytes": 2899,
+      "matches_source": true
+    },
+    {
+      "file": "screenshot.png",
+      "sha256": "f95996e876b994f51a42a5d45fc6a8d815d9113c3bda215dc54dbd043fa9ce80",
+      "bytes": 139127,
+      "matches_source": true
+    },
+    {
+      "file": "style.css",
+      "sha256": "557566d83e27114400e783209197feabff8b05fef9556beb770ebd3803084354",
+      "bytes": 31868,
+      "matches_source": true
+    },
+    {
+      "file": "parts/footer-compact.html",
+      "sha256": "e8152d8b5cdfa0ea21dc9d781316b4ebabfbab10d32e6d958149977bfaec609c",
+      "bytes": 58,
+      "matches_source": true
+    },
+    {
+      "file": "parts/footer.html",
+      "sha256": "0657a054fc5dce9116168c9b4f04f023d6372c33b70c47f5cdb061e46b81867d",
+      "bytes": 50,
+      "matches_source": true
+    },
+    {
+      "file": "parts/header.html",
+      "sha256": "67d38b82d49ba11a5f537b1315807cb8bade21af4a2540d1f59b7cd763a9def6",
+      "bytes": 50,
+      "matches_source": true
+    },
+    {
+      "file": "templates/single.html",
+      "sha256": "0af573779742caa77053fce8d9371534855b59de30dfe58c45fa36feb4ea8d5e",
+      "bytes": 3320,
+      "matches_source": true
+    },
+    {
+      "file": "templates/page.html",
+      "sha256": "ca3f70931964a3d5ae544258fa807556cb10d8edc3b9741634b4b3973062dae9",
+      "bytes": 1238,
+      "matches_source": true
+    },
+    {
+      "file": "templates/index.html",
+      "sha256": "26798667b5d45c0644f37e107d975ce1c94360550731ade445e34c90b715182b",
+      "bytes": 481,
+      "matches_source": true
+    },
+    {
+      "file": "templates/home.html",
+      "sha256": "8b3c9a71e81a560eaf5704ba869b35002a15970c7ab9db67aa31771a3cb82bf1",
+      "bytes": 3776,
+      "matches_source": true
+    },
+    {
+      "file": "templates/404.html",
+      "sha256": "b565c23e0d175185c83184e5d0f2126da03bb753ddb7c58b9e907c86003f4b49",
+      "bytes": 388,
+      "matches_source": true
+    },
+    {
+      "file": "templates/author.html",
+      "sha256": "63885458db4832f17f63a2fca894610d4a8ee7d779d5c0b95150487db1711983",
+      "bytes": 447,
+      "matches_source": true
+    },
+    {
+      "file": "templates/search.html",
+      "sha256": "daef4de27ca2af928f2f3197df90e2ace1bff8bf09c7c38478d4ffd948629a72",
+      "bytes": 1484,
+      "matches_source": true
+    },
+    {
+      "file": "templates/archive.html",
+      "sha256": "492ae9a4978c4d034e8871c608f1b18173ce5cfc59b75e4ef9d6b5f8f57b4f98",
+      "bytes": 448,
+      "matches_source": true
+    },
+    {
+      "file": "readme.txt",
+      "sha256": "f70c212e804819d27af2cb158faf687ea85357fe1ee416fef70d53d2f7742c79",
+      "bytes": 5350,
+      "matches_source": true
+    },
+    {
+      "file": "accessibility.txt",
+      "sha256": "45eafa9d936fd52bc6461958825695674073737e46db75abbc829ca9fef250cc",
+      "bytes": 2770,
+      "matches_source": true
+    },
+    {
+      "file": "assets/images/seasonal-table.webp",
+      "sha256": "d0fd436061a4d7cd9cb6628bc7126a0b8eb0e517d7a99b886b2760694f2b0b0d",
+      "bytes": 280130,
+      "matches_source": true
+    },
+    {
+      "file": "assets/images/quiet-notebook.webp",
+      "sha256": "20a70a55382407ee69aadde6fcaf64853c26efdba70cd3eaf0ed81fd6275e52e",
+      "bytes": 173906,
+      "matches_source": true
+    },
+    {
+      "file": "assets/images/citrus-still-life.webp",
+      "sha256": "88805e1b50213e19e15e673007d17212ebfa69e42426843f731e2771e32ec923",
+      "bytes": 220236,
+      "matches_source": true
+    },
+    {
+      "file": "assets/images/garden-walk.webp",
+      "sha256": "043a11f2fe7c7894960703a08e4a36e049f77943450221eb134df6376bc5b0b3",
+      "bytes": 420642,
+      "matches_source": true
+    },
+    {
+      "file": "assets/fonts/newsreader-normal.woff2",
+      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a",
+      "bytes": 131848,
+      "matches_source": true
+    },
+    {
+      "file": "assets/fonts/newsreader-italic.woff2",
+      "sha256": "a99fb127682b9af538780d21420037452197b0d37dfd273eb108f8a3665d5501",
+      "bytes": 147060,
+      "matches_source": true
+    },
+    {
+      "file": "assets/fonts/schibsted-grotesk-normal.woff2",
+      "sha256": "e3b56e90510a84ac0ed465b822e112983eaf58e37436bf769681c31f77b1f3a7",
+      "bytes": 46864,
+      "matches_source": true
+    },
+    {
+      "file": "assets/fonts/schibsted-grotesk-italic.woff2",
+      "sha256": "c0aab3a5acaeb1f04246c8131f6840862aebe8048cd8015f578c149db0d873d4",
+      "bytes": 50160,
+      "matches_source": true
+    }
+  ]
+}

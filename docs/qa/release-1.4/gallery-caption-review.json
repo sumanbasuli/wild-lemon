@@ -1,0 +1,354 @@
+{
+  "method": "Loaded native gallery captions: computed foreground/gradient stops establish the conservative worst-case contrast bound over a white image. All stops remain black with alpha >=0.65, foreground opaque white. Typography and box geometry are compared with retained baseline. Text Range rectangles verify glyphs remain inside caption; core overflow:auto may include bottom padding without clipping text. No source or content edits.",
+  "cases": [
+    {
+      "captions": [
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "imageLoaded": true,
+          "overflowBehavior": "auto",
+          "padding": "13px",
+          "rect": {
+            "height": 70.1875,
+            "width": 124,
+            "x": 24,
+            "y": 421.625
+          },
+          "scrollOverflow": {
+            "x": 0,
+            "y": 0
+          },
+          "text": "The long way home.",
+          "textInsideCaption": true,
+          "textRects": [
+            {
+              "bottom": 453.625,
+              "left": 59.8125,
+              "right": 112.1875,
+              "top": 437.625
+            },
+            {
+              "bottom": 475.71875,
+              "left": 53.5,
+              "right": 118.5,
+              "top": 459.71875
+            }
+          ],
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "gradientBlackAlphaStops": [
+            0.85,
+            0.65
+          ],
+          "conservativeContrastOverWhiteImage": 6.98,
+          "fontPaddingGeometryUnchanged": true
+        },
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "imageLoaded": true,
+          "overflowBehavior": "auto",
+          "padding": "13px",
+          "rect": {
+            "height": 82.65625,
+            "width": 124,
+            "x": 172,
+            "y": 409.15625
+          },
+          "scrollOverflow": {
+            "x": 0,
+            "y": 9
+          },
+          "text": "A few lines before the light goes.",
+          "textInsideCaption": true,
+          "textRects": [
+            {
+              "bottom": 441.15625,
+              "left": 201.03125,
+              "right": 266.953125,
+              "top": 425.15625
+            },
+            {
+              "bottom": 463.25,
+              "left": 202.96875,
+              "right": 265.015625,
+              "top": 447.25
+            },
+            {
+              "bottom": 485.34375,
+              "left": 203.140625,
+              "right": 264.859375,
+              "top": 469.34375
+            }
+          ],
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "gradientBlackAlphaStops": [
+            0.85,
+            0.65
+          ],
+          "conservativeContrastOverWhiteImage": 6.98,
+          "fontPaddingGeometryUnchanged": true,
+          "verticalOverflowAssessment": "Existing core padding overflow; all text rectangles remain visible inside caption."
+        }
+      ],
+      "pageOverflow": 0,
+      "width": 320,
+      "path": "/wl-polish-four-categories/",
+      "screenshot": "docs/qa/release-1.4/gallery-caption-after-320.png"
+    },
+    {
+      "captions": [
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "imageLoaded": true,
+          "overflowBehavior": "auto",
+          "padding": "13px",
+          "rect": {
+            "height": 70.1875,
+            "width": 124,
+            "x": 24,
+            "y": 421
+          },
+          "scrollOverflow": {
+            "x": 0,
+            "y": 0
+          },
+          "text": "The long way home.",
+          "textInsideCaption": true,
+          "textRects": [
+            {
+              "bottom": 453,
+              "left": 59.8125,
+              "right": 112.1875,
+              "top": 437
+            },
+            {
+              "bottom": 475.09375,
+              "left": 53.5,
+              "right": 118.5,
+              "top": 459.09375
+            }
+          ],
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "gradientBlackAlphaStops": [
+            0.85,
+            0.65
+          ],
+          "conservativeContrastOverWhiteImage": 6.98,
+          "fontPaddingGeometryUnchanged": true
+        },
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "imageLoaded": true,
+          "overflowBehavior": "auto",
+          "padding": "13px",
+          "rect": {
+            "height": 82.65625,
+            "width": 124,
+            "x": 172,
+            "y": 408.53125
+          },
+          "scrollOverflow": {
+            "x": 0,
+            "y": 9
+          },
+          "text": "A few lines before the light goes.",
+          "textInsideCaption": true,
+          "textRects": [
+            {
+              "bottom": 440.53125,
+              "left": 201.03125,
+              "right": 266.953125,
+              "top": 424.53125
+            },
+            {
+              "bottom": 462.625,
+              "left": 202.96875,
+              "right": 265.015625,
+              "top": 446.625
+            },
+            {
+              "bottom": 484.71875,
+              "left": 203.140625,
+              "right": 264.859375,
+              "top": 468.71875
+            }
+          ],
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "gradientBlackAlphaStops": [
+            0.85,
+            0.65
+          ],
+          "conservativeContrastOverWhiteImage": 6.98,
+          "fontPaddingGeometryUnchanged": true,
+          "verticalOverflowAssessment": "Existing core padding overflow; all text rectangles remain visible inside caption."
+        }
+      ],
+      "pageOverflow": 0,
+      "width": 320,
+      "path": "/wl-polish-seven-categories/"
+    },
+    {
+      "captions": [
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "imageLoaded": true,
+          "overflowBehavior": "auto",
+          "padding": "13px",
+          "rect": {
+            "height": 48.09375,
+            "width": 328,
+            "x": 380,
+            "y": 510.984375
+          },
+          "scrollOverflow": {
+            "x": 0,
+            "y": 0
+          },
+          "text": "The long way home.",
+          "textInsideCaption": true,
+          "textRects": [
+            {
+              "bottom": 542.984375,
+              "left": 483.65625,
+              "right": 604.34375,
+              "top": 526.984375
+            }
+          ],
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "gradientBlackAlphaStops": [
+            0.85,
+            0.65
+          ],
+          "conservativeContrastOverWhiteImage": 6.98,
+          "fontPaddingGeometryUnchanged": true
+        },
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "imageLoaded": true,
+          "overflowBehavior": "auto",
+          "padding": "13px",
+          "rect": {
+            "height": 48.09375,
+            "width": 328,
+            "x": 732,
+            "y": 510.984375
+          },
+          "scrollOverflow": {
+            "x": 0,
+            "y": 0
+          },
+          "text": "A few lines before the light goes.",
+          "textInsideCaption": true,
+          "textRects": [
+            {
+              "bottom": 542.984375,
+              "left": 797.859375,
+              "right": 994.125,
+              "top": 526.984375
+            }
+          ],
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "gradientBlackAlphaStops": [
+            0.85,
+            0.65
+          ],
+          "conservativeContrastOverWhiteImage": 6.98,
+          "fontPaddingGeometryUnchanged": true
+        }
+      ],
+      "pageOverflow": 0,
+      "width": 1440,
+      "path": "/wl-polish-four-categories/",
+      "screenshot": "docs/qa/release-1.4/gallery-caption-after-1440.png"
+    },
+    {
+      "captions": [
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "imageLoaded": true,
+          "overflowBehavior": "auto",
+          "padding": "13px",
+          "rect": {
+            "height": 48.09375,
+            "width": 328,
+            "x": 380,
+            "y": 511.265625
+          },
+          "scrollOverflow": {
+            "x": 0,
+            "y": 0
+          },
+          "text": "The long way home.",
+          "textInsideCaption": true,
+          "textRects": [
+            {
+              "bottom": 543.265625,
+              "left": 483.65625,
+              "right": 604.34375,
+              "top": 527.265625
+            }
+          ],
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "gradientBlackAlphaStops": [
+            0.85,
+            0.65
+          ],
+          "conservativeContrastOverWhiteImage": 6.98,
+          "fontPaddingGeometryUnchanged": true
+        },
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "imageLoaded": true,
+          "overflowBehavior": "auto",
+          "padding": "13px",
+          "rect": {
+            "height": 48.09375,
+            "width": 328,
+            "x": 732,
+            "y": 511.265625
+          },
+          "scrollOverflow": {
+            "x": 0,
+            "y": 0
+          },
+          "text": "A few lines before the light goes.",
+          "textInsideCaption": true,
+          "textRects": [
+            {
+              "bottom": 543.265625,
+              "left": 797.859375,
+              "right": 994.125,
+              "top": 527.265625
+            }
+          ],
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "gradientBlackAlphaStops": [
+            0.85,
+            0.65
+          ],
+          "conservativeContrastOverWhiteImage": 6.98,
+          "fontPaddingGeometryUnchanged": true
+        }
+      ],
+      "pageOverflow": 0,
+      "width": 1440,
+      "path": "/wl-polish-seven-categories/"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,6 @@
+{
+    "wordpress": "7.1.2",
+    "php": "8.3.35",
+    "home": "http:\/\/localhost:8089",
+    "theme_check": "20260901"
+}

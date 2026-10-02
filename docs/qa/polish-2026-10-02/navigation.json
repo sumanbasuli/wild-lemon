@@ -1,0 +1,1040 @@
+{
+  "desktop": [
+    {
+      "width": 901,
+      "links": [
+        {
+          "bottom": 153.71875,
+          "inBounds": true,
+          "left": 396.234375,
+          "right": 580.0625,
+          "text": "Level 2",
+          "top": 116.1875,
+          "topmost": true
+        },
+        {
+          "bottom": 153.71875,
+          "inBounds": true,
+          "left": 597.234375,
+          "right": 797.234375,
+          "text": "Level 3",
+          "top": 116.1875,
+          "topmost": true
+        },
+        {
+          "bottom": 191.25,
+          "inBounds": true,
+          "left": 597.234375,
+          "right": 797.234375,
+          "text": "Level 3a",
+          "top": 153.71875,
+          "topmost": true
+        },
+        {
+          "bottom": 228.78125,
+          "inBounds": true,
+          "left": 597.234375,
+          "right": 797.234375,
+          "text": "Level 3b",
+          "top": 191.25,
+          "topmost": true
+        },
+        {
+          "bottom": 191.25,
+          "inBounds": true,
+          "left": 396.234375,
+          "right": 596.234375,
+          "text": "Level 2a",
+          "top": 153.71875,
+          "topmost": true
+        },
+        {
+          "bottom": 228.78125,
+          "inBounds": true,
+          "left": 396.234375,
+          "right": 596.234375,
+          "text": "Level 2b",
+          "top": 191.25,
+          "topmost": true
+        }
+      ],
+      "pageOverflow": 0
+    },
+    {
+      "width": 939,
+      "links": [
+        {
+          "bottom": 154.578125,
+          "inBounds": true,
+          "left": 399.09375,
+          "right": 582.859375,
+          "text": "Level 2",
+          "top": 116.921875,
+          "topmost": true
+        },
+        {
+          "bottom": 154.578125,
+          "inBounds": true,
+          "left": 600.09375,
+          "right": 800.09375,
+          "text": "Level 3",
+          "top": 116.921875,
+          "topmost": true
+        },
+        {
+          "bottom": 192.234375,
+          "inBounds": true,
+          "left": 600.09375,
+          "right": 800.09375,
+          "text": "Level 3a",
+          "top": 154.578125,
+          "topmost": true
+        },
+        {
+          "bottom": 229.890625,
+          "inBounds": true,
+          "left": 600.09375,
+          "right": 800.09375,
+          "text": "Level 3b",
+          "top": 192.234375,
+          "topmost": true
+        },
+        {
+          "bottom": 192.234375,
+          "inBounds": true,
+          "left": 399.09375,
+          "right": 599.09375,
+          "text": "Level 2a",
+          "top": 154.578125,
+          "topmost": true
+        },
+        {
+          "bottom": 229.890625,
+          "inBounds": true,
+          "left": 399.09375,
+          "right": 599.09375,
+          "text": "Level 2b",
+          "top": 192.234375,
+          "topmost": true
+        }
+      ],
+      "pageOverflow": 0
+    },
+    {
+      "width": 1024,
+      "links": [
+        {
+          "bottom": 156.515625,
+          "inBounds": true,
+          "left": 405.421875,
+          "right": 589.0625,
+          "text": "Level 2",
+          "top": 118.59375,
+          "topmost": true
+        },
+        {
+          "bottom": 156.515625,
+          "inBounds": true,
+          "left": 606.421875,
+          "right": 806.421875,
+          "text": "Level 3",
+          "top": 118.59375,
+          "topmost": true
+        },
+        {
+          "bottom": 194.4375,
+          "inBounds": true,
+          "left": 606.421875,
+          "right": 806.421875,
+          "text": "Level 3a",
+          "top": 156.515625,
+          "topmost": true
+        },
+        {
+          "bottom": 232.359375,
+          "inBounds": true,
+          "left": 606.421875,
+          "right": 806.421875,
+          "text": "Level 3b",
+          "top": 194.4375,
+          "topmost": true
+        },
+        {
+          "bottom": 194.4375,
+          "inBounds": true,
+          "left": 405.421875,
+          "right": 605.421875,
+          "text": "Level 2a",
+          "top": 156.515625,
+          "topmost": true
+        },
+        {
+          "bottom": 232.359375,
+          "inBounds": true,
+          "left": 405.421875,
+          "right": 605.421875,
+          "text": "Level 2b",
+          "top": 194.4375,
+          "topmost": true
+        }
+      ],
+      "pageOverflow": 0
+    },
+    {
+      "width": 1440,
+      "links": [
+        {
+          "bottom": 92.875,
+          "inBounds": true,
+          "left": 940.375,
+          "right": 1123.875,
+          "text": "Level 2",
+          "top": 54.625,
+          "topmost": true
+        },
+        {
+          "bottom": 92.875,
+          "inBounds": true,
+          "left": 1141.375,
+          "right": 1341.375,
+          "text": "Level 3",
+          "top": 54.625,
+          "topmost": true
+        },
+        {
+          "bottom": 131.125,
+          "inBounds": true,
+          "left": 1141.375,
+          "right": 1341.375,
+          "text": "Level 3a",
+          "top": 92.875,
+          "topmost": true
+        },
+        {
+          "bottom": 169.375,
+          "inBounds": true,
+          "left": 1141.375,
+          "right": 1341.375,
+          "text": "Level 3b",
+          "top": 131.125,
+          "topmost": true
+        },
+        {
+          "bottom": 131.125,
+          "inBounds": true,
+          "left": 940.375,
+          "right": 1140.375,
+          "text": "Level 2a",
+          "top": 92.875,
+          "topmost": true
+        },
+        {
+          "bottom": 169.375,
+          "inBounds": true,
+          "left": 940.375,
+          "right": 1140.375,
+          "text": "Level 2b",
+          "top": 131.125,
+          "topmost": true
+        }
+      ],
+      "pageOverflow": 0
+    }
+  ],
+  "clickedChild": "http://localhost:8089/level-1/level-2/level-3b/",
+  "mobile": [
+    {
+      "width": 320,
+      "aboveSearch": true,
+      "focusables": 19,
+      "links": 18,
+      "open": true,
+      "forward": [
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        },
+        {
+          "inMenu": true,
+          "text": "About The Tests"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Image Alignment"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Markup And Formatting"
+        },
+        {
+          "inMenu": true,
+          "text": "Clearing Floats"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments disabled"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 1"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2b"
+        },
+        {
+          "inMenu": true,
+          "text": "Lorem Ipsum"
+        },
+        {
+          "inMenu": true,
+          "text": "Page A"
+        },
+        {
+          "inMenu": true,
+          "text": "Page B"
+        },
+        {
+          "inMenu": true,
+          "text": "Close menu"
+        },
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        },
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        }
+      ],
+      "reverse": [
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        },
+        {
+          "inMenu": true,
+          "text": "Close menu"
+        },
+        {
+          "inMenu": true,
+          "text": "Page B"
+        },
+        {
+          "inMenu": true,
+          "text": "Page A"
+        },
+        {
+          "inMenu": true,
+          "text": "Lorem Ipsum"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 1"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments disabled"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments"
+        },
+        {
+          "inMenu": true,
+          "text": "Clearing Floats"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Markup And Formatting"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Image Alignment"
+        },
+        {
+          "inMenu": true,
+          "text": "About The Tests"
+        },
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        },
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        }
+      ],
+      "closed": {
+        "focus": "Open menu",
+        "open": false,
+        "overflow": 0
+      }
+    },
+    {
+      "width": 390,
+      "aboveSearch": true,
+      "focusables": 19,
+      "links": 18,
+      "open": true,
+      "forward": [
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        },
+        {
+          "inMenu": true,
+          "text": "About The Tests"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Image Alignment"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Markup And Formatting"
+        },
+        {
+          "inMenu": true,
+          "text": "Clearing Floats"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments disabled"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 1"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2b"
+        },
+        {
+          "inMenu": true,
+          "text": "Lorem Ipsum"
+        },
+        {
+          "inMenu": true,
+          "text": "Page A"
+        },
+        {
+          "inMenu": true,
+          "text": "Page B"
+        },
+        {
+          "inMenu": true,
+          "text": "Close menu"
+        },
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        },
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        }
+      ],
+      "reverse": [
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        },
+        {
+          "inMenu": true,
+          "text": "Close menu"
+        },
+        {
+          "inMenu": true,
+          "text": "Page B"
+        },
+        {
+          "inMenu": true,
+          "text": "Page A"
+        },
+        {
+          "inMenu": true,
+          "text": "Lorem Ipsum"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 1"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments disabled"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments"
+        },
+        {
+          "inMenu": true,
+          "text": "Clearing Floats"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Markup And Formatting"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Image Alignment"
+        },
+        {
+          "inMenu": true,
+          "text": "About The Tests"
+        },
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        },
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        }
+      ],
+      "closed": {
+        "focus": "Open menu",
+        "open": false,
+        "overflow": 0
+      }
+    },
+    {
+      "width": 768,
+      "aboveSearch": true,
+      "focusables": 19,
+      "links": 18,
+      "open": true,
+      "forward": [
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        },
+        {
+          "inMenu": true,
+          "text": "About The Tests"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Image Alignment"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Markup And Formatting"
+        },
+        {
+          "inMenu": true,
+          "text": "Clearing Floats"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments disabled"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 1"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2b"
+        },
+        {
+          "inMenu": true,
+          "text": "Lorem Ipsum"
+        },
+        {
+          "inMenu": true,
+          "text": "Page A"
+        },
+        {
+          "inMenu": true,
+          "text": "Page B"
+        },
+        {
+          "inMenu": true,
+          "text": "Close menu"
+        },
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        },
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        }
+      ],
+      "reverse": [
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        },
+        {
+          "inMenu": true,
+          "text": "Close menu"
+        },
+        {
+          "inMenu": true,
+          "text": "Page B"
+        },
+        {
+          "inMenu": true,
+          "text": "Page A"
+        },
+        {
+          "inMenu": true,
+          "text": "Lorem Ipsum"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 1"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments disabled"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments"
+        },
+        {
+          "inMenu": true,
+          "text": "Clearing Floats"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Markup And Formatting"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Image Alignment"
+        },
+        {
+          "inMenu": true,
+          "text": "About The Tests"
+        },
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        },
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        }
+      ],
+      "closed": {
+        "focus": "Open menu",
+        "open": false,
+        "overflow": 0
+      }
+    },
+    {
+      "width": 900,
+      "aboveSearch": true,
+      "focusables": 19,
+      "links": 18,
+      "open": true,
+      "forward": [
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        },
+        {
+          "inMenu": true,
+          "text": "About The Tests"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Image Alignment"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Markup And Formatting"
+        },
+        {
+          "inMenu": true,
+          "text": "Clearing Floats"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments disabled"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 1"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2b"
+        },
+        {
+          "inMenu": true,
+          "text": "Lorem Ipsum"
+        },
+        {
+          "inMenu": true,
+          "text": "Page A"
+        },
+        {
+          "inMenu": true,
+          "text": "Page B"
+        },
+        {
+          "inMenu": true,
+          "text": "Close menu"
+        },
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        },
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        }
+      ],
+      "reverse": [
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        },
+        {
+          "inMenu": true,
+          "text": "Close menu"
+        },
+        {
+          "inMenu": true,
+          "text": "Page B"
+        },
+        {
+          "inMenu": true,
+          "text": "Page A"
+        },
+        {
+          "inMenu": true,
+          "text": "Lorem Ipsum"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3b"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3a"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 3"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 2"
+        },
+        {
+          "inMenu": true,
+          "text": "Level 1"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments disabled"
+        },
+        {
+          "inMenu": true,
+          "text": "Page with comments"
+        },
+        {
+          "inMenu": true,
+          "text": "Clearing Floats"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Markup And Formatting"
+        },
+        {
+          "inMenu": true,
+          "text": "Page Image Alignment"
+        },
+        {
+          "inMenu": true,
+          "text": "About The Tests"
+        },
+        {
+          "inMenu": true,
+          "text": "Front Page"
+        },
+        {
+          "inMenu": true,
+          "text": "a Blog page"
+        }
+      ],
+      "closed": {
+        "focus": "Open menu",
+        "open": false,
+        "overflow": 0
+      }
+    }
+  ],
+  "search": [
+    {
+      "width": 320,
+      "before": {
+        "height": 79,
+        "top": 0
+      },
+      "open": {
+        "focused": true,
+        "height": 79,
+        "navHidden": true,
+        "overflow": 0,
+        "top": 0
+      },
+      "closed": {
+        "focus": "Expand search field",
+        "hidden": true
+      }
+    },
+    {
+      "width": 390,
+      "before": {
+        "height": 77,
+        "top": 0
+      },
+      "open": {
+        "focused": true,
+        "height": 77,
+        "navHidden": true,
+        "overflow": 0,
+        "top": 0
+      },
+      "closed": {
+        "focus": "Expand search field",
+        "hidden": true
+      }
+    },
+    {
+      "width": 901,
+      "before": {
+        "height": 146.78125,
+        "top": 0
+      },
+      "open": {
+        "focused": true,
+        "height": 146.78125,
+        "navHidden": true,
+        "overflow": 0,
+        "top": 0
+      },
+      "closed": {
+        "focus": "Expand search field",
+        "hidden": true
+      }
+    },
+    {
+      "width": 1440,
+      "before": {
+        "height": 85,
+        "top": 0
+      },
+      "open": {
+        "focused": true,
+        "height": 85,
+        "navHidden": true,
+        "overflow": 0,
+        "top": 0
+      },
+      "closed": {
+        "focus": "Expand search field",
+        "hidden": true
+      }
+    }
+  ],
+  "submittedSearch": {
+    "heading": "Search results for: “markup”",
+    "posts": 5,
+    "url": "http://localhost:8089/?s=markup"
+  },
+  "loggedInMobile": {
+    "adminBar": true,
+    "closeOnTop": true,
+    "closeRect": {
+      "height": 44,
+      "width": 44,
+      "x": 307,
+      "y": 75.75286102294922
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "qa_date": "2026-10-02",
+  "scope": "Final frozen Wild Lemon 1.4 clean-package release gates",
+  "wordpress": "7.1.2",
+  "frontend_php": "8.3.35",
+  "theme_version": "1.4",
+  "php_lint_files": 22,
+  "php_lint_pass": true,
+  "host_php": "8.5.3",
+  "host_php_lint_pass": true,
+  "theme_json_valid": true,
+  "native_block_structure_cases": 32,
+  "native_block_structure_pass": true,
+  "relevant_structure": {
+    "author_archive_wrapper": true,
+    "author_archive_native_biography": true,
+    "single_native_biography_pattern": true,
+    "single_category_wrapper": true,
+    "404_native_no_results": true,
+    "404_native_date_permalink": true
+  },
+  "native_404_cases": [
+    {
+      "case": "empty",
+      "rows": 0,
+      "empty_message": true,
+      "date_links": 0,
+      "pagination": 0,
+      "pass": true
+    },
+    {
+      "case": "untitled",
+      "rows": 1,
+      "empty_message": false,
+      "date_links": 1,
+      "pagination": 0,
+      "pass": true
+    }
+  ],
+  "theme_check": {
+    "version": "20260901",
+    "errors": 0,
+    "warnings": 0,
+    "informational": 2
+  },
+  "package_files": 46,
+  "package_matches_source": true,
+  "zip_sha256": "b0148fa9958e46052762c401586d3d5afc6f5d5c843b02e5e836eca1434b39d6",
+  "clean_package_cli_mount": true,
+  "pagination_fixture_leftovers": 0,
+  "debug_log_present": false,
+  "debug_log_bytes": 0,
+  "content_or_profile_mutated": false,
+  "source_sha256": {
+    "style.css": "2788101af528fe412d1d83556fae21ba1e2ac7cd64ecea1fbcdc595798bcb4ce",
+    "patterns/author-header.php": "0ee5410446f972ab27a5010401e4106a6a38e627e5e3d392053eca846361de59",
+    "patterns/author-bio.php": "88e9a6667ad69e7b4a0606284b0b1d354e31043435826ffed101a23ed2a51c39",
+    "patterns/hidden-404.php": "362ee1afce7427179df001309b5a7a89eb09b8bb610f0c11f2a985ad88db3bb8",
+    "templates/single.html": "0af573779742caa77053fce8d9371534855b59de30dfe58c45fa36feb4ea8d5e",
+    "functions.php": "552adb1a8e4b04d7c639ab790b3278609bbf00e8f801d2c2e3c7c07305b98688",
+    "theme.json": "ef266d073512222dae31159dd8bafe4a39ca3ce515a151f91b0e412bf328e8d6"
+  },
+  "limitations": [
+    "Native block parsing verifies registered block structure and server parse/serialization, not full client-side block validity.",
+    "Theme Check is an automated release gate and does not constitute WordPress.org approval or accessibility certification."
+  ]
+}

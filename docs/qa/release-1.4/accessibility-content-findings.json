@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/markup-html-tags-and-formatting/",
+    "width": 320,
+    "rule": "empty-table-header",
+    "classification": "official fixture content"
+  },
+  {
+    "path": "/template-comments/comment-page-1/",
+    "width": 320,
+    "rule": "empty-table-header",
+    "classification": "official fixture content"
+  },
+  {
+    "path": "/edge-case-no-title/",
+    "width": 320,
+    "rule": "page-has-heading-one",
+    "classification": "official fixture content"
+  },
+  {
+    "path": "/markup-html-tags-and-formatting/",
+    "width": 1440,
+    "rule": "empty-table-header",
+    "classification": "official fixture content"
+  },
+  {
+    "path": "/template-comments/comment-page-1/",
+    "width": 1440,
+    "rule": "empty-table-header",
+    "classification": "official fixture content"
+  },
+  {
+    "path": "/edge-case-no-title/",
+    "width": 1440,
+    "rule": "page-has-heading-one",
+    "classification": "official fixture content"
+  }
+]

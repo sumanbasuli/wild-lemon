@@ -1,0 +1,9 @@
+{
+  "home": "http://localhost:8089",
+  "wordpress": "7.1.2",
+  "php": "8.3.35",
+  "theme_version": "1.4",
+  "theme_check_version": "20260901",
+  "clean_package_mount": true,
+  "style_sha256": "2788101af528fe412d1d83556fae21ba1e2ac7cd64ecea1fbcdc595798bcb4ce"
+}

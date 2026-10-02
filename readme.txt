@@ -3,7 +3,7 @@ Contributors: txsadhu
 Requires at least: 6.7
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, accessibility-ready, custom-colors, custom-menu, editor-style, featured-images, full-site-editing, block-patterns, block-styles, threaded-comments, translation-ready, wide-blocks
@@ -13,6 +13,15 @@ Tags: blog, one-column, accessibility-ready, custom-colors, custom-menu, editor-
 Wild Lemon is a warm editorial blogging theme built entirely on core blocks — query loops, post templates, pullquotes, and navigation. Newsreader carries the reading experience, Schibsted Grotesk handles the interface, and a single lemon accent ties it together. No plugin dependencies.
 
 == Changelog ==
+
+= 1.4 =
+* Keep nested navigation dropdowns and the mobile menu above search and other page content.
+* Center wrapped category pills in single-post headers and balance the text padding within each pill.
+* Improve author archive avatar and biography alignment, and wrap long author names and archive headings on small screens.
+* Strengthen native gallery caption overlays so text remains readable over light photographs.
+* Constrain native category selectors to their content width and prevent mobile overflow from long options.
+* Show the native empty-post message in the 404 recent-posts loop and keep untitled posts reachable through linked dates.
+* Expand official test-data, author biography, keyboard, contrast, reflow, and accessibility checks while preserving the existing theme design and core blocks.
 
 = 1.3 =
 * Strengthen search and comment field outlines and include an accessibility statement describing supported features, testing, limitations, and support contacts.

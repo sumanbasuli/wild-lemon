@@ -1,0 +1,253 @@
+{
+  "method": "Read-only computed styles and temporary browser-only transparent text/shadow removal to sample rendered background beneath opaque white glyph pixels; no content or source edits. Captured images are fully decoded.",
+  "cases": [
+    {
+      "path": "/wl-polish-four-categories/",
+      "width": 320,
+      "foregroundScreenshot": "/tmp/wild-lemon-caption-four-320-fg.png",
+      "backgroundScreenshot": "/tmp/wild-lemon-caption-four-320-bg.png",
+      "captions": [
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "padding": "13px",
+          "rect": {
+            "height": 70.1875,
+            "width": 124,
+            "x": 24,
+            "y": 421.625
+          },
+          "text": "The long way home.",
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "opaqueWhiteGlyphSamples": 162,
+          "minimumContrast": 2.24,
+          "worstSample": {
+            "x": 60,
+            "y": 442,
+            "backgroundRGB": [
+              189,
+              172,
+              126
+            ],
+            "ratio": 2.24
+          },
+          "samplesBelow4_5": 30
+        },
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "padding": "13px",
+          "rect": {
+            "height": 82.65625,
+            "width": 124,
+            "x": 172,
+            "y": 409.15625
+          },
+          "text": "A few lines before the light goes.",
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "opaqueWhiteGlyphSamples": 343,
+          "minimumContrast": 1.7,
+          "worstSample": {
+            "x": 208,
+            "y": 436,
+            "backgroundRGB": [
+              205,
+              198,
+              179
+            ],
+            "ratio": 1.7
+          },
+          "samplesBelow4_5": 140
+        }
+      ]
+    },
+    {
+      "path": "/wl-polish-seven-categories/",
+      "width": 320,
+      "foregroundScreenshot": "/tmp/wild-lemon-caption-seven-320-fg.png",
+      "backgroundScreenshot": "/tmp/wild-lemon-caption-seven-320-bg.png",
+      "captions": [
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "padding": "13px",
+          "rect": {
+            "height": 70.1875,
+            "width": 124,
+            "x": 24,
+            "y": 421
+          },
+          "text": "The long way home.",
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "opaqueWhiteGlyphSamples": 160,
+          "minimumContrast": 2.86,
+          "worstSample": {
+            "x": 69,
+            "y": 443,
+            "backgroundRGB": [
+              165,
+              154,
+              81
+            ],
+            "ratio": 2.86
+          },
+          "samplesBelow4_5": 32
+        },
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "padding": "13px",
+          "rect": {
+            "height": 82.65625,
+            "width": 124,
+            "x": 172,
+            "y": 408.53125
+          },
+          "text": "A few lines before the light goes.",
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "opaqueWhiteGlyphSamples": 341,
+          "minimumContrast": 1.55,
+          "worstSample": {
+            "x": 208,
+            "y": 436,
+            "backgroundRGB": [
+              213,
+              207,
+              191
+            ],
+            "ratio": 1.55
+          },
+          "samplesBelow4_5": 139
+        }
+      ]
+    },
+    {
+      "path": "/wl-polish-four-categories/",
+      "width": 1440,
+      "foregroundScreenshot": "/tmp/wild-lemon-caption-four-1440-fg.png",
+      "backgroundScreenshot": "/tmp/wild-lemon-caption-four-1440-bg.png",
+      "captions": [
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "padding": "13px",
+          "rect": {
+            "height": 48.09375,
+            "width": 328,
+            "x": 380,
+            "y": 510.984375
+          },
+          "text": "The long way home.",
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "opaqueWhiteGlyphSamples": 170,
+          "minimumContrast": 2.74,
+          "worstSample": {
+            "x": 511,
+            "y": 534,
+            "backgroundRGB": [
+              171,
+              154,
+              126
+            ],
+            "ratio": 2.74
+          },
+          "samplesBelow4_5": 46
+        },
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "padding": "13px",
+          "rect": {
+            "height": 48.09375,
+            "width": 328,
+            "x": 732,
+            "y": 510.984375
+          },
+          "text": "A few lines before the light goes.",
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "opaqueWhiteGlyphSamples": 324,
+          "minimumContrast": 2.59,
+          "worstSample": {
+            "x": 853,
+            "y": 539,
+            "backgroundRGB": [
+              181,
+              157,
+              129
+            ],
+            "ratio": 2.59
+          },
+          "samplesBelow4_5": 72
+        }
+      ]
+    },
+    {
+      "path": "/wl-polish-seven-categories/",
+      "width": 1440,
+      "foregroundScreenshot": "/tmp/wild-lemon-caption-seven-1440-fg.png",
+      "backgroundScreenshot": "/tmp/wild-lemon-caption-seven-1440-bg.png",
+      "captions": [
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "padding": "13px",
+          "rect": {
+            "height": 48.09375,
+            "width": 328,
+            "x": 380,
+            "y": 511.265625
+          },
+          "text": "The long way home.",
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "opaqueWhiteGlyphSamples": 170,
+          "minimumContrast": 2.73,
+          "worstSample": {
+            "x": 516,
+            "y": 533,
+            "backgroundRGB": [
+              170,
+              154,
+              136
+            ],
+            "ratio": 2.73
+          },
+          "samplesBelow4_5": 45
+        },
+        {
+          "background": "linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0))",
+          "fontSize": "13px",
+          "foreground": "rgb(255, 255, 255)",
+          "padding": "13px",
+          "rect": {
+            "height": 48.09375,
+            "width": 328,
+            "x": 732,
+            "y": 511.265625
+          },
+          "text": "A few lines before the light goes.",
+          "textShadow": "rgb(0, 0, 0) 0px 0px 1.5px",
+          "opaqueWhiteGlyphSamples": 324,
+          "minimumContrast": 2.59,
+          "worstSample": {
+            "x": 859,
+            "y": 539,
+            "backgroundRGB": [
+              181,
+              157,
+              131
+            ],
+            "ratio": 2.59
+          },
+          "samplesBelow4_5": 70
+        }
+      ]
+    }
+  ]
+}

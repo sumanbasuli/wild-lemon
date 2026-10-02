@@ -57,6 +57,14 @@ measure = r'''(async () => {
         passwordForm: !!document.querySelector('.post-password-form')
     };
 })()'''
+
+
+def has_regression(result):
+    return (result['overflow'] > 1 or result['titleIssues'] or
+            result['brokenLoadedLocalImages'] or result['main'] != 1 or
+            result['missingImageAlt'])
+
+
 results = []
 try:
     for width in widths:
@@ -66,7 +74,7 @@ try:
             result = run('eval', measure)['result']
             result.update(path=path, width=width)
             results.append(result)
-            if result['overflow'] > 1 or result['titleIssues'] or result['brokenLoadedLocalImages']:
+            if has_regression(result):
                 print(json.dumps(result), flush=True)
         print(f'Completed {len(paths)} routes at {width}px', flush=True)
 finally:
@@ -74,4 +82,8 @@ finally:
     run('close')
 print(json.dumps({'cases': len(results), 'overflow': sum(r['overflow'] > 1 for r in results),
                   'compressedTitles': sum(bool(r['titleIssues']) for r in results),
-                  'brokenLocalImages': sum(bool(r['brokenLoadedLocalImages']) for r in results)}))
+                  'brokenLocalImages': sum(bool(r['brokenLoadedLocalImages']) for r in results),
+                  'mainLandmarkIssues': sum(r['main'] != 1 for r in results),
+                  'missingImageAlt': sum(bool(r['missingImageAlt']) for r in results)}))
+if any(has_regression(result) for result in results):
+    raise SystemExit(f'Layout regressions detected; see {output}')

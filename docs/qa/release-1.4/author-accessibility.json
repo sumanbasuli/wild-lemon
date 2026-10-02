@@ -1,0 +1,467 @@
+{
+  "cases": [
+    {
+      "biographyPresent": true,
+      "links": [
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa Avatar"
+        },
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa"
+        }
+      ],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "17px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-name has-medium-font-size",
+          "contrast": 13.97
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(111, 103, 89)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 4.71
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "14px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color",
+          "contrast": 6.74
+        }
+      ],
+      "width": 320,
+      "path": "/wl-polish-brief-title/",
+      "textSpacing": false
+    },
+    {
+      "biographyPresent": true,
+      "links": [
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa Avatar"
+        },
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa"
+        }
+      ],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "17px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-name has-medium-font-size",
+          "contrast": 13.97
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(111, 103, 89)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 4.71
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "14px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color",
+          "contrast": 6.74
+        }
+      ],
+      "width": 320,
+      "path": "/wl-polish-brief-title/",
+      "textSpacing": true
+    },
+    {
+      "biographyPresent": true,
+      "links": [],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(114, 107, 92)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-2-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 5.02
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "27.894px",
+          "overflow": 0,
+          "selector": "wp-block-query-title",
+          "contrast": 15.74
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "14px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color has-newsreader-font-family",
+          "contrast": 7.6
+        }
+      ],
+      "width": 320,
+      "path": "/author/wildlemonqa/",
+      "textSpacing": false
+    },
+    {
+      "biographyPresent": true,
+      "links": [],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(114, 107, 92)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-2-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 5.02
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "27.894px",
+          "overflow": 0,
+          "selector": "wp-block-query-title",
+          "contrast": 15.74
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "14px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color has-newsreader-font-family",
+          "contrast": 7.6
+        }
+      ],
+      "width": 320,
+      "path": "/author/wildlemonqa/",
+      "textSpacing": true
+    },
+    {
+      "biographyPresent": true,
+      "links": [
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa Avatar"
+        },
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa"
+        }
+      ],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "17px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-name has-medium-font-size",
+          "contrast": 13.97
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(111, 103, 89)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 4.71
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "14.2016px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color",
+          "contrast": 6.74
+        }
+      ],
+      "width": 640,
+      "path": "/wl-polish-brief-title/",
+      "textSpacing": false
+    },
+    {
+      "biographyPresent": true,
+      "links": [
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa Avatar"
+        },
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa"
+        }
+      ],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "17px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-name has-medium-font-size",
+          "contrast": 13.97
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(111, 103, 89)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 4.71
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "14.2016px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color",
+          "contrast": 6.74
+        }
+      ],
+      "width": 640,
+      "path": "/wl-polish-brief-title/",
+      "textSpacing": true
+    },
+    {
+      "biographyPresent": true,
+      "links": [],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(114, 107, 92)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-2-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 5.02
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "35.9296px",
+          "overflow": 0,
+          "selector": "wp-block-query-title",
+          "contrast": 15.74
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "16px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color has-newsreader-font-family",
+          "contrast": 7.6
+        }
+      ],
+      "width": 640,
+      "path": "/author/wildlemonqa/",
+      "textSpacing": false
+    },
+    {
+      "biographyPresent": true,
+      "links": [],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(114, 107, 92)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-2-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 5.02
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "35.9296px",
+          "overflow": 0,
+          "selector": "wp-block-query-title",
+          "contrast": 15.74
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "16px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color has-newsreader-font-family",
+          "contrast": 7.6
+        }
+      ],
+      "width": 640,
+      "path": "/author/wildlemonqa/",
+      "textSpacing": true
+    },
+    {
+      "biographyPresent": true,
+      "links": [
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa Avatar"
+        },
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa"
+        }
+      ],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "17px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-name has-medium-font-size",
+          "contrast": 13.97
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(111, 103, 89)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 4.71
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "14.5px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color",
+          "contrast": 6.74
+        }
+      ],
+      "width": 1440,
+      "path": "/wl-polish-brief-title/",
+      "textSpacing": false
+    },
+    {
+      "biographyPresent": true,
+      "links": [
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa Avatar"
+        },
+        {
+          "href": "http://localhost:8089/author/wildlemonqa/",
+          "text": "wildlemonqa"
+        }
+      ],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "17px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-name has-medium-font-size",
+          "contrast": 13.97
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(111, 103, 89)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 4.71
+        },
+        {
+          "background": "rgb(246, 236, 194)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "14.5px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color",
+          "contrast": 6.74
+        }
+      ],
+      "width": 1440,
+      "path": "/wl-polish-brief-title/",
+      "textSpacing": true
+    },
+    {
+      "biographyPresent": true,
+      "links": [],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(114, 107, 92)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-2-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 5.02
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "48px",
+          "overflow": 0,
+          "selector": "wp-block-query-title",
+          "contrast": 15.74
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "19px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color has-newsreader-font-family",
+          "contrast": 7.6
+        }
+      ],
+      "width": 1440,
+      "path": "/author/wildlemonqa/",
+      "textSpacing": false
+    },
+    {
+      "biographyPresent": true,
+      "links": [],
+      "overflow": 0,
+      "texts": [
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(114, 107, 92)",
+          "fontSize": "12px",
+          "overflow": 0,
+          "selector": "has-muted-2-color has-text-color has-x-small-font-size wp-block-paragraph",
+          "contrast": 5.02
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(34, 30, 24)",
+          "fontSize": "48px",
+          "overflow": 0,
+          "selector": "wp-block-query-title",
+          "contrast": 15.74
+        },
+        {
+          "background": "rgb(251, 249, 243)",
+          "color": "rgb(87, 80, 63)",
+          "fontSize": "19px",
+          "overflow": 0,
+          "selector": "wp-block-post-author-biography has-text-color has-contrast-2-color has-newsreader-font-family",
+          "contrast": 7.6
+        }
+      ],
+      "width": 1440,
+      "path": "/author/wildlemonqa/",
+      "textSpacing": true
+    }
+  ],
+  "failures": []
+}

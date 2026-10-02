@@ -1,0 +1,22 @@
+{
+    "author": 1,
+    "name": "wildlemonqa",
+    "biography": "Writing about seasonal cooking, small journeys, and the details that make everyday life worth noticing. These notes bring together recipes, field observations, and ideas for a slower weekend, with an eye for practical pleasures and a life well noticed.",
+    "archive": "http://localhost:8089/author/wildlemonqa/",
+    "post": "http://localhost:8089/wl-polish-brief-title/",
+    "fixture_ids": [
+        1882,
+        1883,
+        1884,
+        1885,
+        1886,
+        1887,
+        1888,
+        1889,
+        1890,
+        1879,
+        1880,
+        1881
+    ],
+    "imported_authors_unchanged": true
+}

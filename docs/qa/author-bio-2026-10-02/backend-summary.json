@@ -1,0 +1,39 @@
+{
+  "qa_date": "2026-10-02",
+  "scope": "Focused author-bio/current-source backend and package checks",
+  "wordpress": "7.1.2",
+  "frontend_php": "8.3.35",
+  "theme_version": "1.3",
+  "php_lint_files": 22,
+  "php_lint_pass": true,
+  "theme_json_valid": true,
+  "native_author_pattern": {
+    "registered": true,
+    "native_blocks": [
+      "core/group",
+      "core/avatar",
+      "core/paragraph",
+      "core/query-title",
+      "core/post-author-biography"
+    ],
+    "wrapper_class": "wl-author-header",
+    "layout": "flex",
+    "wrap": "wrap",
+    "native_parse_serialize_round_trip": true,
+    "author_template_references_pattern": true,
+    "pass": true
+  },
+  "theme_check": {
+    "errors": 0,
+    "warnings": 0,
+    "informational": 2
+  },
+  "package_files": 46,
+  "package_matches_source": true,
+  "zip_sha256": "110c72e69e04bddb5310cc4b98fe3fcb0640b7139289a8bd4e631d44f743e61e",
+  "profile_or_content_mutated": false,
+  "limitations": [
+    "Native block parsing verifies structure/registration and server parse/serialization. Actual editor validity and rendered layout are verified separately by browser QA.",
+    "Previous QA snapshots are retained unchanged."
+  ]
+}

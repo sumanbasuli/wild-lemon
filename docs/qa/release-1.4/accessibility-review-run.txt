@@ -1,0 +1,1 @@
+{"skipLink": 2, "details": 2, "contrast": 29, "reflow": 24}

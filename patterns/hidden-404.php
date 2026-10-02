@@ -96,12 +96,15 @@
 
 					<!-- wp:post-title {"level":3,"isLink":true,"style":{"typography":{"fontSize":"23px","lineHeight":"1.25"}}} /-->
 
-					<!-- wp:post-date {"style":{"typography":{"fontSize":"13px"}},"textColor":"muted-2"} /-->
+					<!-- wp:post-date {"isLink":true,"style":{"typography":{"fontSize":"13px"}},"textColor":"muted-2"} /-->
 				</div>
 				<!-- /wp:group -->
 			</div>
 			<!-- /wp:group -->
 		<!-- /wp:post-template -->
+		<!-- wp:query-no-results -->
+			<!-- wp:pattern {"slug":"wild-lemon/hidden-no-posts"} /-->
+		<!-- /wp:query-no-results -->
 	</div>
 	<!-- /wp:query -->
 </div>

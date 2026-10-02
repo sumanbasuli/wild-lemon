@@ -1,0 +1,557 @@
+{
+    "qa_date": "2026-10-02",
+    "home": "http://localhost:8089",
+    "wordpress": "7.1.2",
+    "php": "8.3.35",
+    "theme_version": "1.3",
+    "theme_check_version": "20260901",
+    "package_path": "/var/www/html/wp-content/themes/wild-lemon/build/wild-lemon",
+    "php_lint": [
+        {
+            "file": "functions.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/archive-header.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/author-bio.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/author-header.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/comments.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/editorial-introduction.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/featured-quotation.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/footer-compact.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/footer.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/header.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/hidden-404.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/hidden-no-posts.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/hidden-no-results.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/hidden-reading-time.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/home-archive-list.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/home-latest.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/home-topics.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/photo-essay.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/query-list.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/seasonal-table.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/slow-weekend.php",
+            "pass": true
+        },
+        {
+            "file": "patterns/two-column-notes.php",
+            "pass": true
+        }
+    ],
+    "native_block_structure": [
+        {
+            "file": "patterns/archive-header.php",
+            "native_blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/query-title",
+                "core/term-description"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/author-bio.php",
+            "native_blocks": [
+                "core/group",
+                "core/avatar",
+                "core/post-author-name",
+                "core/paragraph",
+                "core/post-author-biography"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/author-header.php",
+            "native_blocks": [
+                "core/group",
+                "core/avatar",
+                "core/paragraph",
+                "core/query-title",
+                "core/post-author-biography"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/comments.php",
+            "native_blocks": [
+                "core/comments",
+                "core/heading",
+                "core/comments-title",
+                "core/comment-template",
+                "core/group",
+                "core/avatar",
+                "core/comment-author-name",
+                "core/comment-date",
+                "core/comment-content",
+                "core/comment-edit-link",
+                "core/comment-reply-link",
+                "core/comments-pagination",
+                "core/comments-pagination-previous",
+                "core/comments-pagination-next",
+                "core/post-comments-form"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/editorial-introduction.php",
+            "native_blocks": [
+                "core/group",
+                "core/columns",
+                "core/column",
+                "core/paragraph",
+                "core/heading",
+                "core/image"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/featured-quotation.php",
+            "native_blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/quote"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/footer-compact.php",
+            "native_blocks": [
+                "core/group",
+                "core/site-title",
+                "core/paragraph"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/footer.php",
+            "native_blocks": [
+                "core/group",
+                "core/site-title",
+                "core/site-tagline",
+                "core/heading",
+                "core/categories",
+                "core/page-list",
+                "core/paragraph"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/header.php",
+            "native_blocks": [
+                "core/group",
+                "core/site-title",
+                "core/navigation",
+                "core/search"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/hidden-404.php",
+            "native_blocks": [
+                "core/group",
+                "core/columns",
+                "core/column",
+                "core/html",
+                "core/paragraph",
+                "core/heading",
+                "core/search",
+                "core/buttons",
+                "core/button",
+                "core/query",
+                "core/post-template",
+                "core/post-featured-image",
+                "core/post-terms",
+                "core/post-title",
+                "core/post-date",
+                "core/query-no-results",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/hidden-no-posts.php",
+            "native_blocks": [
+                "core/paragraph"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/hidden-no-results.php",
+            "native_blocks": [
+                "core/group",
+                "core/heading",
+                "core/paragraph",
+                "core/search"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/hidden-reading-time.php",
+            "native_blocks": [
+                "core/post-time-to-read"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/home-archive-list.php",
+            "native_blocks": [
+                "core/group",
+                "core/heading",
+                "core/query",
+                "core/post-template",
+                "core/post-date",
+                "core/post-title",
+                "core/post-terms",
+                "core/query-pagination",
+                "core/query-pagination-previous",
+                "core/query-pagination-numbers",
+                "core/query-pagination-next",
+                "core/query-no-results",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/home-latest.php",
+            "native_blocks": [
+                "core/group",
+                "core/heading",
+                "core/paragraph",
+                "core/query",
+                "core/post-template",
+                "core/post-featured-image",
+                "core/post-terms",
+                "core/post-title",
+                "core/post-excerpt",
+                "core/post-date",
+                "core/query-no-results",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/home-topics.php",
+            "native_blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/tag-cloud"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/photo-essay.php",
+            "native_blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/heading",
+                "core/columns",
+                "core/column",
+                "core/image"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/query-list.php",
+            "native_blocks": [
+                "core/group",
+                "core/query",
+                "core/post-template",
+                "core/post-featured-image",
+                "core/post-terms",
+                "core/post-date",
+                "core/post-title",
+                "core/post-excerpt",
+                "core/query-pagination",
+                "core/query-pagination-previous",
+                "core/query-pagination-numbers",
+                "core/query-pagination-next",
+                "core/query-no-results",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/seasonal-table.php",
+            "native_blocks": [
+                "core/group",
+                "core/columns",
+                "core/column",
+                "core/image",
+                "core/paragraph",
+                "core/heading"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/slow-weekend.php",
+            "native_blocks": [
+                "core/group",
+                "core/columns",
+                "core/column",
+                "core/paragraph",
+                "core/heading",
+                "core/details"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "patterns/two-column-notes.php",
+            "native_blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/heading",
+                "core/columns",
+                "core/column"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "templates/404.html",
+            "native_blocks": [
+                "core/template-part",
+                "core/group",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "templates/archive.html",
+            "native_blocks": [
+                "core/template-part",
+                "core/group",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "templates/author.html",
+            "native_blocks": [
+                "core/template-part",
+                "core/group",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "templates/home.html",
+            "native_blocks": [
+                "core/template-part",
+                "core/group",
+                "core/query",
+                "core/post-template",
+                "core/columns",
+                "core/column",
+                "core/post-terms",
+                "core/post-date",
+                "core/post-title",
+                "core/post-excerpt",
+                "core/avatar",
+                "core/post-author-name",
+                "core/pattern",
+                "core/post-featured-image",
+                "core/query-no-results"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "templates/index.html",
+            "native_blocks": [
+                "core/template-part",
+                "core/group",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "templates/page.html",
+            "native_blocks": [
+                "core/template-part",
+                "core/group",
+                "core/post-title",
+                "core/post-featured-image",
+                "core/post-content",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "templates/search.html",
+            "native_blocks": [
+                "core/template-part",
+                "core/group",
+                "core/query-title",
+                "core/search",
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "templates/single.html",
+            "native_blocks": [
+                "core/template-part",
+                "core/group",
+                "core/post-terms",
+                "core/post-date",
+                "core/post-title",
+                "core/avatar",
+                "core/post-author-name",
+                "core/pattern",
+                "core/post-featured-image",
+                "core/post-content",
+                "core/post-navigation-link"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "parts/footer-compact.html",
+            "native_blocks": [
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "parts/footer.html",
+            "native_blocks": [
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        },
+        {
+            "file": "parts/header.html",
+            "native_blocks": [
+                "core/pattern"
+            ],
+            "parse_serialize_round_trip": true,
+            "pass": true
+        }
+    ],
+    "content_or_profile_mutated": false,
+    "theme_json_valid": true,
+    "relevant_structure": {
+        "author_archive_wrapper": true,
+        "author_archive_native_biography": true,
+        "single_native_biography_pattern": true,
+        "single_category_wrapper": true,
+        "404_native_no_results": true,
+        "404_native_date_permalink": true
+    },
+    "404_render": [
+        {
+            "case": "empty",
+            "rows": 0,
+            "empty_message": true,
+            "date_links": 0,
+            "pagination": 0,
+            "pass": true
+        },
+        {
+            "case": "untitled",
+            "rows": 1,
+            "empty_message": false,
+            "date_links": 1,
+            "pagination": 0,
+            "pass": true
+        }
+    ],
+    "pagination_fixture_leftovers": 0,
+    "debug_log_present": false,
+    "debug_log_bytes": 0,
+    "source_sha256": {
+        "style.css": "12274afd60621386fd9de562c8c6f7f5ae568257c0f0808ab6e1b8afc47c45f9",
+        "patterns/author-header.php": "0ee5410446f972ab27a5010401e4106a6a38e627e5e3d392053eca846361de59",
+        "patterns/author-bio.php": "88e9a6667ad69e7b4a0606284b0b1d354e31043435826ffed101a23ed2a51c39",
+        "patterns/hidden-404.php": "362ee1afce7427179df001309b5a7a89eb09b8bb610f0c11f2a985ad88db3bb8",
+        "templates/single.html": "0af573779742caa77053fce8d9371534855b59de30dfe58c45fa36feb4ea8d5e",
+        "functions.php": "552adb1a8e4b04d7c639ab790b3278609bbf00e8f801d2c2e3c7c07305b98688",
+        "theme.json": "ef266d073512222dae31159dd8bafe4a39ca3ce515a151f91b0e412bf328e8d6"
+    }
+}

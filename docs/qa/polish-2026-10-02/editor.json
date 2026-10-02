@@ -1,0 +1,26 @@
+{
+  "browser": "Chrome",
+  "iframeCanvasWorks": true,
+  "mixedBlocksRecoveries": 0,
+  "editorTypography": {
+    "body": "block-editor-iframe__body editor-styles-wrapper post-type-post admin-color-modern wp-embed-responsive",
+    "fontFamily": "Newsreader, \"Iowan Old Style\", Georgia, serif",
+    "fontSize": "19px",
+    "lineHeight": "32.3px"
+  },
+  "publicPatterns": 6,
+  "hiddenPatternsNotShown": true,
+  "roundTrip": {
+    "beforeQuotes": 1,
+    "afterInsertQuotes": 2,
+    "afterReloadQuotes": 2,
+    "recoveryWarnings": false
+  },
+  "inAppEditorFrameBlank": true,
+  "publishedDesktopTypography": {
+    "fontFamily": "Newsreader, \"Iowan Old Style\", Georgia, serif",
+    "fontSize": "19px",
+    "lineHeight": "32.3px",
+    "width": 1920
+  }
+}

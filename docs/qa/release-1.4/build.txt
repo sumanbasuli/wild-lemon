@@ -1,0 +1,8 @@
+Building wild-lemon 1.4
+  PHP lint: OK
+  theme.json: OK
+  version stamped: 1.4
+  build/wild-lemon/
+  build/wild-lemon.zip (1.6M)
+  build/wild-lemon-1.4.zip
+Done.
