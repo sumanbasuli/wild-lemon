@@ -85,7 +85,7 @@ jobs:
           entry = re.search(rf'^= {re.escape(version)} =\s*\n(.*?)(?=^=|\Z)', changelog, re.M | re.S)
           if not entry or not entry.group(1).strip():
               raise SystemExit(f'Missing changelog for {version}')
-          notes = entry.group(1).strip() + '\n\nDownload the attached theme ZIP to install Wild Lemon. WordPress.org submission is handled manually.\n'
+          notes = entry.group(1).strip() + '\n'
           (Path(os.environ['RUNNER_TEMP']) / 'wild-lemon-release-notes.md').write_text(notes)
           PY
           cd build

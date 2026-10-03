@@ -11,7 +11,7 @@ Accessibility audit completed: No
 
 == Testing Tools and Methodology ==
 
-Focused developer checks for version 1.4.1 were performed on October 3, 2026.
+Focused developer checks for versions 1.4.1 and 1.5 were performed on October 3, 2026.
 They cover native post navigation at narrow and desktop widths, long titles,
 keyboard focus and activation, decorative arrow contrast, increased text spacing,
 right-to-left direction emulation, and scoped axe-core scans in Chromium.

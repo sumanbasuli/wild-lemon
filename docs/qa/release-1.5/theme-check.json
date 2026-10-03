@@ -1,0 +1,18 @@
+{
+    "version": "1.5",
+    "wordpress": "7.1.2",
+    "php": "8.3.35",
+    "pluginVersion": "20260901",
+    "passed": true,
+    "messages": [
+        {
+            "type": "INFO",
+            "value": "INFO Themes that use the tag accessibility-ready will need to undergo an accessibility review. See https://make.wordpress.org/themes/handbook/review/accessibility/"
+        },
+        {
+            "type": "INFO",
+            "value": "INFO: Only one text-domain is being used in this theme. Make sure it matches the theme's slug correctly so that the theme will be compatible with WordPress.org language packs. The domain found is wild-lemon."
+        }
+    ],
+    "blocking": []
+}
