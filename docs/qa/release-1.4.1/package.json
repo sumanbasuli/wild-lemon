@@ -1,0 +1,241 @@
+{
+  "version": "1.4.1",
+  "integrity": true,
+  "exclusions": true,
+  "sourceByteMatches": true,
+  "headers": true,
+  "fileCount": 46,
+  "localSha256": "a6f8ea257d631b9c4a085e728dff0480b3b6f7c853c42e2e24994897fc2b5b6d",
+  "files": [
+    {
+      "path": "functions.php",
+      "bytes": 7518,
+      "sha256": "552adb1a8e4b04d7c639ab790b3278609bbf00e8f801d2c2e3c7c07305b98688"
+    },
+    {
+      "path": "theme.json",
+      "bytes": 9051,
+      "sha256": "ef266d073512222dae31159dd8bafe4a39ca3ce515a151f91b0e412bf328e8d6"
+    },
+    {
+      "path": "patterns/featured-quotation.php",
+      "bytes": 988,
+      "sha256": "c77c15c114c16d09156b9abe558219677a911648db22414b3d7fa57813a48b62"
+    },
+    {
+      "path": "patterns/hidden-no-posts.php",
+      "bytes": 436,
+      "sha256": "fc60a591b5f1b5860a1ab6b13bd8994eb4d07d809205900a6ab06e3d74bf8c38"
+    },
+    {
+      "path": "patterns/archive-header.php",
+      "bytes": 1756,
+      "sha256": "390bdcd55cb662898f83b39c83a770ead89a45401c34727094c19b26a98217b0"
+    },
+    {
+      "path": "patterns/comments.php",
+      "bytes": 2420,
+      "sha256": "5caaee84afe600e62f7e9550315171ea6511b73d6cea1277475dc4e2729fbb13"
+    },
+    {
+      "path": "patterns/seasonal-table.php",
+      "bytes": 3096,
+      "sha256": "71d81a1136269b807e79e809a89578d148bcfe1c767fc3bad647c8167ccb8e63"
+    },
+    {
+      "path": "patterns/editorial-introduction.php",
+      "bytes": 2246,
+      "sha256": "3091ea6c194ff020b2a081f64da56ae3e8d135b9b6d359bc4c9fb9e54993fb93"
+    },
+    {
+      "path": "patterns/home-latest.php",
+      "bytes": 3263,
+      "sha256": "a5f130804d5c8363a1d64ef838570f26987924d7736f0677d7a4720df720c528"
+    },
+    {
+      "path": "patterns/hidden-404.php",
+      "bytes": 7028,
+      "sha256": "362ee1afce7427179df001309b5a7a89eb09b8bb610f0c11f2a985ad88db3bb8"
+    },
+    {
+      "path": "patterns/home-archive-list.php",
+      "bytes": 2858,
+      "sha256": "93f1f2858738ac3c4f5fc7b10a9d5bb4245e8aeb31305352b5a864df77d758db"
+    },
+    {
+      "path": "patterns/header.php",
+      "bytes": 1678,
+      "sha256": "990b8b7b90975574e82c8941071cc56f535b6a6b2af181be422c261417d8d633"
+    },
+    {
+      "path": "patterns/hidden-reading-time.php",
+      "bytes": 530,
+      "sha256": "2cb98af2a0b522df319f0f586b371498e998703ffa8192cfb56c25ec454eb375"
+    },
+    {
+      "path": "patterns/query-list.php",
+      "bytes": 3355,
+      "sha256": "8cd980a8665a140adef9a5abbcec2a76c14e328f5e79ff959ab4422d5a2e76d6"
+    },
+    {
+      "path": "patterns/photo-essay.php",
+      "bytes": 2628,
+      "sha256": "42211c17e941cc61f16cc08076ec5b1123c0c245d5e2b8def8e660b136b0b0e3"
+    },
+    {
+      "path": "patterns/footer.php",
+      "bytes": 5102,
+      "sha256": "6a9597925c548c6543625ae3b44456f2d4632199a03cb5e32bb3c30224f6c509"
+    },
+    {
+      "path": "patterns/home-topics.php",
+      "bytes": 1502,
+      "sha256": "2e952760100497b4fd5e3e8661b94c965b5cba79640d1f686bb9892f714e2084"
+    },
+    {
+      "path": "patterns/author-bio.php",
+      "bytes": 1752,
+      "sha256": "88e9a6667ad69e7b4a0606284b0b1d354e31043435826ffed101a23ed2a51c39"
+    },
+    {
+      "path": "patterns/footer-compact.php",
+      "bytes": 1744,
+      "sha256": "b19e38eac588b4490e35633716662f8ea9e460edc6adbc49b84d3b38b879a074"
+    },
+    {
+      "path": "patterns/two-column-notes.php",
+      "bytes": 2287,
+      "sha256": "4cc675472f93a043cc4a77e85b407fbe2234f21ba319d8ee6ac8bb8e13f72bc9"
+    },
+    {
+      "path": "patterns/hidden-no-results.php",
+      "bytes": 1533,
+      "sha256": "52790583a4a8a45998c6d2e067553aac6117326a4a6a01ff8d067736e103715c"
+    },
+    {
+      "path": "patterns/author-header.php",
+      "bytes": 2025,
+      "sha256": "0ee5410446f972ab27a5010401e4106a6a38e627e5e3d392053eca846361de59"
+    },
+    {
+      "path": "patterns/slow-weekend.php",
+      "bytes": 2899,
+      "sha256": "ba9454d2858c5e3c1f7c794de36d424a100561a181fa00223620c275261f7284"
+    },
+    {
+      "path": "screenshot.png",
+      "bytes": 139127,
+      "sha256": "f95996e876b994f51a42a5d45fc6a8d815d9113c3bda215dc54dbd043fa9ce80"
+    },
+    {
+      "path": "style.css",
+      "bytes": 33252,
+      "sha256": "0421a97c04f10c3099a75dbb837d87d1b287432dea67035c9e5093dcf68e7de3"
+    },
+    {
+      "path": "parts/footer-compact.html",
+      "bytes": 58,
+      "sha256": "e8152d8b5cdfa0ea21dc9d781316b4ebabfbab10d32e6d958149977bfaec609c"
+    },
+    {
+      "path": "parts/footer.html",
+      "bytes": 50,
+      "sha256": "0657a054fc5dce9116168c9b4f04f023d6372c33b70c47f5cdb061e46b81867d"
+    },
+    {
+      "path": "parts/header.html",
+      "bytes": 50,
+      "sha256": "67d38b82d49ba11a5f537b1315807cb8bade21af4a2540d1f59b7cd763a9def6"
+    },
+    {
+      "path": "templates/single.html",
+      "bytes": 3320,
+      "sha256": "0af573779742caa77053fce8d9371534855b59de30dfe58c45fa36feb4ea8d5e"
+    },
+    {
+      "path": "templates/page.html",
+      "bytes": 1238,
+      "sha256": "ca3f70931964a3d5ae544258fa807556cb10d8edc3b9741634b4b3973062dae9"
+    },
+    {
+      "path": "templates/index.html",
+      "bytes": 481,
+      "sha256": "26798667b5d45c0644f37e107d975ce1c94360550731ade445e34c90b715182b"
+    },
+    {
+      "path": "templates/home.html",
+      "bytes": 3776,
+      "sha256": "8b3c9a71e81a560eaf5704ba869b35002a15970c7ab9db67aa31771a3cb82bf1"
+    },
+    {
+      "path": "templates/404.html",
+      "bytes": 388,
+      "sha256": "b565c23e0d175185c83184e5d0f2126da03bb753ddb7c58b9e907c86003f4b49"
+    },
+    {
+      "path": "templates/author.html",
+      "bytes": 447,
+      "sha256": "63885458db4832f17f63a2fca894610d4a8ee7d779d5c0b95150487db1711983"
+    },
+    {
+      "path": "templates/search.html",
+      "bytes": 1484,
+      "sha256": "daef4de27ca2af928f2f3197df90e2ace1bff8bf09c7c38478d4ffd948629a72"
+    },
+    {
+      "path": "templates/archive.html",
+      "bytes": 448,
+      "sha256": "492ae9a4978c4d034e8871c608f1b18173ce5cfc59b75e4ef9d6b5f8f57b4f98"
+    },
+    {
+      "path": "readme.txt",
+      "bytes": 6427,
+      "sha256": "5042a5d5b032d13897de2b869bcf6303fbcce83d70b54a3b089c0d27664f3f6c"
+    },
+    {
+      "path": "accessibility.txt",
+      "bytes": 3243,
+      "sha256": "14f8187c7bc4d0602c1f84b56b33d8507fce8bfae509a9eb8272fa1d863bf420"
+    },
+    {
+      "path": "assets/images/seasonal-table.webp",
+      "bytes": 280130,
+      "sha256": "d0fd436061a4d7cd9cb6628bc7126a0b8eb0e517d7a99b886b2760694f2b0b0d"
+    },
+    {
+      "path": "assets/images/quiet-notebook.webp",
+      "bytes": 173906,
+      "sha256": "20a70a55382407ee69aadde6fcaf64853c26efdba70cd3eaf0ed81fd6275e52e"
+    },
+    {
+      "path": "assets/images/citrus-still-life.webp",
+      "bytes": 220236,
+      "sha256": "88805e1b50213e19e15e673007d17212ebfa69e42426843f731e2771e32ec923"
+    },
+    {
+      "path": "assets/images/garden-walk.webp",
+      "bytes": 420642,
+      "sha256": "043a11f2fe7c7894960703a08e4a36e049f77943450221eb134df6376bc5b0b3"
+    },
+    {
+      "path": "assets/fonts/newsreader-normal.woff2",
+      "bytes": 131848,
+      "sha256": "01817351be3edfc1714fe6d60ddea6a22a169a5ebd033b50c7f9495e5d9c386a"
+    },
+    {
+      "path": "assets/fonts/newsreader-italic.woff2",
+      "bytes": 147060,
+      "sha256": "a99fb127682b9af538780d21420037452197b0d37dfd273eb108f8a3665d5501"
+    },
+    {
+      "path": "assets/fonts/schibsted-grotesk-normal.woff2",
+      "bytes": 46864,
+      "sha256": "e3b56e90510a84ac0ed465b822e112983eaf58e37436bf769681c31f77b1f3a7"
+    },
+    {
+      "path": "assets/fonts/schibsted-grotesk-italic.woff2",
+      "bytes": 50160,
+      "sha256": "c0aab3a5acaeb1f04246c8131f6840862aebe8048cd8015f578c149db0d873d4"
+    }
+  ]
+}

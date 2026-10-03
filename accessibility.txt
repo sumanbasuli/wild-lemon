@@ -11,6 +11,11 @@ Accessibility audit completed: No
 
 == Testing Tools and Methodology ==
 
+Focused developer checks for version 1.4.1 were performed on October 3, 2026.
+They cover native post navigation at narrow and desktop widths, long titles,
+keyboard focus and activation, decorative arrow contrast, increased text spacing,
+right-to-left direction emulation, and scoped axe-core scans in Chromium.
+
 Developer checks for version 1.4 were performed on October 2, 2026, using the
 WordPress Theme Unit Test data and Theme Check, the WordPress accessibility-ready
 requirements, and selected WCAG 2.2 Level AA criteria.
