@@ -1,0 +1,6 @@
+{
+    "exists": true,
+    "bytes": 0,
+    "checkedAfter": "Minimum backend, corrected Theme Check, Firefox and WebKit browser tests",
+    "knownQaWrapperNoticesRetained": "minimum-harness-initial-debug.log"
+}

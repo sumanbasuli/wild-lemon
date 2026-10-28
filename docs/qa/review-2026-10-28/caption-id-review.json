@@ -1,0 +1,87 @@
+[
+  {
+    "captions": [
+      {
+        "count": 1,
+        "id": "caption-attachment-906",
+        "parents": "<figure id=\"attachment_906\" aria-describedby=\"caption-attachment-906\" style=\"width: 580px\" class=\"wp-caption aligncenter\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-i",
+        "text": "Look at 580\u00d7300 getting some caption love."
+      },
+      {
+        "count": 1,
+        "id": "caption-attachment-904",
+        "parents": "<figure id=\"attachment_904\" aria-describedby=\"caption-attachment-904\" style=\"width: 150px\" class=\"wp-caption alignleft\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-ima",
+        "text": "Bigger caption than the image usually is."
+      },
+      {
+        "count": 1,
+        "id": "caption-attachment-907",
+        "parents": "<figure id=\"attachment_907\" aria-describedby=\"caption-attachment-907\" style=\"width: 1200px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-907\" ",
+        "text": "Comment for massive image for your eyeballs."
+      },
+      {
+        "count": 1,
+        "id": "caption-attachment-907-2",
+        "parents": "<figure id=\"attachment_907-2\" aria-describedby=\"caption-attachment-907-2\" style=\"width: 1200px\" class=\"wp-caption aligncenter\"><img loading=\"lazy\" decoding=\"async\" class=\" wp-image",
+        "text": "This massive image is centered."
+      },
+      {
+        "count": 1,
+        "id": "caption-attachment-905",
+        "parents": "<figure id=\"attachment_905\" aria-describedby=\"caption-attachment-905\" style=\"width: 300px\" class=\"wp-caption alignright\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-im",
+        "text": "Feels good to be right all the time."
+      }
+    ],
+    "duplicates": [],
+    "port": 8089
+  },
+  {
+    "captions": [
+      {
+        "count": 1,
+        "id": "caption-attachment-906",
+        "parents": "<figure id=\"attachment_906\" aria-describedby=\"caption-attachment-906\" style=\"width: 580px\" class=\"wp-caption aligncenter\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-i",
+        "text": "Look at 580\u00d7300 getting some caption love."
+      },
+      {
+        "count": 1,
+        "id": "caption-attachment-904",
+        "parents": "<figure id=\"attachment_904\" aria-describedby=\"caption-attachment-904\" style=\"width: 150px\" class=\"wp-caption alignleft\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-ima",
+        "text": "Bigger caption than the image usually is."
+      },
+      {
+        "count": 2,
+        "id": "caption-attachment-907",
+        "parents": "<figure id=\"attachment_907\" aria-describedby=\"caption-attachment-907\" style=\"width: 1200px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-907\" ",
+        "text": "Comment for massive image for your eyeballs."
+      },
+      {
+        "count": 2,
+        "id": "caption-attachment-907",
+        "parents": "<figure id=\"attachment_907\" aria-describedby=\"caption-attachment-907\" style=\"width: 1200px\" class=\"wp-caption aligncenter\"><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-907",
+        "text": "This massive image is centered."
+      },
+      {
+        "count": 1,
+        "id": "caption-attachment-905",
+        "parents": "<figure id=\"attachment_905\" aria-describedby=\"caption-attachment-905\" style=\"width: 300px\" class=\"wp-caption alignright\"><img loading=\"lazy\" decoding=\"async\" class=\"size-full wp-im",
+        "text": "Feels good to be right all the time."
+      }
+    ],
+    "duplicates": [
+      {
+        "count": 2,
+        "id": "caption-attachment-907",
+        "parents": "<figure id=\"attachment_907\" aria-describedby=\"caption-attachment-907\" style=\"width: 1200px\" class=\"wp-caption alignnone\"><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-907\" ",
+        "text": "Comment for massive image for your eyeballs."
+      },
+      {
+        "count": 2,
+        "id": "caption-attachment-907",
+        "parents": "<figure id=\"attachment_907\" aria-describedby=\"caption-attachment-907\" style=\"width: 1200px\" class=\"wp-caption aligncenter\"><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-907",
+        "text": "This massive image is centered."
+      }
+    ],
+    "port": 8090
+  }
+]

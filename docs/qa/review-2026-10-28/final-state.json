@@ -1,0 +1,41 @@
+{
+  "sourceHashes": {
+    "functions.php": "0de035a9604bfabb0a419a4fd409fc341f3edba7260d7e1898cfc458927360a9",
+    "style.css": "c3a7d00a5aaeb3b0c7c2358f3c883176fb264b4989789feea4b5202e7497a367",
+    "theme.json": "ef266d073512222dae31159dd8bafe4a39ca3ce515a151f91b0e412bf328e8d6",
+    "templates/page.html": "f2510eaa911bacedf9041013ab02a13ed4b3c97292ddbe5214dd1cb92732a586",
+    "templates/single.html": "8b8424c1b6e0eba7247f7a3d6300e7438d2bd3a8cb1ae58772b683c0643aab72",
+    "patterns/archive-header.php": "baaaa16d7a79e16bef83065ffc95e6348841fbd7fcc2ab2abe10550e7a22e74c"
+  },
+  "currentSite": "http://localhost:8089",
+  "admin": "http://localhost:8089/wp-admin/",
+  "minimumSite": "http://localhost:8090",
+  "mainDockerProject": "wild-lemon-oct28",
+  "mainRestartPolicy": "unless-stopped",
+  "databaseAndUploads": "Dedicated Docker named volumes retained",
+  "mainSource": "Repository bind mount, theme development mode enabled",
+  "releaseState": "Local unreleased working tree based on1.5",
+  "qaDate": "2026-10-28",
+  "runtime": {
+    "current": {
+      "wordpress": "7.1.3",
+      "php": "8.3.36",
+      "backendPassed": true,
+      "debugLogBytes": 0
+    },
+    "minimum": {
+      "wordpress": "6.7.10",
+      "php": "7.4.33",
+      "backendPassed": true,
+      "debugLogBytes": 0
+    }
+  },
+  "temporaryEditorDraftsRemoved": true,
+  "mainHealth": {
+    "homeHttp": 200,
+    "reportedPostHttp": 200,
+    "wordpressContainer": "running",
+    "databaseContainer": "running",
+    "restartPolicy": "unless-stopped"
+  }
+}

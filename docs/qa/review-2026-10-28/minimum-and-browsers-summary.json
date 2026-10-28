@@ -1,0 +1,43 @@
+{
+  "minimum": {
+    "wordpress": "6.7.10",
+    "php": "7.4.33",
+    "sourceItems": 186,
+    "attachments": 37,
+    "publishedRoutes": 102,
+    "phpLintFiles": 22,
+    "nativeDocuments": 32,
+    "paginationCases": 32,
+    "malformedPaginationInputs": 35,
+    "themeCheck": {
+      "passed": true,
+      "informationalMessages": 2,
+      "requiredOrWarnings": 0,
+      "productionFiles": 46
+    }
+  },
+  "additionalBrowsers": {
+    "playwright": "1.64.1",
+    "versions": {
+      "firefox": "157.0",
+      "webkit": "27.2"
+    },
+    "existingCurrentLayouts": 90,
+    "existingNativeMenuSearchScenarios": 4,
+    "focusedCurrentMinimumLayouts": 36,
+    "focusedCurrentMinimumKeyboardScenarios": 12,
+    "focusedPassed": true,
+    "finalSourceDifference": "Explanatory CSS comment only; exact byte proof in browser-focused.json"
+  },
+  "sourceHashMismatches": {
+    "minimumBackend": [],
+    "minimumThemeCheck": []
+  },
+  "finalMetadataRefresh": {
+    "file": "patterns/archive-header.php",
+    "sha256": "baaaa16d7a79e16bef83065ffc95e6348841fbd7fcc2ab2abe10550e7a22e74c",
+    "backendPassed": true,
+    "themeCheckPassed": true,
+    "browserOrPaginationRerun": false
+  }
+}

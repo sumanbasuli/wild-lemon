@@ -1,0 +1,1202 @@
+{
+  "playwrightVersion": "1.64.1",
+  "sourceSha256": {
+    "style.css": "26b8bbd5a55fbe1dac55d95673a7608a0f17369f92b2e0462bacaffa9277dde1",
+    "templates/page.html": "f2510eaa911bacedf9041013ab02a13ed4b3c97292ddbe5214dd1cb92732a586",
+    "templates/single.html": "8b8424c1b6e0eba7247f7a3d6300e7438d2bd3a8cb1ae58772b683c0643aab72",
+    "functions.php": "0de035a9604bfabb0a419a4fd409fc341f3edba7260d7e1898cfc458927360a9"
+  },
+  "layout": [
+    {
+      "url": "http://localhost:8089/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 23.999984741210938,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-a54f266a wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-columns/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 24,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-68bd907d wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-page-heading/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 24.000015258789062,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-featured/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 38.399993896484375,
+      "paddingTop": 38.4,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-a54f266a wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-columns/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 38.40000915527344,
+      "paddingTop": 38.4,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-68bd907d wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-page-heading/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 38.4000244140625,
+      "paddingTop": 38.4,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-featured/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 56.00001525878906,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-a54f266a wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-columns/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 55.99998474121094,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-68bd907d wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-page-heading/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 56,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-featured/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 23.999984741210938,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-5 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-columns/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 24,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-page-heading/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 24.000015258789062,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-featured/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 38.399993896484375,
+      "paddingTop": 38.4,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-5 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-columns/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 38.40000915527344,
+      "paddingTop": 38.4,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-page-heading/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 38.4000244140625,
+      "paddingTop": 38.4,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-featured/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 56,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-5 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-columns/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 56.00001525878906,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-page-heading/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 56.00006103515625,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "firefox",
+      "version": "157.0",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-featured/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 24,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-a54f266a wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-columns/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 24,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-68bd907d wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-page-heading/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 24,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-featured/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 38.390625,
+      "paddingTop": 38.400002,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-a54f266a wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-columns/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 38.390625,
+      "paddingTop": 38.400002,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-68bd907d wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-page-heading/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 38.390625,
+      "paddingTop": 38.400002,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-featured/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 56,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-a54f266a wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-columns/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 56,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-68bd907d wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-page-heading/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8089/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 56,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8089",
+      "path": "/wl-review-post-featured/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 24,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-5 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-columns/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 24,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-page-heading/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 24,
+      "paddingTop": 24,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-featured/",
+      "width": 320,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 38.390625,
+      "paddingTop": 38.400002,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-5 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-columns/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 38.390625,
+      "paddingTop": 38.400002,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-page-heading/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 38.390625,
+      "paddingTop": 38.400002,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-featured/",
+      "width": 768,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-columns/",
+      "overflow": 0,
+      "gap": 56,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "DIV",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-5 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-columns/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-page-heading/",
+      "overflow": 0,
+      "gap": 56,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "H2",
+      "previousClass": "wp-block-group has-global-padding is-layout-constrained wp-container-core-group-is-layout-3 wp-block-group-is-layout-constrained",
+      "selected": [
+        {
+          "path": "/wl-review-page-heading/",
+          "text": "Test Page 26th October",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgba(0, 0, 0, 0)",
+          "nested": false
+        }
+      ],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-page-heading/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    },
+    {
+      "url": "http://localhost:8090/wl-review-post-featured/",
+      "overflow": 0,
+      "gap": 56,
+      "paddingTop": 56,
+      "marginTop": "0px",
+      "firstTag": "P",
+      "previousClass": "alignwide wp-block-post-featured-image",
+      "selected": [],
+      "browser": "webkit",
+      "version": "27.2",
+      "base": "http://localhost:8090",
+      "path": "/wl-review-post-featured/",
+      "width": 1440,
+      "pageErrors": [],
+      "pass": true
+    }
+  ],
+  "interactions": [
+    {
+      "browser": "firefox",
+      "base": "http://localhost:8089",
+      "width": 320,
+      "mobileMenu": true,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "firefox",
+      "base": "http://localhost:8089",
+      "width": 768,
+      "mobileMenu": true,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "firefox",
+      "base": "http://localhost:8089",
+      "width": 1440,
+      "mobileMenu": false,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "firefox",
+      "base": "http://localhost:8090",
+      "width": 320,
+      "mobileMenu": true,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "firefox",
+      "base": "http://localhost:8090",
+      "width": 768,
+      "mobileMenu": true,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "firefox",
+      "base": "http://localhost:8090",
+      "width": 1440,
+      "mobileMenu": false,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "webkit",
+      "base": "http://localhost:8089",
+      "width": 320,
+      "mobileMenu": true,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "webkit",
+      "base": "http://localhost:8089",
+      "width": 768,
+      "mobileMenu": true,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "webkit",
+      "base": "http://localhost:8089",
+      "width": 1440,
+      "mobileMenu": false,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "webkit",
+      "base": "http://localhost:8090",
+      "width": 320,
+      "mobileMenu": true,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "webkit",
+      "base": "http://localhost:8090",
+      "width": 768,
+      "mobileMenu": true,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "browser": "webkit",
+      "base": "http://localhost:8090",
+      "width": 1440,
+      "mobileMenu": false,
+      "keyboardNavigation": true,
+      "escapeFocus": true,
+      "selectedBefore": [
+        {
+          "path": "/wl-review-post-columns/",
+          "text": "Test 2",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "selectedAfter": [
+        {
+          "path": "/wl-review-post-paragraph/",
+          "text": "Test 3",
+          "line": "underline",
+          "thickness": "2px",
+          "background": "rgb(246, 236, 194)",
+          "nested": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "browserVersions": {
+    "firefox": "157.0",
+    "webkit": "27.2"
+  },
+  "failures": [],
+  "passed": true,
+  "finalStylesheetReview": {
+    "testedSha256": "26b8bbd5a55fbe1dac55d95673a7608a0f17369f92b2e0462bacaffa9277dde1",
+    "finalSha256": "c3a7d00a5aaeb3b0c7c2358f3c883176fb264b4989789feea4b5202e7497a367",
+    "difference": "Only the explanatory comment above the wrapped Search end-alignment rule was added after these browser checks. All three final declarations were already tested.",
+    "commentRemovalReproducesTestedBytes": true,
+    "additionalBrowserRunNeeded": false
+  }
+}

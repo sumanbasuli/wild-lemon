@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-28",
+  "finalStyleSha256": "c3a7d00a5aaeb3b0c7c2358f3c883176fb264b4989789feea4b5202e7497a367",
+  "sites": {
+    "current": {
+      "wordpress": "7.1.3",
+      "php": "8.3.36",
+      "axeScans": 48,
+      "expectedFixtureFindings": 6,
+      "unexpectedAutomatedViolations": 0,
+      "additionalManualFindings": [],
+      "focusedCounts": {
+        "skipLink": 2,
+        "details": 2,
+        "contrast": 29,
+        "reflow": 24
+      },
+      "searchCases": 15,
+      "nativeFlows": {
+        "queryPagination": true,
+        "outOfRangeEmptyState": true,
+        "untitledPermalink": true,
+        "pageComments": true,
+        "threadedReplyCancelAndPaging": true,
+        "passwordUnlock": true,
+        "multipageContent": true,
+        "menuFocusTrap": true,
+        "escapeRestoresFocusAfterReverseTab": true
+      },
+      "legacyCoreMenuEscapeLimitation": null
+    },
+    "minimum": {
+      "wordpress": "6.7.10",
+      "php": "7.4.33",
+      "axeScans": 48,
+      "expectedFixtureFindings": 6,
+      "unexpectedAutomatedViolations": 0,
+      "additionalManualFindings": [
+        {
+          "path": "/markup-image-alignment/",
+          "width": 320,
+          "id": "duplicate-id-aria",
+          "nodes": [
+            {
+              "failureSummary": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: caption-attachment-907",
+              "html": "<figcaption id=\"caption-attachment-907\" class=\"wp-caption-text\">Comment for massive image for your eyeballs.</figcaption>",
+              "target": [
+                ".alignnone.wp-caption[aria-describedby=\"caption-attachment-907\"] > figcaption"
+              ]
+            }
+          ]
+        },
+        {
+          "path": "/markup-image-alignment/",
+          "width": 1440,
+          "id": "duplicate-id-aria",
+          "nodes": [
+            {
+              "failureSummary": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: caption-attachment-907",
+              "html": "<figcaption id=\"caption-attachment-907\" class=\"wp-caption-text\">Comment for massive image for your eyeballs.</figcaption>",
+              "target": [
+                ".alignnone.wp-caption[aria-describedby=\"caption-attachment-907\"] > figcaption"
+              ]
+            }
+          ]
+        }
+      ],
+      "focusedCounts": {
+        "skipLink": 2,
+        "details": 2,
+        "contrast": 29,
+        "reflow": 24
+      },
+      "searchCases": 15,
+      "nativeFlows": {
+        "queryPagination": true,
+        "outOfRangeEmptyState": true,
+        "untitledPermalink": true,
+        "pageComments": true,
+        "threadedReplyCancelAndPaging": true,
+        "passwordUnlock": true,
+        "multipageContent": true,
+        "menuFocusTrap": true,
+        "escapeRestoresFocusAfterReverseTab": false
+      },
+      "legacyCoreMenuEscapeLimitation": {
+        "source": "WordPress6.7.10 native navigation; also reproduced with theme CSS disabled",
+        "affectsWidths": [
+          320,
+          390,
+          768
+        ],
+        "allOtherFlowAssertionsPassed": true
+      }
+    }
+  },
+  "galleryCaptionManualReview": {
+    "cases": 8,
+    "minimumContrastLowerBound": 6.977601437110393,
+    "method": "Computed white text and minimum black-gradient alpha over worst-case white image; all ancestor opacities1"
+  },
+  "manualColorContrastResolution": "Arrow and control/focus measurements are in each accessibility-review.json; gallery gradient bounds are in gallery-caption-contrast.json.",
+  "subsequentNonvisualMetadataCorrection": {
+    "path": "patterns/archive-header.php",
+    "change": "Paragraph align wide -> className alignwide",
+    "frontendHTMLUnchanged": true,
+    "cssUnchanged": true,
+    "editorValidation": "Separate root editor pass; no unnecessary browser-suite rerun"
+  }
+}

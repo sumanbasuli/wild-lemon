@@ -1,0 +1,230 @@
+{
+    "cases": [
+        {
+            "posts": 0,
+            "page": 1,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 0,
+            "page": 2,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 0,
+            "page": 3,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 0,
+            "page": 99,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 1,
+            "page": 1,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 1,
+            "page": 2,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 1,
+            "page": 3,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 1,
+            "page": 99,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 4,
+            "page": 1,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 4,
+            "page": 2,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 4,
+            "page": 3,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 4,
+            "page": 99,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 5,
+            "page": 1,
+            "archive_rows": 1,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 5,
+            "page": 2,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 5,
+            "page": 3,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 5,
+            "page": 99,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 8,
+            "page": 1,
+            "archive_rows": 4,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 8,
+            "page": 2,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 8,
+            "page": 3,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 8,
+            "page": 99,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 9,
+            "page": 1,
+            "archive_rows": 4,
+            "pagination": true,
+            "pass": true
+        },
+        {
+            "posts": 9,
+            "page": 2,
+            "archive_rows": 1,
+            "pagination": true,
+            "pass": true
+        },
+        {
+            "posts": 9,
+            "page": 3,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 9,
+            "page": 99,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 12,
+            "page": 1,
+            "archive_rows": 4,
+            "pagination": true,
+            "pass": true
+        },
+        {
+            "posts": 12,
+            "page": 2,
+            "archive_rows": 4,
+            "pagination": true,
+            "pass": true
+        },
+        {
+            "posts": 12,
+            "page": 3,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 12,
+            "page": 99,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        },
+        {
+            "posts": 13,
+            "page": 1,
+            "archive_rows": 4,
+            "pagination": true,
+            "pass": true
+        },
+        {
+            "posts": 13,
+            "page": 2,
+            "archive_rows": 4,
+            "pagination": true,
+            "pass": true
+        },
+        {
+            "posts": 13,
+            "page": 3,
+            "archive_rows": 1,
+            "pagination": true,
+            "pass": true
+        },
+        {
+            "posts": 13,
+            "page": 99,
+            "archive_rows": 0,
+            "pagination": false,
+            "pass": true
+        }
+    ],
+    "unrelated_queries_unchanged": true,
+    "fixtures_removed": true
+}

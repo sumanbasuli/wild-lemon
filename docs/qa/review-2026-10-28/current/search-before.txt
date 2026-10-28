@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/txsadhu/Documents/OSS/wildlemon/docs/qa/check-search.py", line 41, in <module>
+    check_open(before, after)
+  File "/Users/txsadhu/Documents/OSS/wildlemon/docs/qa/check-search.py", line 23, in check_open
+    assert after['overflow'] == 0 and after['field']['left'] >= 0 and after['field']['right'] <= before['header']['width'] + 1, after
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'button': {'bottom': 219.40625, 'height': 44, 'left': 45.046875, 'right': 129.046875, 'top': 175.40625, 'width': 84, 'x': 45.046875, 'y': 175.40625}, 'expanded': 'true', 'field': {'bottom': 219.40625, 'height': 44, 'left': -159.265625, 'right': 129.046875, 'top': 175.40625, 'width': 288.3125, 'x': -159.265625, 'y': 175.40625}, 'fieldOverflow': 'visible', 'focused': True, 'formOverflow': 'visible', 'header': {'bottom': 240.40625, 'height': 240.40625, 'left': 0, 'right': 901, 'top': 0, 'width': 901, 'x': 0, 'y': 0}, 'label': 'Search', 'mainTop': 264.40625, 'navVisible': 'hidden', 'overflow': 0}

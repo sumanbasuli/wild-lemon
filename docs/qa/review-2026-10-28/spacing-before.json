@@ -1,0 +1,30 @@
+[
+  {
+    "contentStyle": "margin-top:var(--wp--preset--spacing--60)",
+    "gap": 56,
+    "margin": "56px",
+    "padding": "0px",
+    "url": "http://localhost:8089/wl-review-page-heading/"
+  },
+  {
+    "contentStyle": "margin-top:var(--wp--preset--spacing--60)",
+    "gap": 56,
+    "margin": "56px",
+    "padding": "0px",
+    "url": "http://localhost:8089/wl-review-post-columns/"
+  },
+  {
+    "contentStyle": null,
+    "gap": 0,
+    "margin": "0px",
+    "padding": "0px",
+    "url": "http://localhost:8090/sample-page/"
+  },
+  {
+    "contentStyle": null,
+    "gap": 0,
+    "margin": "0px",
+    "padding": "0px",
+    "url": "http://localhost:8090/hello-world/"
+  }
+]

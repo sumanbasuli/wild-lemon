@@ -1,0 +1,49 @@
+{"layout": "firefox", "base": "http://localhost:8089", "path": "/wl-review-post-columns/", "width": 320, "gap": 23.999984741210938, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8089", "path": "/wl-review-page-heading/", "width": 320, "gap": 24, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8089", "path": "/wl-review-post-featured/", "width": 320, "gap": 24.000015258789062, "pass": true}
+{"interaction": "firefox", "base": "http://localhost:8089", "width": 320, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8089", "path": "/wl-review-post-columns/", "width": 768, "gap": 38.399993896484375, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8089", "path": "/wl-review-page-heading/", "width": 768, "gap": 38.40000915527344, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8089", "path": "/wl-review-post-featured/", "width": 768, "gap": 38.4000244140625, "pass": true}
+{"interaction": "firefox", "base": "http://localhost:8089", "width": 768, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8089", "path": "/wl-review-post-columns/", "width": 1440, "gap": 56.00001525878906, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8089", "path": "/wl-review-page-heading/", "width": 1440, "gap": 55.99998474121094, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8089", "path": "/wl-review-post-featured/", "width": 1440, "gap": 56, "pass": true}
+{"interaction": "firefox", "base": "http://localhost:8089", "width": 1440, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8090", "path": "/wl-review-post-columns/", "width": 320, "gap": 23.999984741210938, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8090", "path": "/wl-review-page-heading/", "width": 320, "gap": 24, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8090", "path": "/wl-review-post-featured/", "width": 320, "gap": 24.000015258789062, "pass": true}
+{"interaction": "firefox", "base": "http://localhost:8090", "width": 320, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8090", "path": "/wl-review-post-columns/", "width": 768, "gap": 38.399993896484375, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8090", "path": "/wl-review-page-heading/", "width": 768, "gap": 38.40000915527344, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8090", "path": "/wl-review-post-featured/", "width": 768, "gap": 38.4000244140625, "pass": true}
+{"interaction": "firefox", "base": "http://localhost:8090", "width": 768, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8090", "path": "/wl-review-post-columns/", "width": 1440, "gap": 56, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8090", "path": "/wl-review-page-heading/", "width": 1440, "gap": 56.00001525878906, "pass": true}
+{"layout": "firefox", "base": "http://localhost:8090", "path": "/wl-review-post-featured/", "width": 1440, "gap": 56.00006103515625, "pass": true}
+{"interaction": "firefox", "base": "http://localhost:8090", "width": 1440, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8089", "path": "/wl-review-post-columns/", "width": 320, "gap": 24, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8089", "path": "/wl-review-page-heading/", "width": 320, "gap": 24, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8089", "path": "/wl-review-post-featured/", "width": 320, "gap": 24, "pass": true}
+{"interaction": "webkit", "base": "http://localhost:8089", "width": 320, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8089", "path": "/wl-review-post-columns/", "width": 768, "gap": 38.390625, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8089", "path": "/wl-review-page-heading/", "width": 768, "gap": 38.390625, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8089", "path": "/wl-review-post-featured/", "width": 768, "gap": 38.390625, "pass": true}
+{"interaction": "webkit", "base": "http://localhost:8089", "width": 768, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8089", "path": "/wl-review-post-columns/", "width": 1440, "gap": 56, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8089", "path": "/wl-review-page-heading/", "width": 1440, "gap": 56, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8089", "path": "/wl-review-post-featured/", "width": 1440, "gap": 56, "pass": true}
+{"interaction": "webkit", "base": "http://localhost:8089", "width": 1440, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8090", "path": "/wl-review-post-columns/", "width": 320, "gap": 24, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8090", "path": "/wl-review-page-heading/", "width": 320, "gap": 24, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8090", "path": "/wl-review-post-featured/", "width": 320, "gap": 24, "pass": true}
+{"interaction": "webkit", "base": "http://localhost:8090", "width": 320, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8090", "path": "/wl-review-post-columns/", "width": 768, "gap": 38.390625, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8090", "path": "/wl-review-page-heading/", "width": 768, "gap": 38.390625, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8090", "path": "/wl-review-post-featured/", "width": 768, "gap": 38.390625, "pass": true}
+{"interaction": "webkit", "base": "http://localhost:8090", "width": 768, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8090", "path": "/wl-review-post-columns/", "width": 1440, "gap": 56, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8090", "path": "/wl-review-page-heading/", "width": 1440, "gap": 56, "pass": true}
+{"layout": "webkit", "base": "http://localhost:8090", "path": "/wl-review-post-featured/", "width": 1440, "gap": 56, "pass": true}
+{"interaction": "webkit", "base": "http://localhost:8090", "width": 1440, "pass": true}
+{"layouts": 36, "interactions": 12, "browsers": {"firefox": "157.0", "webkit": "27.2"}, "passed": true}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/txsadhu/Documents/OSS/wildlemon/docs/qa/check-official-interactions.py", line 22, in <module>
+    run('press','Escape');assert js("!document.querySelector('.is-menu-open')&&document.activeElement.getAttribute('aria-label')==='Open menu'")
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

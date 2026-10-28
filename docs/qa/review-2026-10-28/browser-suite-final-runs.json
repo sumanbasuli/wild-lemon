@@ -1,0 +1,34 @@
+[
+  {
+    "site": "current",
+    "suite": "accessibility",
+    "exitCode": 0,
+    "seconds": 28.0,
+    "log": "docs/qa/review-2026-10-28/current/accessibility-run.txt",
+    "browserClosed": true
+  },
+  {
+    "site": "current",
+    "suite": "accessibility-review",
+    "exitCode": 0,
+    "seconds": 12.8,
+    "log": "docs/qa/review-2026-10-28/current/accessibility-review-run.txt",
+    "browserClosed": true
+  },
+  {
+    "site": "minimum",
+    "suite": "accessibility",
+    "exitCode": 0,
+    "seconds": 27.4,
+    "log": "docs/qa/review-2026-10-28/minimum/accessibility-run.txt",
+    "browserClosed": true
+  },
+  {
+    "site": "minimum",
+    "suite": "accessibility-review",
+    "exitCode": 0,
+    "seconds": 12.1,
+    "log": "docs/qa/review-2026-10-28/minimum/accessibility-review-run.txt",
+    "browserClosed": true
+  }
+]

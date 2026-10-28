@@ -3,7 +3,7 @@ Contributors: txsadhu
 Requires at least: 6.7
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, accessibility-ready, custom-colors, custom-menu, editor-style, featured-images, full-site-editing, block-patterns, block-styles, threaded-comments, translation-ready, wide-blocks
@@ -13,6 +13,13 @@ Tags: blog, one-column, accessibility-ready, custom-colors, custom-menu, editor-
 Wild Lemon is a warm editorial blogging theme built entirely on core blocks — query loops, post templates, pullquotes, and navigation. Newsreader carries the reading experience, Schibsted Grotesk handles the interface, and a single lemon accent ties it together. No plugin dependencies.
 
 == Changelog ==
+
+= 1.6 =
+* Restore responsive spacing below post bylines and page titles on WordPress 6.7.
+* Highlight selected navigation links and dropdown items.
+* Keep expanded Search fields within the header when navigation wraps.
+* Improve archive-pattern editing compatibility with WordPress 6.7.
+* Handle malformed pagination inputs safely while preserving normal archive navigation.
 
 = 1.5 =
 * Keep next-post arrows aligned with their navigation labels.

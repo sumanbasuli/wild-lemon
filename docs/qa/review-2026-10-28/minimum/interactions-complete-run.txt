@@ -1,0 +1,134 @@
+{
+  "320": {
+    "controls": [
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 44
+      },
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 84
+      }
+    ],
+    "menu": {
+      "inside": true,
+      "links": 21,
+      "minLinkHeight": 43.99999237060547,
+      "overflow": 0,
+      "scrollable": true
+    },
+    "focusTrap": true,
+    "escapeRestoresFocus": false,
+    "escapeState": {
+      "label": null,
+      "tag": "BODY"
+    }
+  },
+  "390": {
+    "controls": [
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 44
+      },
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 84
+      }
+    ],
+    "menu": {
+      "inside": true,
+      "links": 21,
+      "minLinkHeight": 44,
+      "overflow": 0,
+      "scrollable": true
+    },
+    "focusTrap": true,
+    "escapeRestoresFocus": false,
+    "escapeState": {
+      "label": null,
+      "tag": "BODY"
+    }
+  },
+  "768": {
+    "controls": [
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 44
+      },
+      {
+        "height": 44,
+        "offset": 0,
+        "width": 84
+      }
+    ],
+    "menu": {
+      "inside": true,
+      "links": 21,
+      "minLinkHeight": 43.99998474121094,
+      "overflow": 0,
+      "scrollable": true
+    },
+    "focusTrap": true,
+    "escapeRestoresFocus": false,
+    "escapeState": {
+      "label": null,
+      "tag": "BODY"
+    }
+  },
+  "queryPagination": {
+    "first": [
+      "post-1850",
+      "post-163",
+      "post-150",
+      "post-51"
+    ],
+    "second": [
+      "post-34",
+      "post-24",
+      "post-21",
+      "post-8"
+    ],
+    "previousWorks": true
+  },
+  "outOfRange": {
+    "pagination": false,
+    "emptyMessage": true
+  },
+  "untitledPost": {
+    "dateLinkWorks": true
+  },
+  "pageComments": {
+    "existingVisible": true,
+    "closedFormAbsent": true
+  },
+  "comments": {
+    "minimumTextWidth": 180,
+    "replyCancel": true,
+    "olderNewer": true
+  },
+  "password": {
+    "unlocked": true
+  },
+  "multipagePost": {
+    "links": [
+      "http://localhost:8090/template-paginated/2/",
+      "http://localhost:8090/template-paginated/3/"
+    ],
+    "navigated": "http://localhost:8090/template-paginated/2/"
+  },
+  "coreMenuEscapeLimitation": {
+    "source": "WordPress6.7.10 native navigation; also reproduced with theme CSS disabled",
+    "affectsWidths": [
+      320,
+      390,
+      768
+    ],
+    "allOtherFlowAssertionsPassed": true
+  }
+}
+Recorded core Escape focus limitation; independent native flows passed

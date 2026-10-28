@@ -6,7 +6,7 @@ Description: A warm editorial blogging theme built entirely on core blocks — q
 Requires at least: 6.7
 Tested up to: 7.1
 Requires PHP: 7.4
-Version: 1.5
+Version: 1.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: wild-lemon
@@ -182,8 +182,33 @@ Tags: blog, one-column, accessibility-ready, custom-colors, custom-menu, editor-
 	z-index: 30;
 }
 
+/* Mark the current native Navigation or Page List link without changing its size. */
+.wl-header .wp-block-navigation :is(
+	.wp-block-navigation-item > a[aria-current="page"],
+	.current-menu-item > a,
+	.current_page_item > a
+) {
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 0.3em;
+}
+
+.wl-header .wp-block-navigation__submenu-container :is(
+	.wp-block-navigation-item > a[aria-current="page"],
+	.current-menu-item > a,
+	.current_page_item > a
+) {
+	background-color: var(--wp--preset--color--accent-2);
+	color: var(--wp--preset--color--contrast);
+}
+
+/* Keep wrapped Search controls at the inline end of the header. */
 .wl-header > .wp-block-group {
 	align-items: center;
+	justify-content: flex-end;
+	max-inline-size: 100%;
+	margin-inline-start: auto;
 }
 
 .wl-header .wp-block-navigation__responsive-container-open,

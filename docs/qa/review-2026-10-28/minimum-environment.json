@@ -1,0 +1,28 @@
+{
+    "url": "http://localhost:8090",
+    "wordpress": "6.7.10",
+    "php": "7.4.33",
+    "theme": "1.5",
+    "plugins": [
+        "theme-check/theme-check.php",
+        "wordpress-importer/wordpress-importer.php"
+    ],
+    "postsPerPage": "5",
+    "threaded": "1",
+    "threadDepth": "5",
+    "pagedComments": "1",
+    "commentsPerPage": "5",
+    "permalinks": "/%postname%/",
+    "debug": true,
+    "debugLog": true,
+    "debugDisplay": false,
+    "developmentMode": "theme",
+    "postContentSpacingSupport": {
+        "blockGap": true,
+        "padding": true,
+        "__experimentalDefaultControls": {
+            "margin": false,
+            "padding": false
+        }
+    }
+}

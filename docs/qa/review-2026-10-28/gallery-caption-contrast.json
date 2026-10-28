@@ -1,0 +1,162 @@
+[
+  {
+    "port": 8089,
+    "width": 320,
+    "ancestors": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "color": "rgb(255, 255, 255)",
+    "gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+    "opacity": "1",
+    "text": "The long way home.",
+    "minimumBlackOverlayAlpha": 0.65,
+    "worstCaseImageColor": "white",
+    "contrastLowerBound": 6.977601437110393
+  },
+  {
+    "port": 8089,
+    "width": 320,
+    "ancestors": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "color": "rgb(255, 255, 255)",
+    "gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+    "opacity": "1",
+    "text": "A few lines before the light goes.",
+    "minimumBlackOverlayAlpha": 0.65,
+    "worstCaseImageColor": "white",
+    "contrastLowerBound": 6.977601437110393
+  },
+  {
+    "port": 8089,
+    "width": 1440,
+    "ancestors": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "color": "rgb(255, 255, 255)",
+    "gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+    "opacity": "1",
+    "text": "The long way home.",
+    "minimumBlackOverlayAlpha": 0.65,
+    "worstCaseImageColor": "white",
+    "contrastLowerBound": 6.977601437110393
+  },
+  {
+    "port": 8089,
+    "width": 1440,
+    "ancestors": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "color": "rgb(255, 255, 255)",
+    "gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+    "opacity": "1",
+    "text": "A few lines before the light goes.",
+    "minimumBlackOverlayAlpha": 0.65,
+    "worstCaseImageColor": "white",
+    "contrastLowerBound": 6.977601437110393
+  },
+  {
+    "port": 8090,
+    "width": 320,
+    "ancestors": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "color": "rgb(255, 255, 255)",
+    "gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+    "opacity": "1",
+    "text": "The long way home.",
+    "minimumBlackOverlayAlpha": 0.65,
+    "worstCaseImageColor": "white",
+    "contrastLowerBound": 6.977601437110393
+  },
+  {
+    "port": 8090,
+    "width": 320,
+    "ancestors": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "color": "rgb(255, 255, 255)",
+    "gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+    "opacity": "1",
+    "text": "A few lines before the light goes.",
+    "minimumBlackOverlayAlpha": 0.65,
+    "worstCaseImageColor": "white",
+    "contrastLowerBound": 6.977601437110393
+  },
+  {
+    "port": 8090,
+    "width": 1440,
+    "ancestors": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "color": "rgb(255, 255, 255)",
+    "gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+    "opacity": "1",
+    "text": "The long way home.",
+    "minimumBlackOverlayAlpha": 0.65,
+    "worstCaseImageColor": "white",
+    "contrastLowerBound": 6.977601437110393
+  },
+  {
+    "port": 8090,
+    "width": 1440,
+    "ancestors": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "color": "rgb(255, 255, 255)",
+    "gradient": "linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.65))",
+    "opacity": "1",
+    "text": "A few lines before the light goes.",
+    "minimumBlackOverlayAlpha": 0.65,
+    "worstCaseImageColor": "white",
+    "contrastLowerBound": 6.977601437110393
+  }
+]

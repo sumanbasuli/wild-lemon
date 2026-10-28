@@ -1,0 +1,8 @@
+{
+  "wordpress": "6.7.10",
+  "authoredHtmlUnchanged": true,
+  "normalizedRenderedHtmlIdentical": true,
+  "normalization": "Only core sequential wp-container-core-group-is-layout-N identifiers from the two consecutive renders; all other HTML bytes identical.",
+  "oldRenderedSha256": "60c132f45155258ab024792ea54d38b004d6052f2dd17c4a69bac47cea9385eb",
+  "newRenderedSha256": "267429446751b8bb06d07a2bd821de5c64f72b528d59e2263f6dc46df8abd145"
+}

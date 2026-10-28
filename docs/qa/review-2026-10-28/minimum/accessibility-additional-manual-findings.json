@@ -1,0 +1,30 @@
+[
+  {
+    "path": "/markup-image-alignment/",
+    "width": 320,
+    "id": "duplicate-id-aria",
+    "nodes": [
+      {
+        "failureSummary": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: caption-attachment-907",
+        "html": "<figcaption id=\"caption-attachment-907\" class=\"wp-caption-text\">Comment for massive image for your eyeballs.</figcaption>",
+        "target": [
+          ".alignnone.wp-caption[aria-describedby=\"caption-attachment-907\"] > figcaption"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/markup-image-alignment/",
+    "width": 1440,
+    "id": "duplicate-id-aria",
+    "nodes": [
+      {
+        "failureSummary": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: caption-attachment-907",
+        "html": "<figcaption id=\"caption-attachment-907\" class=\"wp-caption-text\">Comment for massive image for your eyeballs.</figcaption>",
+        "target": [
+          ".alignnone.wp-caption[aria-describedby=\"caption-attachment-907\"] > figcaption"
+        ]
+      }
+    ]
+  }
+]

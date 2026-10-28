@@ -1,0 +1,41 @@
+{
+  "current": {
+    "layoutCases": 550,
+    "widths": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "uniqueRoutes": 110,
+    "archiveCases": 84,
+    "failures": {
+      "horizontalOverflow": 0,
+      "compressedQueryTitles": 0,
+      "brokenLoadedLocalImages": 0,
+      "mainLandmarks": 0,
+      "missingImageAlt": 0,
+      "geometricOffenders": 0
+    }
+  },
+  "minimum": {
+    "layoutCases": 330,
+    "widths": [
+      320,
+      768,
+      1440
+    ],
+    "uniqueRoutes": 110,
+    "archiveCases": 84,
+    "failures": {
+      "horizontalOverflow": 0,
+      "compressedQueryTitles": 0,
+      "brokenLoadedLocalImages": 0,
+      "mainLandmarks": 0,
+      "missingImageAlt": 0,
+      "geometricOffenders": 0
+    }
+  },
+  "totalCases": 1048
+}

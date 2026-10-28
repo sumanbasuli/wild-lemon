@@ -1,0 +1,86 @@
+[
+  {
+    "path": "/markup-html-tags-and-formatting/",
+    "width": 320,
+    "id": "empty-table-header",
+    "nodes": [
+      {
+        "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+        "html": "<th></th>",
+        "target": [
+          "th:nth-child(3)"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/template-comments/comment-page-1/",
+    "width": 320,
+    "id": "empty-table-header",
+    "nodes": [
+      {
+        "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+        "html": "<th></th>",
+        "target": [
+          "th:nth-child(3)"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/edge-case-no-title/",
+    "width": 320,
+    "id": "page-has-heading-one",
+    "nodes": [
+      {
+        "failureSummary": "Fix all of the following:\n  Page must have a level-one heading",
+        "html": "<html lang=\"en-US\">",
+        "target": [
+          "html"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/markup-html-tags-and-formatting/",
+    "width": 1440,
+    "id": "empty-table-header",
+    "nodes": [
+      {
+        "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+        "html": "<th></th>",
+        "target": [
+          "th:nth-child(3)"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/template-comments/comment-page-1/",
+    "width": 1440,
+    "id": "empty-table-header",
+    "nodes": [
+      {
+        "failureSummary": "Fix any of the following:\n  Element does not have text that is visible to screen readers",
+        "html": "<th></th>",
+        "target": [
+          "th:nth-child(3)"
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/edge-case-no-title/",
+    "width": 1440,
+    "id": "page-has-heading-one",
+    "nodes": [
+      {
+        "failureSummary": "Fix all of the following:\n  Page must have a level-one heading",
+        "html": "<html lang=\"en-US\">",
+        "target": [
+          "html"
+        ]
+      }
+    ]
+  }
+]

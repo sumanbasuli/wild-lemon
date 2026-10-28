@@ -1,0 +1,261 @@
+{
+    "wordpress": "7.1.3",
+    "php": "8.3.36",
+    "cases": 35,
+    "scope": "Actual theme pagination callback; native query page captured; post queries short-circuited without changing content",
+    "results": [
+        {
+            "case": "missing",
+            "input": null,
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "null",
+            "input": null,
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "empty",
+            "input": "",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "zero",
+            "input": "0",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "negative-zero",
+            "input": "-0",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "negative",
+            "input": "-3",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "negative-large",
+            "input": "-9999999999999999999999",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "first",
+            "input": "1",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "second",
+            "input": "2",
+            "expectedPage": 2,
+            "actualPage": 2,
+            "pass": true
+        },
+        {
+            "case": "out-of-range",
+            "input": "99",
+            "expectedPage": 99,
+            "actualPage": 99,
+            "pass": true
+        },
+        {
+            "case": "integer",
+            "input": 3,
+            "expectedPage": 3,
+            "actualPage": 3,
+            "pass": true
+        },
+        {
+            "case": "float",
+            "input": 3.8,
+            "expectedPage": 3,
+            "actualPage": 3,
+            "pass": true
+        },
+        {
+            "case": "true",
+            "input": true,
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "false",
+            "input": false,
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "word",
+            "input": "garden",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "numeric-tail",
+            "input": "garden12",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "numeric-prefix",
+            "input": "12garden",
+            "expectedPage": 12,
+            "actualPage": 12,
+            "pass": true
+        },
+        {
+            "case": "decimal",
+            "input": "3.8",
+            "expectedPage": 3,
+            "actualPage": 3,
+            "pass": true
+        },
+        {
+            "case": "scientific",
+            "input": "3e2",
+            "expectedPage": 300,
+            "actualPage": 300,
+            "pass": true
+        },
+        {
+            "case": "signed-spaces",
+            "input": "  +3 ",
+            "expectedPage": 3,
+            "actualPage": 3,
+            "pass": true
+        },
+        {
+            "case": "empty-array",
+            "input": [],
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "value-array",
+            "input": [
+                "2"
+            ],
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "nested-array",
+            "input": [
+                [
+                    "2"
+                ]
+            ],
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "keyed-array",
+            "input": {
+                "page": "2"
+            },
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "html",
+            "input": "<b>12</b>",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "html-suffix",
+            "input": "2<b>12</b>",
+            "expectedPage": 2,
+            "actualPage": 2,
+            "pass": true
+        },
+        {
+            "case": "url-encoding",
+            "input": "12%2034",
+            "expectedPage": 12,
+            "actualPage": 12,
+            "pass": true
+        },
+        {
+            "case": "underscore",
+            "input": "1_000",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "leading-slash",
+            "input": "\\3",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "internal-slash",
+            "input": "2\\3",
+            "expectedPage": 2,
+            "actualPage": 2,
+            "pass": true
+        },
+        {
+            "case": "leading-quote",
+            "input": "'2",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "internal-quote",
+            "input": "2'3",
+            "expectedPage": 2,
+            "actualPage": 2,
+            "pass": true
+        },
+        {
+            "case": "leading-null",
+            "input": "\u00003",
+            "expectedPage": 1,
+            "actualPage": 1,
+            "pass": true
+        },
+        {
+            "case": "internal-null",
+            "input": "2\u00003",
+            "expectedPage": 2,
+            "actualPage": 2,
+            "pass": true
+        },
+        {
+            "case": "large-number",
+            "input": "999999999999999999999999999999",
+            "expectedPage": 9223372036854775807,
+            "actualPage": 9223372036854775807,
+            "pass": true
+        }
+    ]
+}

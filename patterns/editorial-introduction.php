@@ -8,6 +8,7 @@
  *
  * @package Wild_Lemon
  */
+
 ?>
 <!-- wp:group {"align":"wide","className":"wl-pattern-intro","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide wl-pattern-intro">

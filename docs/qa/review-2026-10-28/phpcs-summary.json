@@ -1,0 +1,290 @@
+{
+  "date": "2026-10-28",
+  "scope": "Only production functions.php and patterns/*.php; docs, QA, build and vendor excluded",
+  "fileCount": 22,
+  "files": [
+    {
+      "path": "functions.php",
+      "sha256": "0de035a9604bfabb0a419a4fd409fc341f3edba7260d7e1898cfc458927360a9"
+    },
+    {
+      "path": "patterns/archive-header.php",
+      "sha256": "baaaa16d7a79e16bef83065ffc95e6348841fbd7fcc2ab2abe10550e7a22e74c"
+    },
+    {
+      "path": "patterns/author-bio.php",
+      "sha256": "88e9a6667ad69e7b4a0606284b0b1d354e31043435826ffed101a23ed2a51c39"
+    },
+    {
+      "path": "patterns/author-header.php",
+      "sha256": "0ee5410446f972ab27a5010401e4106a6a38e627e5e3d392053eca846361de59"
+    },
+    {
+      "path": "patterns/comments.php",
+      "sha256": "5caaee84afe600e62f7e9550315171ea6511b73d6cea1277475dc4e2729fbb13"
+    },
+    {
+      "path": "patterns/editorial-introduction.php",
+      "sha256": "da374ae3e8b22d31b6e00f37ffdb7829da0480d694e667ae098fd236f8d03234"
+    },
+    {
+      "path": "patterns/featured-quotation.php",
+      "sha256": "e957e0554b9cafb16cfee5386086292e574d2f8751461b37ad79ef9f17ee7ded"
+    },
+    {
+      "path": "patterns/footer-compact.php",
+      "sha256": "b19e38eac588b4490e35633716662f8ea9e460edc6adbc49b84d3b38b879a074"
+    },
+    {
+      "path": "patterns/footer.php",
+      "sha256": "6a9597925c548c6543625ae3b44456f2d4632199a03cb5e32bb3c30224f6c509"
+    },
+    {
+      "path": "patterns/header.php",
+      "sha256": "990b8b7b90975574e82c8941071cc56f535b6a6b2af181be422c261417d8d633"
+    },
+    {
+      "path": "patterns/hidden-404.php",
+      "sha256": "362ee1afce7427179df001309b5a7a89eb09b8bb610f0c11f2a985ad88db3bb8"
+    },
+    {
+      "path": "patterns/hidden-no-posts.php",
+      "sha256": "fc60a591b5f1b5860a1ab6b13bd8994eb4d07d809205900a6ab06e3d74bf8c38"
+    },
+    {
+      "path": "patterns/hidden-no-results.php",
+      "sha256": "52790583a4a8a45998c6d2e067553aac6117326a4a6a01ff8d067736e103715c"
+    },
+    {
+      "path": "patterns/hidden-reading-time.php",
+      "sha256": "2cb98af2a0b522df319f0f586b371498e998703ffa8192cfb56c25ec454eb375"
+    },
+    {
+      "path": "patterns/home-archive-list.php",
+      "sha256": "93f1f2858738ac3c4f5fc7b10a9d5bb4245e8aeb31305352b5a864df77d758db"
+    },
+    {
+      "path": "patterns/home-latest.php",
+      "sha256": "a5f130804d5c8363a1d64ef838570f26987924d7736f0677d7a4720df720c528"
+    },
+    {
+      "path": "patterns/home-topics.php",
+      "sha256": "2e952760100497b4fd5e3e8661b94c965b5cba79640d1f686bb9892f714e2084"
+    },
+    {
+      "path": "patterns/photo-essay.php",
+      "sha256": "966060b41cdd08e1df4b22ac5ce7df0bff12bc05a224da7785d1db22738d6afc"
+    },
+    {
+      "path": "patterns/query-list.php",
+      "sha256": "8cd980a8665a140adef9a5abbcec2a76c14e328f5e79ff959ab4422d5a2e76d6"
+    },
+    {
+      "path": "patterns/seasonal-table.php",
+      "sha256": "0fd919675281f54cc3034a637ce53bc7ac9a2ea564d8b453374dc2b80c6b3a36"
+    },
+    {
+      "path": "patterns/slow-weekend.php",
+      "sha256": "6f4286a8ee029f4290a16cb4dfb03c7dc576eeeec23cbb8f062f2c0275005405"
+    },
+    {
+      "path": "patterns/two-column-notes.php",
+      "sha256": "74dd61fa268822591641249ef4d4004a53beb433f7665d595b9da2fbfe149cad"
+    }
+  ],
+  "hostPHP": "8.5.3",
+  "toolingDeprecations": "Host PHP E_DEPRECATED/E_USER_DEPRECATED suppressed for scanner dependency runtime only; production PHP is statically analyzed, not executed",
+  "minimumPHP": "7.4",
+  "minimumWordPress": "6.7",
+  "packages": {
+    "modern": {
+      "dealerdirect/phpcodesniffer-composer-installer": "v1.2.1",
+      "phpcompatibility/php-compatibility": "9.3.5",
+      "phpcompatibility/phpcompatibility-paragonie": "1.3.4",
+      "phpcompatibility/phpcompatibility-wp": "2.1.8",
+      "phpcsstandards/phpcsextra": "1.5.1",
+      "phpcsstandards/phpcsutils": "1.2.3",
+      "squizlabs/php_codesniffer": "3.13.6",
+      "wp-coding-standards/wpcs": "3.4.1"
+    },
+    "review": {
+      "phpcompatibility/php-compatibility": "9.3.5",
+      "phpcompatibility/phpcompatibility-paragonie": "1.3.4",
+      "phpcompatibility/phpcompatibility-wp": "2.1.8",
+      "squizlabs/php_codesniffer": "3.13.6",
+      "wp-coding-standards/wpcs": "2.3.0",
+      "wptrt/wpthemereview": "0.2.1"
+    }
+  },
+  "scans": [
+    {
+      "label": "wordpress",
+      "standard": "WordPress",
+      "project": "/private/tmp/wildlemon-phpcs-20261028/modern",
+      "exitCode": 0,
+      "totals": {
+        "errors": 0,
+        "warnings": 0,
+        "fixable": 0
+      },
+      "sources": {},
+      "arguments": [
+        "php",
+        "-d",
+        "error_reporting=8191",
+        "/private/tmp/wildlemon-phpcs-20261028/modern/vendor/bin/phpcs",
+        "--runtime-set",
+        "installed_paths",
+        "/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcompatibility/php-compatibility,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcompatibility/phpcompatibility-paragonie,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcompatibility/phpcompatibility-wp,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcsstandards/phpcsextra,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcsstandards/phpcsutils,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/wp-coding-standards/wpcs",
+        "--runtime-set",
+        "testVersion",
+        "7.4-",
+        "--runtime-set",
+        "minimum_wp_version",
+        "6.7",
+        "--standard=WordPress",
+        "--extensions=php",
+        "--basepath=/Users/txsadhu/Documents/OSS/wildlemon",
+        "-s",
+        "--report-json=/Users/txsadhu/Documents/OSS/wildlemon/docs/qa/review-2026-10-28/phpcs-wordpress.json",
+        "--report-full=/Users/txsadhu/Documents/OSS/wildlemon/docs/qa/review-2026-10-28/phpcs-wordpress.txt",
+        "/Users/txsadhu/Documents/OSS/wildlemon/functions.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/archive-header.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/author-bio.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/author-header.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/comments.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/editorial-introduction.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/featured-quotation.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/footer-compact.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/footer.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/header.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-404.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-no-posts.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-no-results.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-reading-time.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/home-archive-list.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/home-latest.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/home-topics.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/photo-essay.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/query-list.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/seasonal-table.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/slow-weekend.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/two-column-notes.php"
+      ]
+    },
+    {
+      "label": "wpthemereview",
+      "standard": "WPThemeReview",
+      "project": "/private/tmp/wildlemon-phpcs-20261028/review",
+      "exitCode": 1,
+      "totals": {
+        "errors": 5,
+        "warnings": 0,
+        "fixable": 0
+      },
+      "sources": {
+        "WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style": 2,
+        "WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category": 1,
+        "WPThemeReview.Templates.ReservedFileNamePrefix.ReservedTemplatePrefixFound": 2
+      },
+      "arguments": [
+        "php",
+        "-d",
+        "error_reporting=8191",
+        "/private/tmp/wildlemon-phpcs-20261028/review/vendor/bin/phpcs",
+        "--runtime-set",
+        "installed_paths",
+        "/private/tmp/wildlemon-phpcs-20261028/review/vendor/phpcompatibility/php-compatibility,/private/tmp/wildlemon-phpcs-20261028/review/vendor/phpcompatibility/phpcompatibility-paragonie,/private/tmp/wildlemon-phpcs-20261028/review/vendor/phpcompatibility/phpcompatibility-wp,/private/tmp/wildlemon-phpcs-20261028/review/vendor/wp-coding-standards/wpcs,/private/tmp/wildlemon-phpcs-20261028/review/vendor/wptrt/wpthemereview",
+        "--runtime-set",
+        "testVersion",
+        "7.4-",
+        "--runtime-set",
+        "minimum_wp_version",
+        "6.7",
+        "--standard=WPThemeReview",
+        "--extensions=php",
+        "--basepath=/Users/txsadhu/Documents/OSS/wildlemon",
+        "-s",
+        "--report-json=/Users/txsadhu/Documents/OSS/wildlemon/docs/qa/review-2026-10-28/phpcs-wpthemereview.json",
+        "--report-full=/Users/txsadhu/Documents/OSS/wildlemon/docs/qa/review-2026-10-28/phpcs-wpthemereview.txt",
+        "/Users/txsadhu/Documents/OSS/wildlemon/functions.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/archive-header.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/author-bio.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/author-header.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/comments.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/editorial-introduction.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/featured-quotation.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/footer-compact.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/footer.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/header.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-404.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-no-posts.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-no-results.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-reading-time.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/home-archive-list.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/home-latest.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/home-topics.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/photo-essay.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/query-list.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/seasonal-table.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/slow-weekend.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/two-column-notes.php"
+      ]
+    },
+    {
+      "label": "phpcompatibility",
+      "standard": "PHPCompatibilityWP",
+      "project": "/private/tmp/wildlemon-phpcs-20261028/modern",
+      "exitCode": 0,
+      "totals": {
+        "errors": 0,
+        "warnings": 0,
+        "fixable": 0
+      },
+      "sources": {},
+      "arguments": [
+        "php",
+        "-d",
+        "error_reporting=8191",
+        "/private/tmp/wildlemon-phpcs-20261028/modern/vendor/bin/phpcs",
+        "--runtime-set",
+        "installed_paths",
+        "/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcompatibility/php-compatibility,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcompatibility/phpcompatibility-paragonie,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcompatibility/phpcompatibility-wp,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcsstandards/phpcsextra,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/phpcsstandards/phpcsutils,/private/tmp/wildlemon-phpcs-20261028/modern/vendor/wp-coding-standards/wpcs",
+        "--runtime-set",
+        "testVersion",
+        "7.4-",
+        "--runtime-set",
+        "minimum_wp_version",
+        "6.7",
+        "--standard=PHPCompatibilityWP",
+        "--extensions=php",
+        "--basepath=/Users/txsadhu/Documents/OSS/wildlemon",
+        "-s",
+        "--report-json=/Users/txsadhu/Documents/OSS/wildlemon/docs/qa/review-2026-10-28/phpcs-phpcompatibility.json",
+        "--report-full=/Users/txsadhu/Documents/OSS/wildlemon/docs/qa/review-2026-10-28/phpcs-phpcompatibility.txt",
+        "/Users/txsadhu/Documents/OSS/wildlemon/functions.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/archive-header.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/author-bio.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/author-header.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/comments.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/editorial-introduction.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/featured-quotation.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/footer-compact.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/footer.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/header.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-404.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-no-posts.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-no-results.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/hidden-reading-time.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/home-archive-list.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/home-latest.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/home-topics.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/photo-essay.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/query-list.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/seasonal-table.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/slow-weekend.php",
+        "/Users/txsadhu/Documents/OSS/wildlemon/patterns/two-column-notes.php"
+      ]
+    }
+  ]
+}

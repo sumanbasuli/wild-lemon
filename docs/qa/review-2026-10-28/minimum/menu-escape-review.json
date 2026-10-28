@@ -1,0 +1,18 @@
+[
+  {
+    "width": 320,
+    "immediate": {
+      "class": "page-template-default page page-id-1834 wp-embed-responsive",
+      "label": null,
+      "open": false,
+      "tag": "BODY"
+    },
+    "settled": {
+      "class": "page-template-default page page-id-1834 wp-embed-responsive",
+      "label": null,
+      "open": false,
+      "tag": "BODY"
+    },
+    "pass": false
+  }
+]

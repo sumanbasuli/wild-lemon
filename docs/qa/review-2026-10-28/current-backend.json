@@ -1,0 +1,756 @@
+{
+    "url": "http://localhost:8089",
+    "wordpress": "7.1.3",
+    "php": "8.3.36",
+    "themeVersion": "1.5",
+    "sourceSha256": {
+        "functions.php": "0de035a9604bfabb0a419a4fd409fc341f3edba7260d7e1898cfc458927360a9",
+        "patterns/archive-header.php": "baaaa16d7a79e16bef83065ffc95e6348841fbd7fcc2ab2abe10550e7a22e74c",
+        "patterns/author-bio.php": "88e9a6667ad69e7b4a0606284b0b1d354e31043435826ffed101a23ed2a51c39",
+        "patterns/author-header.php": "0ee5410446f972ab27a5010401e4106a6a38e627e5e3d392053eca846361de59",
+        "patterns/comments.php": "5caaee84afe600e62f7e9550315171ea6511b73d6cea1277475dc4e2729fbb13",
+        "patterns/editorial-introduction.php": "da374ae3e8b22d31b6e00f37ffdb7829da0480d694e667ae098fd236f8d03234",
+        "patterns/featured-quotation.php": "e957e0554b9cafb16cfee5386086292e574d2f8751461b37ad79ef9f17ee7ded",
+        "patterns/footer-compact.php": "b19e38eac588b4490e35633716662f8ea9e460edc6adbc49b84d3b38b879a074",
+        "patterns/footer.php": "6a9597925c548c6543625ae3b44456f2d4632199a03cb5e32bb3c30224f6c509",
+        "patterns/header.php": "990b8b7b90975574e82c8941071cc56f535b6a6b2af181be422c261417d8d633",
+        "patterns/hidden-404.php": "362ee1afce7427179df001309b5a7a89eb09b8bb610f0c11f2a985ad88db3bb8",
+        "patterns/hidden-no-posts.php": "fc60a591b5f1b5860a1ab6b13bd8994eb4d07d809205900a6ab06e3d74bf8c38",
+        "patterns/hidden-no-results.php": "52790583a4a8a45998c6d2e067553aac6117326a4a6a01ff8d067736e103715c",
+        "patterns/hidden-reading-time.php": "2cb98af2a0b522df319f0f586b371498e998703ffa8192cfb56c25ec454eb375",
+        "patterns/home-archive-list.php": "93f1f2858738ac3c4f5fc7b10a9d5bb4245e8aeb31305352b5a864df77d758db",
+        "patterns/home-latest.php": "a5f130804d5c8363a1d64ef838570f26987924d7736f0677d7a4720df720c528",
+        "patterns/home-topics.php": "2e952760100497b4fd5e3e8661b94c965b5cba79640d1f686bb9892f714e2084",
+        "patterns/photo-essay.php": "966060b41cdd08e1df4b22ac5ce7df0bff12bc05a224da7785d1db22738d6afc",
+        "patterns/query-list.php": "8cd980a8665a140adef9a5abbcec2a76c14e328f5e79ff959ab4422d5a2e76d6",
+        "patterns/seasonal-table.php": "0fd919675281f54cc3034a637ce53bc7ac9a2ea564d8b453374dc2b80c6b3a36",
+        "patterns/slow-weekend.php": "6f4286a8ee029f4290a16cb4dfb03c7dc576eeeec23cbb8f062f2c0275005405",
+        "patterns/two-column-notes.php": "74dd61fa268822591641249ef4d4004a53beb433f7665d595b9da2fbfe149cad",
+        "templates/404.html": "b565c23e0d175185c83184e5d0f2126da03bb753ddb7c58b9e907c86003f4b49",
+        "templates/archive.html": "492ae9a4978c4d034e8871c608f1b18173ce5cfc59b75e4ef9d6b5f8f57b4f98",
+        "templates/author.html": "63885458db4832f17f63a2fca894610d4a8ee7d779d5c0b95150487db1711983",
+        "templates/home.html": "8b3c9a71e81a560eaf5704ba869b35002a15970c7ab9db67aa31771a3cb82bf1",
+        "templates/index.html": "26798667b5d45c0644f37e107d975ce1c94360550731ade445e34c90b715182b",
+        "templates/page.html": "f2510eaa911bacedf9041013ab02a13ed4b3c97292ddbe5214dd1cb92732a586",
+        "templates/search.html": "daef4de27ca2af928f2f3197df90e2ace1bff8bf09c7c38478d4ffd948629a72",
+        "templates/single.html": "8b8424c1b6e0eba7247f7a3d6300e7438d2bd3a8cb1ae58772b683c0643aab72",
+        "parts/footer-compact.html": "e8152d8b5cdfa0ea21dc9d781316b4ebabfbab10d32e6d958149977bfaec609c",
+        "parts/footer.html": "0657a054fc5dce9116168c9b4f04f023d6372c33b70c47f5cdb061e46b81867d",
+        "parts/header.html": "67d38b82d49ba11a5f537b1315807cb8bade21af4a2540d1f59b7cd763a9def6",
+        "style.css": "c3a7d00a5aaeb3b0c7c2358f3c883176fb264b4989789feea4b5202e7497a367",
+        "theme.json": "ef266d073512222dae31159dd8bafe4a39ca3ce515a151f91b0e412bf328e8d6"
+    },
+    "phpLint": [
+        {
+            "file": "functions.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/functions.php"
+        },
+        {
+            "file": "patterns/archive-header.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/archive-header.php"
+        },
+        {
+            "file": "patterns/author-bio.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/author-bio.php"
+        },
+        {
+            "file": "patterns/author-header.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/author-header.php"
+        },
+        {
+            "file": "patterns/comments.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/comments.php"
+        },
+        {
+            "file": "patterns/editorial-introduction.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/editorial-introduction.php"
+        },
+        {
+            "file": "patterns/featured-quotation.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/featured-quotation.php"
+        },
+        {
+            "file": "patterns/footer-compact.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/footer-compact.php"
+        },
+        {
+            "file": "patterns/footer.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/footer.php"
+        },
+        {
+            "file": "patterns/header.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/header.php"
+        },
+        {
+            "file": "patterns/hidden-404.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/hidden-404.php"
+        },
+        {
+            "file": "patterns/hidden-no-posts.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/hidden-no-posts.php"
+        },
+        {
+            "file": "patterns/hidden-no-results.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/hidden-no-results.php"
+        },
+        {
+            "file": "patterns/hidden-reading-time.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/hidden-reading-time.php"
+        },
+        {
+            "file": "patterns/home-archive-list.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/home-archive-list.php"
+        },
+        {
+            "file": "patterns/home-latest.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/home-latest.php"
+        },
+        {
+            "file": "patterns/home-topics.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/home-topics.php"
+        },
+        {
+            "file": "patterns/photo-essay.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/photo-essay.php"
+        },
+        {
+            "file": "patterns/query-list.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/query-list.php"
+        },
+        {
+            "file": "patterns/seasonal-table.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/seasonal-table.php"
+        },
+        {
+            "file": "patterns/slow-weekend.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/slow-weekend.php"
+        },
+        {
+            "file": "patterns/two-column-notes.php",
+            "pass": true,
+            "output": "No syntax errors detected in /var/www/html/wp-content/themes/wild-lemon/patterns/two-column-notes.php"
+        }
+    ],
+    "nativeBlocks": [
+        {
+            "file": "templates/404.html",
+            "blocks": [
+                "core/template-part",
+                "core/group",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "templates/archive.html",
+            "blocks": [
+                "core/template-part",
+                "core/group",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "templates/author.html",
+            "blocks": [
+                "core/template-part",
+                "core/group",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "templates/home.html",
+            "blocks": [
+                "core/template-part",
+                "core/group",
+                "core/query",
+                "core/post-template",
+                "core/columns",
+                "core/column",
+                "core/post-terms",
+                "core/post-date",
+                "core/post-title",
+                "core/post-excerpt",
+                "core/avatar",
+                "core/post-author-name",
+                "core/pattern",
+                "core/post-featured-image",
+                "core/query-no-results"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "templates/index.html",
+            "blocks": [
+                "core/template-part",
+                "core/group",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "templates/page.html",
+            "blocks": [
+                "core/template-part",
+                "core/group",
+                "core/post-title",
+                "core/post-featured-image",
+                "core/post-content",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "templates/search.html",
+            "blocks": [
+                "core/template-part",
+                "core/group",
+                "core/query-title",
+                "core/search",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "templates/single.html",
+            "blocks": [
+                "core/template-part",
+                "core/group",
+                "core/post-terms",
+                "core/post-date",
+                "core/post-title",
+                "core/avatar",
+                "core/post-author-name",
+                "core/pattern",
+                "core/post-featured-image",
+                "core/post-content",
+                "core/post-navigation-link"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "parts/footer-compact.html",
+            "blocks": [
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "parts/footer.html",
+            "blocks": [
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "parts/header.html",
+            "blocks": [
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/archive-header",
+            "blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/query-title",
+                "core/term-description"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/author-bio",
+            "blocks": [
+                "core/group",
+                "core/avatar",
+                "core/post-author-name",
+                "core/paragraph",
+                "core/post-author-biography"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/author-header",
+            "blocks": [
+                "core/group",
+                "core/avatar",
+                "core/paragraph",
+                "core/query-title",
+                "core/post-author-biography"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/comments",
+            "blocks": [
+                "core/comments",
+                "core/heading",
+                "core/comments-title",
+                "core/comment-template",
+                "core/group",
+                "core/avatar",
+                "core/comment-author-name",
+                "core/comment-date",
+                "core/comment-content",
+                "core/comment-edit-link",
+                "core/comment-reply-link",
+                "core/comments-pagination",
+                "core/comments-pagination-previous",
+                "core/comments-pagination-next",
+                "core/post-comments-form"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/editorial-introduction",
+            "blocks": [
+                "core/group",
+                "core/columns",
+                "core/column",
+                "core/paragraph",
+                "core/heading",
+                "core/image"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/featured-quotation",
+            "blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/quote"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/footer-compact",
+            "blocks": [
+                "core/group",
+                "core/site-title",
+                "core/paragraph"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/footer",
+            "blocks": [
+                "core/group",
+                "core/site-title",
+                "core/site-tagline",
+                "core/heading",
+                "core/categories",
+                "core/page-list",
+                "core/paragraph"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/header",
+            "blocks": [
+                "core/group",
+                "core/site-title",
+                "core/navigation",
+                "core/search"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/hidden-404",
+            "blocks": [
+                "core/group",
+                "core/columns",
+                "core/column",
+                "core/html",
+                "core/paragraph",
+                "core/heading",
+                "core/search",
+                "core/buttons",
+                "core/button",
+                "core/query",
+                "core/post-template",
+                "core/post-featured-image",
+                "core/post-terms",
+                "core/post-title",
+                "core/post-date",
+                "core/query-no-results",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/hidden-no-posts",
+            "blocks": [
+                "core/paragraph"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/hidden-no-results",
+            "blocks": [
+                "core/group",
+                "core/heading",
+                "core/paragraph",
+                "core/search"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/hidden-reading-time",
+            "blocks": [
+                "core/post-time-to-read"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/home-archive-list",
+            "blocks": [
+                "core/group",
+                "core/heading",
+                "core/query",
+                "core/post-template",
+                "core/post-date",
+                "core/post-title",
+                "core/post-terms",
+                "core/query-pagination",
+                "core/query-pagination-previous",
+                "core/query-pagination-numbers",
+                "core/query-pagination-next",
+                "core/query-no-results",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/home-latest",
+            "blocks": [
+                "core/group",
+                "core/heading",
+                "core/paragraph",
+                "core/query",
+                "core/post-template",
+                "core/post-featured-image",
+                "core/post-terms",
+                "core/post-title",
+                "core/post-excerpt",
+                "core/post-date",
+                "core/query-no-results",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/home-topics",
+            "blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/tag-cloud"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/photo-essay",
+            "blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/heading",
+                "core/columns",
+                "core/column",
+                "core/image"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/query-list",
+            "blocks": [
+                "core/group",
+                "core/query",
+                "core/post-template",
+                "core/post-featured-image",
+                "core/post-terms",
+                "core/post-date",
+                "core/post-title",
+                "core/post-excerpt",
+                "core/query-pagination",
+                "core/query-pagination-previous",
+                "core/query-pagination-numbers",
+                "core/query-pagination-next",
+                "core/query-no-results",
+                "core/pattern"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/seasonal-table",
+            "blocks": [
+                "core/group",
+                "core/columns",
+                "core/column",
+                "core/image",
+                "core/paragraph",
+                "core/heading"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/slow-weekend",
+            "blocks": [
+                "core/group",
+                "core/columns",
+                "core/column",
+                "core/paragraph",
+                "core/heading",
+                "core/details"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        },
+        {
+            "file": "registered-pattern:wild-lemon/two-column-notes",
+            "blocks": [
+                "core/group",
+                "core/paragraph",
+                "core/heading",
+                "core/columns",
+                "core/column"
+            ],
+            "parseSerializeRoundtrip": true,
+            "unregistered": [],
+            "pass": true
+        }
+    ],
+    "templateContentSpacing": {
+        "templates/page.html": {
+            "padding": {
+                "top": "var:preset|spacing|60"
+            }
+        },
+        "templates/single.html": {
+            "padding": {
+                "top": "var:preset|spacing|60"
+            }
+        }
+    },
+    "patternReferences": [
+        {
+            "from": "templates/404.html",
+            "slug": "wild-lemon/hidden-404",
+            "registered": true
+        },
+        {
+            "from": "templates/archive.html",
+            "slug": "wild-lemon/archive-header",
+            "registered": true
+        },
+        {
+            "from": "templates/archive.html",
+            "slug": "wild-lemon/query-list",
+            "registered": true
+        },
+        {
+            "from": "templates/author.html",
+            "slug": "wild-lemon/author-header",
+            "registered": true
+        },
+        {
+            "from": "templates/author.html",
+            "slug": "wild-lemon/query-list",
+            "registered": true
+        },
+        {
+            "from": "templates/home.html",
+            "slug": "wild-lemon/hidden-reading-time",
+            "registered": true
+        },
+        {
+            "from": "templates/home.html",
+            "slug": "wild-lemon/hidden-no-posts",
+            "registered": true
+        },
+        {
+            "from": "templates/home.html",
+            "slug": "wild-lemon/home-latest",
+            "registered": true
+        },
+        {
+            "from": "templates/home.html",
+            "slug": "wild-lemon/home-topics",
+            "registered": true
+        },
+        {
+            "from": "templates/home.html",
+            "slug": "wild-lemon/home-archive-list",
+            "registered": true
+        },
+        {
+            "from": "templates/index.html",
+            "slug": "wild-lemon/query-list",
+            "registered": true
+        },
+        {
+            "from": "templates/page.html",
+            "slug": "wild-lemon/comments",
+            "registered": true
+        },
+        {
+            "from": "templates/search.html",
+            "slug": "wild-lemon/query-list",
+            "registered": true
+        },
+        {
+            "from": "templates/single.html",
+            "slug": "wild-lemon/hidden-reading-time",
+            "registered": true
+        },
+        {
+            "from": "templates/single.html",
+            "slug": "wild-lemon/author-bio",
+            "registered": true
+        },
+        {
+            "from": "templates/single.html",
+            "slug": "wild-lemon/comments",
+            "registered": true
+        },
+        {
+            "from": "parts/footer-compact.html",
+            "slug": "wild-lemon/footer-compact",
+            "registered": true
+        },
+        {
+            "from": "parts/footer.html",
+            "slug": "wild-lemon/footer",
+            "registered": true
+        },
+        {
+            "from": "parts/header.html",
+            "slug": "wild-lemon/header",
+            "registered": true
+        },
+        {
+            "from": "registered-pattern:wild-lemon/hidden-404",
+            "slug": "wild-lemon/hidden-no-posts",
+            "registered": true
+        },
+        {
+            "from": "registered-pattern:wild-lemon/home-archive-list",
+            "slug": "wild-lemon/hidden-no-posts",
+            "registered": true
+        },
+        {
+            "from": "registered-pattern:wild-lemon/home-latest",
+            "slug": "wild-lemon/hidden-no-posts",
+            "registered": true
+        },
+        {
+            "from": "registered-pattern:wild-lemon/query-list",
+            "slug": "wild-lemon/hidden-no-results",
+            "registered": true
+        }
+    ],
+    "issues": [],
+    "themeJsonValid": true,
+    "postContentSpacingSupport": {
+        "blockGap": true,
+        "padding": true,
+        "margin": true,
+        "__experimentalDefaultControls": {
+            "margin": false,
+            "padding": false
+        }
+    },
+    "readingTimeBlockAvailable": true,
+    "optionalReadingTimePattern": {
+        "registered": true,
+        "emptyOnUnsupportedCore": false
+    },
+    "paginationFixtureLeftovers": 0,
+    "debugLog": {
+        "exists": true,
+        "bytes": 0
+    },
+    "passed": true
+}

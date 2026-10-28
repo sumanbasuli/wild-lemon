@@ -1,0 +1,34 @@
+ Container wild-lemon-oct28-db-1 Running 
+ Container wild-lemon-oct28-wordpress-1 Running 
+ Container wild-lemon-oct28-cli-run-5f1208398f09 Creating 
+ Container wild-lemon-oct28-cli-run-5f1208398f09 Created 
+Success: WordPress installed successfully.
+Success: Switched to 'Wild Lemon' theme.
+Success: Added the constant 'WP_DEBUG_LOG' to the 'wp-config.php' file with the raw value 'true'.
+Success: Added the constant 'WP_DEBUG_DISPLAY' to the 'wp-config.php' file with the raw value 'false'.
+Success: Added the constant 'WP_DEVELOPMENT_MODE' to the 'wp-config.php' file with the value 'theme'.
+Success: Updated 'posts_per_page' option.
+Success: Updated 'page_comments' option.
+Success: Updated 'comments_per_page' option.
+Success: Value passed for 'thread_comments' option is unchanged.
+Success: Value passed for 'thread_comments_depth' option is unchanged.
+Success: Rewrite structure set.
+Warning: Regenerating a .htaccess file requires special configuration. See usage docs.
+Warning: Regenerating a .htaccess file requires special configuration. See usage docs.
+Success: Rewrite rules flushed.
+Installing WordPress Importer (0.9.7)
+Warning: Failed to create directory '/.wp-cli/cache/': mkdir(): Permission denied.
+Downloading installation package from https://downloads.wordpress.org/plugin/wordpress-importer.0.9.7.zip...
+Unpacking the package...
+Installing the plugin...
+Plugin installed successfully.
+Activating 'wordpress-importer'...
+Plugin 'wordpress-importer' activated.
+Installing Theme Check (20260901)
+Downloading installation package from https://downloads.wordpress.org/plugin/theme-check.20260901.zip...
+Unpacking the package...
+Installing the plugin...
+Plugin installed successfully.
+Activating 'theme-check'...
+Plugin 'theme-check' activated.
+Success: Installed 2 of 2 plugins.

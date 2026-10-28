@@ -1,0 +1,199 @@
+{
+  "saved": false,
+  "sources": [
+    {
+      "blockCount": 3,
+      "invalid": [],
+      "name": "templates/single.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 3,
+      "invalid": [],
+      "name": "templates/page.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 3,
+      "invalid": [],
+      "name": "templates/index.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 3,
+      "invalid": [],
+      "name": "templates/home.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 3,
+      "invalid": [],
+      "name": "templates/404.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 3,
+      "invalid": [],
+      "name": "templates/author.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 3,
+      "invalid": [],
+      "name": "templates/search.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 3,
+      "invalid": [],
+      "name": "templates/archive.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "parts/footer-compact.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "parts/footer.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "parts/header.html",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/archive-header",
+      "roundTripInvalid": [
+        "core/paragraph"
+      ]
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/author-bio",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/author-header",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/comments",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/editorial-introduction",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/featured-quotation",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/footer-compact",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/footer",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/header",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 2,
+      "invalid": [],
+      "name": "wild-lemon/hidden-404",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/hidden-no-posts",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/hidden-no-results",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 0,
+      "invalid": [],
+      "name": "wild-lemon/hidden-reading-time",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/home-archive-list",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/home-latest",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/home-topics",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/photo-essay",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/query-list",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/seasonal-table",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/slow-weekend",
+      "roundTripInvalid": []
+    },
+    {
+      "blockCount": 1,
+      "invalid": [],
+      "name": "wild-lemon/two-column-notes",
+      "roundTripInvalid": []
+    }
+  ]
+}

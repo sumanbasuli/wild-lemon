@@ -1,0 +1,13 @@
+{
+  "version": "1.6",
+  "comparedWith": "../review-2026-10-28/current-package.json",
+  "fileCount": 46,
+  "unchangedProductionFiles": 44,
+  "changedFiles": [
+    "style.css",
+    "readme.txt"
+  ],
+  "styleDifference": "Version header only",
+  "readmeDifference": "Stable tag and new 1.6 changelog only",
+  "behaviorUnchangedSinceFinalQa": true
+}

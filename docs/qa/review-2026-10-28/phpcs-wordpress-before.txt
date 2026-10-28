@@ -1,0 +1,70 @@
+
+FILE: functions.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AND 1 WARNING AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 201 | WARNING | Processing form data without nonce verification.
+     |         | (WordPress.Security.NonceVerification.Recommended)
+ 201 | ERROR   | $_GET[$wild_lemon_key] not unslashed before sanitization. Use
+     |         | wp_unslash() or similar
+     |         | (WordPress.Security.ValidatedSanitizedInput.MissingUnslash)
+ 201 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_GET[$wild_lemon_key]
+     |         | (WordPress.Security.ValidatedSanitizedInput.InputNotSanitized)
+--------------------------------------------------------------------------------
+
+
+FILE: patterns/editorial-introduction.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 10 | ERROR | There must be exactly one blank line after the file comment
+    |       | (Squiz.Commenting.FileComment.SpacingAfterComment)
+--------------------------------------------------------------------------------
+
+
+FILE: patterns/featured-quotation.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 10 | ERROR | There must be exactly one blank line after the file comment
+    |       | (Squiz.Commenting.FileComment.SpacingAfterComment)
+--------------------------------------------------------------------------------
+
+
+FILE: patterns/photo-essay.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 10 | ERROR | There must be exactly one blank line after the file comment
+    |       | (Squiz.Commenting.FileComment.SpacingAfterComment)
+--------------------------------------------------------------------------------
+
+
+FILE: patterns/seasonal-table.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 10 | ERROR | There must be exactly one blank line after the file comment
+    |       | (Squiz.Commenting.FileComment.SpacingAfterComment)
+--------------------------------------------------------------------------------
+
+
+FILE: patterns/slow-weekend.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 10 | ERROR | There must be exactly one blank line after the file comment
+    |       | (Squiz.Commenting.FileComment.SpacingAfterComment)
+--------------------------------------------------------------------------------
+
+
+FILE: patterns/two-column-notes.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 10 | ERROR | There must be exactly one blank line after the file comment
+    |       | (Squiz.Commenting.FileComment.SpacingAfterComment)
+--------------------------------------------------------------------------------
+
+

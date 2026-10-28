@@ -1,0 +1,42 @@
+{
+    "post-columns": {
+        "id": 1850,
+        "url": "http://localhost:8089/wl-review-post-columns/",
+        "featured": false
+    },
+    "post-paragraph": {
+        "id": 1851,
+        "url": "http://localhost:8089/wl-review-post-paragraph/",
+        "featured": false
+    },
+    "post-heading": {
+        "id": 1852,
+        "url": "http://localhost:8089/wl-review-post-heading/",
+        "featured": false
+    },
+    "post-featured": {
+        "id": 1853,
+        "url": "http://localhost:8089/wl-review-post-featured/",
+        "featured": true
+    },
+    "page-heading": {
+        "id": 1854,
+        "url": "http://localhost:8089/wl-review-page-heading/",
+        "featured": false
+    },
+    "page-paragraph": {
+        "id": 1855,
+        "url": "http://localhost:8089/wl-review-page-paragraph/",
+        "featured": false
+    },
+    "page-featured": {
+        "id": 1856,
+        "url": "http://localhost:8089/wl-review-page-featured/",
+        "featured": true
+    },
+    "page-empty": {
+        "id": 1857,
+        "url": "http://localhost:8089/wl-review-page-empty/",
+        "featured": false
+    }
+}

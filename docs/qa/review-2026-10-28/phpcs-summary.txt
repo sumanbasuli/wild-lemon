@@ -1,0 +1,7 @@
+Only production functions.php and patterns/*.php; docs, QA, build and vendor excluded
+Production files: 22
+Host PHP: 8.5.3
+Minimum PHP: 7.4; minimum WordPress: 6.7
+WordPress: 0 errors, 0 warnings; 0 fixable
+WPThemeReview: 5 errors, 0 warnings; 0 fixable
+PHPCompatibilityWP: 0 errors, 0 warnings; 0 fixable

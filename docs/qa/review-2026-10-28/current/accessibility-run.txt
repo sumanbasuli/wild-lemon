@@ -1,0 +1,48 @@
+{"path": "/", "width": 320, "violations": []}
+{"path": "/archive-regression/", "width": 320, "violations": []}
+{"path": "/pattern-gallery/", "width": 320, "violations": []}
+{"path": "/markup-html-tags-and-formatting/", "width": 320, "violations": ["empty-table-header"]}
+{"path": "/markup-image-alignment/", "width": 320, "violations": []}
+{"path": "/template-comments/", "width": 320, "violations": []}
+{"path": "/template-comments/comment-page-1/", "width": 320, "violations": ["empty-table-header"]}
+{"path": "/about/page-with-comments/", "width": 320, "violations": []}
+{"path": "/template-password-protected/", "width": 320, "violations": []}
+{"path": "/edge-case-no-title/", "width": 320, "violations": ["page-has-heading-one"]}
+{"path": "/?s=markup", "width": 320, "violations": []}
+{"path": "/?s=zzzznothing", "width": 320, "violations": []}
+{"path": "/missing-local-page/", "width": 320, "violations": []}
+{"path": "/blocks-widgets/", "width": 320, "violations": []}
+{"path": "/edge-case-many-categories/", "width": 320, "violations": []}
+{"path": "/wl-polish-brief-title/", "width": 320, "violations": []}
+{"path": "/wl-polish-four-categories/", "width": 320, "violations": []}
+{"path": "/wl-polish-seven-categories/", "width": 320, "violations": []}
+{"path": "/author/wildlemonqa/", "width": 320, "violations": []}
+{"path": "/wl-polish-patterns-normal/", "width": 320, "violations": []}
+{"path": "/wl-polish-patterns-column-320/", "width": 320, "violations": []}
+{"path": "/wl-polish-patterns-column-600/", "width": 320, "violations": []}
+{"path": "mobile menu open", "width": 320, "violations": []}
+{"path": "header search open", "width": 320, "violations": []}
+{"path": "/", "width": 1440, "violations": []}
+{"path": "/archive-regression/", "width": 1440, "violations": []}
+{"path": "/pattern-gallery/", "width": 1440, "violations": []}
+{"path": "/markup-html-tags-and-formatting/", "width": 1440, "violations": ["empty-table-header"]}
+{"path": "/markup-image-alignment/", "width": 1440, "violations": []}
+{"path": "/template-comments/", "width": 1440, "violations": []}
+{"path": "/template-comments/comment-page-1/", "width": 1440, "violations": ["empty-table-header"]}
+{"path": "/about/page-with-comments/", "width": 1440, "violations": []}
+{"path": "/template-password-protected/", "width": 1440, "violations": []}
+{"path": "/edge-case-no-title/", "width": 1440, "violations": ["page-has-heading-one"]}
+{"path": "/?s=markup", "width": 1440, "violations": []}
+{"path": "/?s=zzzznothing", "width": 1440, "violations": []}
+{"path": "/missing-local-page/", "width": 1440, "violations": []}
+{"path": "/blocks-widgets/", "width": 1440, "violations": []}
+{"path": "/edge-case-many-categories/", "width": 1440, "violations": []}
+{"path": "/wl-polish-brief-title/", "width": 1440, "violations": []}
+{"path": "/wl-polish-four-categories/", "width": 1440, "violations": []}
+{"path": "/wl-polish-seven-categories/", "width": 1440, "violations": []}
+{"path": "/author/wildlemonqa/", "width": 1440, "violations": []}
+{"path": "/wl-polish-patterns-normal/", "width": 1440, "violations": []}
+{"path": "/wl-polish-patterns-column-320/", "width": 1440, "violations": []}
+{"path": "/wl-polish-patterns-column-600/", "width": 1440, "violations": []}
+{"path": "nested desktop submenu open", "width": 1440, "violations": []}
+{"path": "header search open", "width": 1440, "violations": []}

@@ -1,0 +1,1287 @@
+Starting the import process...
+
+
+Processing post #163 ("WP 6.1 Font size scale") (post_type: post)
+-- 1 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #163
+-- Added terms (2,7) for taxonomy "category"
+
+
+Processing post #150 ("WP 6.1 spacing presets") (post_type: post)
+-- 2 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #150
+-- Added terms (2,7) for taxonomy "category"
+
+
+Processing post #51 ("WP 6.1 Theme block category") (post_type: post)
+-- 3 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #51
+-- Added terms (2,7) for taxonomy "category"
+-- Added comment #2 (1 of 1)
+-- Added post_meta _wp_page_template
+-- Added post_meta _thumbnail_id
+
+
+Processing post #34 ("WP 6.1 Widgets block category") (post_type: post)
+-- 4 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #34
+-- Created term "Sample"
+-- Created term "test tag"
+-- Added terms (2,7) for taxonomy "category"
+-- Added terms (185,162,186) for taxonomy "post_tag"
+-- Added post_meta _wp_page_template
+
+
+Processing post #24 ("WP 6.1 Design category blocks") (post_type: post)
+-- 5 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #24
+-- Added terms (2,7) for taxonomy "category"
+-- Added post_meta _wp_page_template
+
+
+Processing post #21 ("WP 6.1 Media category blocks") (post_type: post)
+-- 6 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #21
+-- Added terms (2,7) for taxonomy "category"
+-- Added post_meta enclosure
+-- Added post_meta _wp_page_template
+-- Added post_meta enclosure
+
+
+Processing post #8 ("WP 6.1 Text category blocks") (post_type: post)
+-- 7 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #8
+-- Added terms (2,7) for taxonomy "category"
+-- Added post_meta _wp_old_slug
+-- Added post_meta _wp_page_template
+
+
+Processing post #1724 ("Keyboard navigation") (post_type: post)
+-- 8 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #1724
+-- Added terms (80) for taxonomy "post_tag"
+
+
+Processing post #2 ("About The Tests") (post_type: page)
+-- 9 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #1725
+
+
+Processing post #146 ("Lorem Ipsum") (post_type: page)
+-- 10 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #146
+
+
+Processing post #155 ("Page with comments") (post_type: page)
+-- 11 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #155
+-- Added comment #3 (1 of 4)
+-- Added comment #4 (2 of 4)
+-- Added comment #5 (3 of 4)
+-- Added comment #6 (4 of 4)
+
+
+Processing post #156 ("Page with comments disabled") (post_type: page)
+-- 12 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #156
+
+
+Processing post #172 ("Level 3") (post_type: page)
+-- 13 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #172
+
+
+Processing post #173 ("Level 2") (post_type: page)
+-- 14 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #173
+
+
+Processing post #174 ("Level 1") (post_type: page)
+-- 15 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #174
+
+
+Processing post #501 ("Clearing Floats") (post_type: page)
+-- 16 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Imported post as post_id #501
+
+
+Processing post #611 ("canola2") (post_type: attachment)
+-- 17 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:50 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #616 ("dsc20050727_091048_222") (post_type: attachment)
+-- 18 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:51 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #617 ("dsc20050813_115856_52") (post_type: attachment)
+-- 19 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:51 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #701 ("Front Page") (post_type: page)
+-- 20 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:52 +0000
+-- Imported post as post_id #701
+
+
+Processing post #703 ("a Blog page") (post_type: page)
+-- 21 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:52 +0000
+-- Imported post as post_id #703
+-- Added comment #7 (1 of 1)
+
+
+Processing post #754 ("Bell on Wharf") (post_type: attachment)
+-- 22 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:52 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #755 ("Golden Gate Bridge") (post_type: attachment)
+-- 23 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:53 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #756 ("Sunburst Over River") (post_type: attachment)
+-- 24 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:54 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #757 ("Boardwalk") (post_type: attachment)
+-- 25 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:55 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #758 ("Yachtsody in Blue") (post_type: attachment)
+-- 26 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:56 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #759 ("Rain Ripples") (post_type: attachment)
+-- 27 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:57 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #760 ("Sydney Harbor Bridge") (post_type: attachment)
+-- 28 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:58 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #761 ("Wind Farm") (post_type: attachment)
+-- 29 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:07:59 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #762 ("Antique Farm Machinery") (post_type: attachment)
+-- 30 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:00 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #764 ("Rusty Rail") (post_type: attachment)
+-- 31 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:01 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #765 ("Sea and Rocks") (post_type: attachment)
+-- 32 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:02 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #766 ("Big Sur") (post_type: attachment)
+-- 33 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:03 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #767 ("Windmill") (post_type: attachment)
+-- 34 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:04 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #768 ("Huatulco Coastline") (post_type: attachment)
+-- 35 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:05 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #769 ("Brazil Beach") (post_type: attachment)
+-- 36 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:06 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #770 ("Huatulco Coastline") (post_type: attachment)
+-- 37 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:07 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #771 ("Boat Barco Texture") (post_type: attachment)
+-- 38 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:07 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #807 ("Resinous") (post_type: attachment)
+-- 39 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:08 +0000
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #821 ("St. Louis Blues") (post_type: attachment)
+-- 40 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:09 +0000
+
+
+Processing post #827 ("OLYMPUS DIGITAL CAMERA") (post_type: attachment)
+-- 41 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:10 +0000
+
+
+Processing post #967 ("Image Alignment 580x300") (post_type: attachment)
+-- 42 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:11 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #968 ("Image Alignment 150x150") (post_type: attachment)
+-- 43 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:11 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #1022 ("Horizontal Featured Image") (post_type: attachment)
+-- 44 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:12 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #1023 ("I Am Worth Loving Wallpaper") (post_type: attachment)
+-- 45 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:13 +0000
+-- Added post_meta _wp_attachment_image_alt
+
+
+Processing post #1025 ("Image Alignment 300x200") (post_type: attachment)
+-- 46 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:14 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #1027 ("Vertical Featured Image") (post_type: attachment)
+-- 47 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:14 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #1029 ("Image Alignment 1200x4002") (post_type: attachment)
+-- 48 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:15 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #1045 ("Unicorn Wallpaper") (post_type: attachment)
+-- 49 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:15 +0000
+-- Added post_meta _wp_attachment_image_alt
+-- Added post_meta _attachment_original_parent_id
+
+
+Processing post #1100 ("Pages") (post_type: nav_menu_item)
+-- 50 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1101 ("Categories") (post_type: nav_menu_item)
+-- 51 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1112 ("") (post_type: nav_menu_item)
+-- 52 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1115 ("") (post_type: nav_menu_item)
+-- 53 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1118 ("") (post_type: nav_menu_item)
+-- 54 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1119 ("Depth") (post_type: nav_menu_item)
+-- 55 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1120 ("Level 01") (post_type: nav_menu_item)
+-- 56 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1121 ("Level 02") (post_type: nav_menu_item)
+-- 57 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1122 ("Level 03") (post_type: nav_menu_item)
+-- 58 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1123 ("Level 04") (post_type: nav_menu_item)
+-- 59 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1124 ("Level 05") (post_type: nav_menu_item)
+-- 60 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1125 ("Level 06") (post_type: nav_menu_item)
+-- 61 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1126 ("Level 07") (post_type: nav_menu_item)
+-- 62 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1127 ("Level 08") (post_type: nav_menu_item)
+-- 63 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1128 ("Level 09") (post_type: nav_menu_item)
+-- 64 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1129 ("Level 10") (post_type: nav_menu_item)
+-- 65 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1130 ("Advanced") (post_type: nav_menu_item)
+-- 66 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1142 ("Menu Description") (post_type: nav_menu_item)
+-- 67 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1143 ("Menu Title Attribute") (post_type: nav_menu_item)
+-- 68 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1144 ("Menu CSS Class") (post_type: nav_menu_item)
+-- 69 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1145 ("New Window / Tab") (post_type: nav_menu_item)
+-- 70 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1263 ("") (post_type: nav_menu_item)
+-- 71 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1264 ("") (post_type: nav_menu_item)
+-- 72 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1719 ("twitter.com") (post_type: nav_menu_item)
+-- 73 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1720 ("facebook.com") (post_type: nav_menu_item)
+-- 74 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1721 ("github.com") (post_type: nav_menu_item)
+-- 75 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1723 ("instagram.com") (post_type: nav_menu_item)
+-- 76 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1722 ("linkedin.com") (post_type: nav_menu_item)
+-- 77 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1628 ("triforce-wallpaper") (post_type: attachment)
+-- 78 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:16 +0000
+
+
+Processing post #1636 ("") (post_type: nav_menu_item)
+-- 79 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1637 ("") (post_type: nav_menu_item)
+-- 80 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1638 ("") (post_type: nav_menu_item)
+-- 81 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1639 ("") (post_type: nav_menu_item)
+-- 82 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1640 ("") (post_type: nav_menu_item)
+-- 83 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1641 ("") (post_type: nav_menu_item)
+-- 84 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1643 ("") (post_type: nav_menu_item)
+-- 85 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1644 ("") (post_type: nav_menu_item)
+-- 86 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1645 ("") (post_type: nav_menu_item)
+-- 87 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1646 ("") (post_type: nav_menu_item)
+-- 88 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1647 ("") (post_type: nav_menu_item)
+-- 89 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1648 ("") (post_type: nav_menu_item)
+-- 90 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1649 ("") (post_type: nav_menu_item)
+-- 91 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1650 ("") (post_type: nav_menu_item)
+-- 92 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1651 ("") (post_type: nav_menu_item)
+-- 93 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1652 ("") (post_type: nav_menu_item)
+-- 94 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1653 ("") (post_type: nav_menu_item)
+-- 95 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1654 ("") (post_type: nav_menu_item)
+-- 96 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1655 ("") (post_type: nav_menu_item)
+-- 97 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1656 ("") (post_type: nav_menu_item)
+-- 98 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1657 ("") (post_type: nav_menu_item)
+-- 99 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1658 ("") (post_type: nav_menu_item)
+-- 100 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1659 ("") (post_type: nav_menu_item)
+-- 101 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1660 ("") (post_type: nav_menu_item)
+-- 102 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1643 ("") (post_type: nav_menu_item)
+-- 103 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1644 ("") (post_type: nav_menu_item)
+-- 104 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1645 ("") (post_type: nav_menu_item)
+-- 105 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1646 ("") (post_type: nav_menu_item)
+-- 106 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1647 ("") (post_type: nav_menu_item)
+-- 107 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1648 ("") (post_type: nav_menu_item)
+-- 108 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1649 ("") (post_type: nav_menu_item)
+-- 109 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1650 ("") (post_type: nav_menu_item)
+-- 110 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1651 ("") (post_type: nav_menu_item)
+-- 111 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1652 ("") (post_type: nav_menu_item)
+-- 112 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1653 ("") (post_type: nav_menu_item)
+-- 113 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1654 ("") (post_type: nav_menu_item)
+-- 114 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1655 ("") (post_type: nav_menu_item)
+-- 115 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1656 ("") (post_type: nav_menu_item)
+-- 116 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1657 ("") (post_type: nav_menu_item)
+-- 117 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1658 ("") (post_type: nav_menu_item)
+-- 118 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1659 ("") (post_type: nav_menu_item)
+-- 119 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1660 ("") (post_type: nav_menu_item)
+-- 120 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1686 ("dsc20040724_152504_532") (post_type: attachment)
+-- 121 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:17 +0000
+
+
+Processing post #1687 ("dsc20050604_133440_34211") (post_type: attachment)
+-- 122 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:18 +0000
+
+
+Processing post #1690 ("2014-slider-mobile-behavior") (post_type: attachment)
+-- 123 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:19 +0000
+
+
+Processing post #1691 ("dsc20050315_145007_132") (post_type: attachment)
+-- 124 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:22 +0000
+
+
+Processing post #1692 ("spectacles") (post_type: attachment)
+-- 125 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:23 +0000
+
+
+Processing post #358 ("Post Format: Standard") (post_type: post)
+-- 126 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #358
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (137,146,151) for taxonomy "post_tag"
+
+
+Processing post #555 ("Post Format: Gallery") (post_type: post)
+-- 127 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #555
+-- Created term "Gallery"
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (102,137,149) for taxonomy "post_tag"
+-- Added terms (187) for taxonomy "post_format"
+
+
+Processing post #559 ("Post Format: Aside") (post_type: post)
+-- 128 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #559
+-- Created term "Aside"
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (72,137) for taxonomy "post_tag"
+-- Added terms (188) for taxonomy "post_format"
+
+
+Processing post #562 ("Post Format: Chat") (post_type: post)
+-- 129 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #562
+-- Created term "Chat"
+-- Added terms (76,137) for taxonomy "post_tag"
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (189) for taxonomy "post_format"
+
+
+Processing post #565 ("Post Format: Link") (post_type: post)
+-- 130 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #565
+-- Created term "Link"
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (115,137) for taxonomy "post_tag"
+-- Added terms (190) for taxonomy "post_format"
+
+
+Processing post #568 ("Post Format: Image (Linked)") (post_type: post)
+-- 131 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #568
+-- Created term "Image"
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (109,137) for taxonomy "post_tag"
+-- Added terms (191) for taxonomy "post_format"
+
+
+Processing post #575 ("Post Format: Quote") (post_type: post)
+-- 132 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #575
+-- Created term "Quote"
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (137,143) for taxonomy "post_tag"
+-- Added terms (192) for taxonomy "post_format"
+
+
+Processing post #579 ("Post Format: Status") (post_type: post)
+-- 133 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #579
+-- Created term "Status"
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (137,152) for taxonomy "post_tag"
+-- Added terms (193) for taxonomy "post_format"
+
+
+Processing post #582 ("Post Format: Video (WordPress.tv)") (post_type: post)
+-- 134 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #582
+-- Created term "Video"
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (90,137,173,177) for taxonomy "post_tag"
+-- Added terms (194) for taxonomy "post_format"
+-- Added post_meta _oembed_4321638fc1a6fee26443f7fe8a70a871
+-- Added post_meta _oembed_29351fff85c1be1d1e9a965a0332a861
+-- Added post_meta _oembed_9fcc86d7d9398ff736577f922307f64d
+-- Added post_meta _oembed_366237792d32461d0052efb2edec37f5
+-- Added post_meta _oembed_37fdfe862c13c46a93be2921279bf675
+
+
+Processing post #587 ("Post Format: Audio") (post_type: post)
+-- 135 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #587
+-- Created term "Audio"
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (73,137,149) for taxonomy "post_tag"
+-- Added terms (195) for taxonomy "post_format"
+-- Added post_meta enclosure
+
+
+Processing post #733 ("Page A") (post_type: page)
+-- 136 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #733
+
+
+Processing post #735 ("Page B") (post_type: page)
+-- 137 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #735
+
+
+Processing post #742 ("Level 2a") (post_type: page)
+-- 138 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #742
+
+
+Processing post #744 ("Level 2b") (post_type: page)
+-- 139 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #744
+
+
+Processing post #746 ("Level 3a") (post_type: page)
+-- 140 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #746
+
+
+Processing post #748 ("Level 3b") (post_type: page)
+-- 141 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #748
+
+
+Processing post #993 ("Template: Excerpt (Defined)") (post_type: post)
+-- 142 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #993
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (82,94,163) for taxonomy "post_tag"
+
+
+Processing post #996 ("Template: More Tag") (post_type: post)
+-- 143 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #996
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (82,145,163) for taxonomy "post_tag"
+
+
+Processing post #1000 ("Edge Case: Nested And Mixed Lists") (post_type: post)
+-- 144 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1000
+-- Added terms (16,22) for taxonomy "category"
+-- Added terms (82,84,89,116,119) for taxonomy "post_tag"
+
+
+Processing post #1011 ("Template: Featured Image (Horizontal)") (post_type: post)
+-- 145 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1011
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (80,89,96,109,163) for taxonomy "post_tag"
+-- Added post_meta _thumbnail_id
+
+
+Processing post #1016 ("Template: Featured Image (Vertical)") (post_type: post)
+-- 146 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1016
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (80,89,96,109,163) for taxonomy "post_tag"
+-- Added post_meta _thumbnail_id
+
+
+Processing post #1031 ("Post Format: Gallery (Tiled)") (post_type: post)
+-- 147 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1031
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (102,112,137,149,167) for taxonomy "post_tag"
+-- Added terms (187) for taxonomy "post_format"
+
+
+Processing post #1133 ("Page Image Alignment") (post_type: page)
+-- 148 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1133
+
+
+Processing post #1134 ("Page Markup And Formatting") (post_type: page)
+-- 149 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1134
+
+
+Processing post #1148 ("Template: Comments") (post_type: post)
+-- 150 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1148
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (81,163) for taxonomy "post_tag"
+-- Added comment #8 (1 of 20)
+-- Added comment #9 (2 of 20)
+-- Added comment #10 (3 of 20)
+-- Added comment #11 (4 of 20)
+-- Added comment #12 (5 of 20)
+-- Added comment #13 (6 of 20)
+-- Added comment #14 (7 of 20)
+-- Added comment #15 (8 of 20)
+-- Added comment #16 (9 of 20)
+-- Added comment #17 (10 of 20)
+-- Added comment #18 (11 of 20)
+-- Added comment #19 (12 of 20)
+-- Added comment #20 (13 of 20)
+-- Added comment #21 (14 of 20)
+-- Added comment #22 (15 of 20)
+-- Added comment #23 (16 of 20)
+-- Added comment #24 (17 of 20)
+-- Added comment #25 (18 of 20)
+-- Added comment #26 (19 of 20)
+-- Added comment #27 (20 of 20)
+
+
+Processing post #1149 ("Template: Pingbacks And Trackbacks") (post_type: post)
+-- 151 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1149
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (81,133,163,169) for taxonomy "post_tag"
+-- Added comment #28 (1 of 5)
+-- Added comment #29 (2 of 5)
+-- Added comment #30 (3 of 5)
+-- Added comment #31 (4 of 5)
+-- Added comment #32 (5 of 5)
+
+
+Processing post #1150 ("Template: Comments Disabled") (post_type: post)
+-- 152 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1150
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (81,163) for taxonomy "post_tag"
+
+
+Processing post #1151 ("Edge Case: Many Tags") (post_type: post)
+-- 153 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1151
+-- Added terms (16,22) for taxonomy "category"
+-- Added terms (69,70,71,74,75,76,80,81,82,84,88,89,90,94,95,96,100,101,102,108,109,112,114,115,118,119,125,126,127,132,137,143,149,151,154,155,162,163,168,170,172,173,174,176,177) for taxonomy "post_tag"
+
+
+Processing post #1152 ("Edge Case: Many Categories") (post_type: post)
+-- 154 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1152
+-- Added terms (16,3,4,5,6,9,10,11,12,13,14,15,60,61,62,63,64,65,66,17,18,19,20,21,22,23,24,25,26,67,27,28,68,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,53,54,55,56,57,58,59) for taxonomy "category"
+-- Added terms (75,89) for taxonomy "post_tag"
+
+
+Processing post #1153 ("Scheduled") (post_type: post)
+-- 155 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1153
+-- Added terms (82) for taxonomy "post_tag"
+-- Added terms (53,16) for taxonomy "category"
+
+
+Processing post #1158 ("Post Format: Image") (post_type: post)
+-- 156 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1158
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (109,137) for taxonomy "post_tag"
+-- Added terms (191) for taxonomy "post_format"
+
+
+Processing post #1161 ("Post Format: Video (YouTube)") (post_type: post)
+-- 157 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1161
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (137) for taxonomy "post_tag"
+-- Added terms (194) for taxonomy "post_format"
+
+
+Processing post #1163 ("Post Format: Image (Caption)") (post_type: post)
+-- 158 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1163
+-- Added terms (16,41) for taxonomy "category"
+-- Added terms (109,137,149) for taxonomy "post_tag"
+-- Added terms (191) for taxonomy "post_format"
+-- Added post_meta _thumbnail_id
+
+
+Processing post #1164 ("Draft") (post_type: post)
+-- 159 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1164
+-- Added terms (16,53) for taxonomy "category"
+-- Added terms (82) for taxonomy "post_tag"
+
+
+Processing post #1168 ("Template: Password Protected (the password is "enter")") (post_type: post)
+-- 160 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1168
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (131,163) for taxonomy "post_tag"
+-- Added comment #33 (1 of 1)
+
+
+Processing post #1169 ("") (post_type: post)
+-- 161 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1169
+-- Added terms (16,22) for taxonomy "category"
+-- Added terms (89,114,168) for taxonomy "post_tag"
+
+
+Processing post #1170 ("Edge Case: No Content") (post_type: post)
+-- 162 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1170
+-- Added terms (16,22) for taxonomy "category"
+-- Added terms (82,89,114) for taxonomy "post_tag"
+-- Added comment #34 (1 of 1)
+
+
+Processing post #1171 ("Template: Paginated") (post_type: post)
+-- 163 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1171
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (82,129,163) for taxonomy "post_tag"
+
+
+Processing post #1173 ("Markup: Title <em>With</em> <b>Mark<sup>up</sup></b>") (post_type: post)
+-- 164 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1173
+-- Added terms (16,32) for taxonomy "category"
+-- Added terms (84,108,168) for taxonomy "post_tag"
+
+
+Processing post #1174 ("Markup: Title With Special Characters ~`!@#$%^&*()-_=+{}[]/\;:'"?,.>") (post_type: post)
+-- 165 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1174
+-- Added terms (16,32) for taxonomy "category"
+-- Added terms (108,119,136,168) for taxonomy "post_tag"
+
+
+Processing post #1175 ("Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu") (post_type: post)
+-- 166 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1175
+-- Added terms (16,22) for taxonomy "category"
+-- Added terms (82,84,89,108,114,168) for taxonomy "post_tag"
+
+
+Processing post #1176 ("Markup: Text Alignment") (post_type: post)
+-- 167 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1176
+-- Added terms (16,32) for taxonomy "category"
+-- Added terms (70,82,84,119) for taxonomy "post_tag"
+
+
+Processing post #1177 ("Markup: Image Alignment") (post_type: post)
+-- 168 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1177
+-- Added terms (16,32) for taxonomy "category"
+-- Added terms (70,74,82,84,109,119) for taxonomy "post_tag"
+-- Added post_meta _thumbnail_id
+
+
+Processing post #1178 ("Markup: HTML Tags and Formatting") (post_type: post)
+-- 169 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1178
+-- Added terms (16,32) for taxonomy "category"
+-- Added terms (82,84,99,108,119) for taxonomy "post_tag"
+
+
+Processing post #1179 ("Media: Twitter Embeds") (post_type: post)
+-- 170 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1179
+-- Added terms (16,33) for taxonomy "category"
+-- Added terms (82,90,120,170) for taxonomy "post_tag"
+-- Added post_meta _oembed_time_d01e104b758ab65a49dfdede5913069c
+-- Added post_meta _oembed_ac49b172e1844531a885a53eff2efd91
+-- Added post_meta _oembed_time_ac49b172e1844531a885a53eff2efd91
+-- Added post_meta _oembed_d01e104b758ab65a49dfdede5913069c
+
+
+Processing post #1241 ("Template: Sticky") (post_type: post)
+-- 171 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1241
+-- Added terms (16,1) for taxonomy "category"
+-- Added terms (153,163) for taxonomy "post_tag"
+
+
+Processing post #1446 ("Template: Excerpt (Generated)") (post_type: post)
+-- 172 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1446
+-- Added terms (16,52,1) for taxonomy "category"
+-- Added terms (82,94,163) for taxonomy "post_tag"
+
+
+Processing post #1730 ("Block category: Common") (post_type: post)
+-- 173 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1778
+-- Created term "content περιεχόμενο"
+-- Added terms (7) for taxonomy "category"
+-- Added terms (109,90,102,173,196) for taxonomy "post_tag"
+-- Added post_meta enclosure
+-- Added post_meta enclosure
+
+
+Processing post #1732 ("Block category: Formatting") (post_type: post)
+-- 174 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1779
+-- Added terms (7) for taxonomy "category"
+-- Added terms (99,196) for taxonomy "post_tag"
+
+
+Processing post #1734 ("Block category: Layout Elements") (post_type: post)
+-- 175 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1780
+-- Added terms (7) for taxonomy "category"
+-- Added terms (196) for taxonomy "post_tag"
+
+
+Processing post #1738 ("Block category: Embeds") (post_type: post)
+-- 176 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1781
+-- Added terms (7,33) for taxonomy "category"
+-- Added terms (90,196) for taxonomy "post_tag"
+-- Added post_meta _oembed_874fe46ae491204826d1694d2ef33bc0
+-- Added post_meta _oembed_8391feecdd4849ee3e1e157e0c2149eb
+-- Added post_meta _oembed_time_8391feecdd4849ee3e1e157e0c2149eb
+-- Added post_meta _oembed_time_874fe46ae491204826d1694d2ef33bc0
+-- Added post_meta _oembed_8954002f3cee8b890d4d590be308ea1a
+-- Added post_meta _oembed_time_8954002f3cee8b890d4d590be308ea1a
+-- Added post_meta _oembed_b0ae412e6c1109b456d564d524e039f4
+-- Added post_meta _oembed_time_b0ae412e6c1109b456d564d524e039f4
+-- Added post_meta _oembed_6fa7bb5895e39bde447f2aa42112350c
+-- Added post_meta _oembed_time_6fa7bb5895e39bde447f2aa42112350c
+-- Added post_meta _oembed_f284bc472428c21b3a384f58eeabdfe9
+-- Added post_meta _oembed_time_f284bc472428c21b3a384f58eeabdfe9
+-- Added post_meta _oembed_8c87a830bb75021cd30329a001513994
+-- Added post_meta _oembed_time_8c87a830bb75021cd30329a001513994
+-- Added post_meta _oembed_574f2ec202809f638414562e06899fc7
+-- Added post_meta _oembed_time_574f2ec202809f638414562e06899fc7
+-- Added post_meta _oembed_26afb00b3c55411ff47bd585cbb4a4eb
+-- Added post_meta _oembed_time_26afb00b3c55411ff47bd585cbb4a4eb
+-- Added post_meta _oembed_915f84bafbd1c86d8d5092d985805e15
+-- Added post_meta _oembed_time_915f84bafbd1c86d8d5092d985805e15
+-- Added post_meta _oembed_e77958e689d5721871a80e7c8a612eb8
+-- Added post_meta _oembed_time_e77958e689d5721871a80e7c8a612eb8
+
+
+Processing post #1736 ("Block category: Widgets") (post_type: post)
+-- 177 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1782
+-- Added terms (7) for taxonomy "category"
+-- Added terms (196) for taxonomy "post_tag"
+
+
+Processing post #1743 ("Block: Columns") (post_type: post)
+-- 178 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1783
+-- Created term "Columns"
+-- Added terms (7) for taxonomy "category"
+-- Added terms (197,196) for taxonomy "post_tag"
+
+
+Processing post #1745 ("Block: Cover") (post_type: post)
+-- 179 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1784
+-- Added terms (7) for taxonomy "category"
+-- Added terms (109) for taxonomy "post_tag"
+
+
+Processing post #1747 ("Block: Button") (post_type: post)
+-- 180 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1785
+-- Added terms (7) for taxonomy "category"
+-- Added terms (196) for taxonomy "post_tag"
+
+
+Processing post #1749 ("Block: Quote") (post_type: post)
+-- 181 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1786
+-- Added terms (7) for taxonomy "category"
+-- Added terms (196) for taxonomy "post_tag"
+
+
+Processing post #1752 ("Block: Gallery") (post_type: post)
+-- 182 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1787
+-- Added terms (7) for taxonomy "category"
+-- Added terms (102,197,109,196) for taxonomy "post_tag"
+-- Added post_meta _thumbnail_id
+
+
+Processing post #1755 ("Block: Image") (post_type: post)
+-- 183 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1788
+-- Added terms (7) for taxonomy "category"
+-- Added terms (109,196) for taxonomy "post_tag"
+
+
+Processing post #1809 ("Ελληνικά-Greek") (post_type: page)
+-- 184 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1809
+-- Added post_meta _wp_page_template
+
+
+Processing post #1811 ("Επίπεδο 2 -Second Greek level") (post_type: page)
+-- 185 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1811
+-- Added post_meta _wp_page_template
+
+
+Processing post #1813 ("Επίπεδο 3") (post_type: page)
+-- 186 of 186 (in file themeunittest.xml)
+-- Wed, 28 Oct 2026 12:08:24 +0000
+-- Imported post as post_id #1813
+-- Added post_meta _wp_page_template
+<p>All done. <a href="http://localhost:8090/wp-admin/">Have fun!</a></p><p>Remember to update the passwords and roles of imported users.</p>
+Success: Finished importing from '/tmp/themeunittest.xml' file.

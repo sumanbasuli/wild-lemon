@@ -1,0 +1,46 @@
+
+FILE: functions.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AND 2 WARNINGS AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  57 | ERROR   | Registering and deregistering editor blocks should be done in
+     |         | a plugin, not in a theme. Found register_block_style().
+     |         | (WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style)
+  64 | ERROR   | Registering and deregistering editor blocks should be done in
+     |         | a plugin, not in a theme. Found register_block_style().
+     |         | (WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_style)
+  84 | ERROR   | Registering and deregistering editor blocks should be done in
+     |         | a plugin, not in a theme. Found
+     |         | register_block_pattern_category().
+     |         | (WPThemeReview.PluginTerritory.ForbiddenFunctions.editor_blocks_register_block_pattern_category)
+ 201 | WARNING | $_GET data not unslashed before sanitization. Use wp_unslash()
+     |         | or similar
+     |         | (WordPress.Security.ValidatedSanitizedInput.MissingUnslash)
+ 201 | WARNING | Detected usage of a non-sanitized input variable:
+     |         | $_GET[$wild_lemon_key]
+     |         | (WordPress.Security.ValidatedSanitizedInput.InputNotSanitized)
+--------------------------------------------------------------------------------
+
+
+FILE: patterns/author-bio.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 1 | ERROR | Template files should not be slug specific. The file name used for
+   |       | this template will be interpreted by WP as author-bio and only
+   |       | applied when a author with the slug "bio" is loaded.
+   |       | (WPThemeReview.Templates.ReservedFileNamePrefix.ReservedTemplatePrefixFound)
+--------------------------------------------------------------------------------
+
+
+FILE: patterns/author-header.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 1 | ERROR | Template files should not be slug specific. The file name used for
+   |       | this template will be interpreted by WP as author-header and only
+   |       | applied when a author with the slug "header" is loaded.
+   |       | (WPThemeReview.Templates.ReservedFileNamePrefix.ReservedTemplatePrefixFound)
+--------------------------------------------------------------------------------
+
+

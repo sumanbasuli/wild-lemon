@@ -1,0 +1,44 @@
+{
+  "method": "Authenticated live Site Editor, core/block-editor store inspection; source templates not saved as database overrides",
+  "wordpress": "7.1.3",
+  "templates": [
+    {
+      "slug": "single",
+      "expandedNativeBlockCount": 44,
+      "invalid": [],
+      "postContent": {
+        "align": "full",
+        "style": {
+          "spacing": {
+            "padding": {
+              "top": "var:preset|spacing|60"
+            }
+          }
+        },
+        "layout": {
+          "type": "constrained"
+        },
+        "tagName": "div"
+      }
+    },
+    {
+      "slug": "page",
+      "expandedNativeBlockCount": 25,
+      "invalid": [],
+      "postContent": {
+        "align": "full",
+        "style": {
+          "spacing": {
+            "padding": {
+              "top": "var:preset|spacing|60"
+            }
+          }
+        },
+        "layout": {
+          "type": "constrained"
+        },
+        "tagName": "div"
+      }
+    }
+  ]
+}

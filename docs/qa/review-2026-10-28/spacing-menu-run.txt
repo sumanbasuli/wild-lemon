@@ -1,0 +1,7 @@
+{"site": "current", "width": 320, "reportedCases": 8, "passed": true}
+{"site": "current", "width": 768, "reportedCases": 8, "passed": true}
+{"site": "current", "width": 1440, "reportedCases": 8, "passed": true}
+{"site": "minimum", "width": 320, "reportedCases": 8, "passed": true}
+{"site": "minimum", "width": 768, "reportedCases": 8, "passed": true}
+{"site": "minimum", "width": 1440, "reportedCases": 8, "passed": true}
+{"spacingCases": 48, "selectedMenuFlows": 4, "passed": true}

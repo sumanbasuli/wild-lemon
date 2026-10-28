@@ -1,0 +1,8 @@
+{
+  "officialDatasetRepository": "https://github.com/WordPress/theme-test-data",
+  "commit": "b47acf980696897936265182cb684dca648476c7",
+  "file": "themeunittestdata.wordpress.xml",
+  "sha256": "457aace6ec93cf77369bbcc6158996e52da8798bd5e39c83d58dfab9b50d64fa",
+  "import": "Full export including attachments on two fresh isolated installations",
+  "reviewDate": "2026-10-28"
+}

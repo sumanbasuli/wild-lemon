@@ -197,8 +197,15 @@ function wild_lemon_query_pagination_visibility( $content, $parsed, $block ) {
 		$wild_lemon_page  = max( 1, (int) get_query_var( 'paged', 1 ) );
 		$wild_lemon_limit = 0;
 	} else {
-		$wild_lemon_key   = isset( $block->context['queryId'] ) ? 'query-' . $block->context['queryId'] . '-page' : 'query-page';
-		$wild_lemon_page  = max( 1, (int) ( $_GET[ $wild_lemon_key ] ?? 1 ) );
+		$wild_lemon_key  = isset( $block->context['queryId'] ) ? 'query-' . $block->context['queryId'] . '-page' : 'query-page';
+		$wild_lemon_page = 1;
+
+		// phpcs:disable WordPress.Security.NonceVerification.Recommended -- Public, read-only pagination selects a query page without changing site data.
+		if ( isset( $_GET[ $wild_lemon_key ] ) && is_scalar( $_GET[ $wild_lemon_key ] ) ) {
+			$wild_lemon_page = max( 1, intval( wp_unslash( $_GET[ $wild_lemon_key ] ) ) );
+		}
+		// phpcs:enable WordPress.Security.NonceVerification.Recommended
+
 		$wild_lemon_query = new WP_Query( build_query_vars_from_query_block( $block, $wild_lemon_page ) );
 		$wild_lemon_limit = (int) ( $block->context['query']['pages'] ?? 0 );
 	}
